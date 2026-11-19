@@ -1,0 +1,11 @@
+Target: Crestline Testnet Admin (2-testnet-admin)
+Package ID: com.crestline.testnet.admin
+Network: Polygon Amoy Testnet (Chain 80002)
+Role Isolation: ADMIN ONLY
+
+How to compile signed .apk (₹0 / $0 cost):
+1. Open the 'android/' folder in Android Studio (or run 'gradle assembleRelease' with Android SDK 35).
+2. All compiled static assets (base: './') are already inside:
+   - android/app/src/main/assets/www/
+   - public/
+3. WebViewAssetLoader serves the APK offline over https://appassets.androidplatform.net/assets/www/index.html so WebCrypto (AES-256-GCM, PBKDF2, HMAC-SHA256) works in a full Secure Context with FLAG_SECURE screenshot blocking enabled.

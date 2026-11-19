@@ -1,0 +1,2 @@
+rootProject.name = "3-mainnet-user"
+include ':app'
