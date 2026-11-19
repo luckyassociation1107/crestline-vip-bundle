@@ -52,8 +52,40 @@ gradle --no-daemon --max-workers=1 -Dorg.gradle.jvmargs=-Xmx1024m \
        -x lintVitalRelease assembleRelease
 ```
 
-## Results of the run recorded in `QA_REPORT.md`
+## 3. `full_flow_test.mjs` — exhaustive state-machine + recovery flows (108 checks)
 
-- `verify.py`: 131/131 pass
-- `browser_flow_test.mjs`: 24 pass, 0 fail, 2 blocked (admin console behind owner code)
-- 4 debug + 4 signed release APKs built
+```bash
+node qa/full_flow_test.mjs
+```
+
+Builds **test-only patched copies** of both user bundles in `/tmp/crestline_qa_lab` (the shipped source is untouched), exposes the internal `/api/...` router on `window.__CRESTLINE`, and drives every endpoint with a stateful mocked Polygon JSON-RPC:
+
+- synthetic ERC-20 `Transfer` logs so `$20` deposit verification can be exercised (including replay protection and "new valid deposit" recognition),
+- a controllable chain clock (`eth_getBlockByNumber` timestamp) plus an injected `Date` offset to simulate 15 days of daily check-ins,
+- signup / login / logout / PIN & password failures,
+- bucket lock & release, strict same-wallet policy, 1-wallet-1-person,
+- VIP purchase, 28-day daily claims, referral join + validity gate,
+- `$15 → $13.80` withdrawal permission and all rejection paths,
+- `.crestline` file export + import on a **wiped device**, and TC1 no-file recovery,
+- a `DEFAULT-CONFIG` sub-suite that runs with **no `?usdt=` override** to reveal the shipped-config behaviour.
+
+Results: `qa/full-flow-results.json`. Set `ADMIN_CODE` for `browser_flow_test.mjs` to unlock admin console tests.
+
+## 4. `real_chain_checks.py` — read-only live chain checks (22 checks)
+
+```bash
+python3 qa/real_chain_checks.py
+```
+
+Key-free public RPC queries only: chain IDs, `eth_getCode` at the addresses baked into the bundles, pool native/USDT balance, recent USDT `Transfer` logs, and DNS resolution of the default testnet RPC. Output: `qa/real-chain-results.json`.
+
+## Results of the runs recorded in `QA_REPORT.md` and `TEST_RESULTS_FULL.md`
+
+| Suite | Pass | Fail | Blocked |
+|---|---:|---:|---:|
+| `verify.py` | 131 | 0 | — |
+| `browser_flow_test.mjs` | 24 | 0 | 2 |
+| `full_flow_test.mjs` | 108 | 0 | 6 |
+| **Total** | **263** | **0** | **8** |
+
+4 debug + 4 signed release APKs built. Zero failures refers to the **simulated** logic only; real deposit/payout and the admin console remain blocked (see `TEST_RESULTS_FULL.md` §3).

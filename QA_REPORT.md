@@ -3,6 +3,8 @@
 **Run:** 2026-11-20 · **Targets:** `1-testnet-user`, `2-testnet-admin`, `3-mainnet-user`, `4-mainnet-admin`
 **Verdict:** ⚠️ **Builds and the user flow work. The admin flow is only verified up to the login gate. Full "everything working" is NOT proven** — see the blocked/not-tested rows below.
 
+> **Updated:** a much deeper exhaustive run (263 passes, 8 blocked) is in **[TEST_RESULTS_FULL.md](TEST_RESULTS_FULL.md)**. Its headline finding: the shipped **testnet build has an empty `USDT_ADDRESS`, so $20 deposit verification fails out of the box**, and the default testnet RPC does not resolve. Testnet passing does **not** imply mainnet is okay — mainnet uses the real Polygon USDT contract.
+
 ## Scoreboard
 
 | Suite | Result |

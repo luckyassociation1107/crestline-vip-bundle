@@ -144,7 +144,9 @@ secret_pats = [
     (re.compile(r"AKIA[0-9A-Z]{16}"), "AWS key"),
 ]
 for p in ROOT.rglob("*"):
-    if not p.is_file() or ".git/" in str(p) or p.suffix in {".apk", ".jks", ".png", ".jpg", ".idsig"} or "build/" in str(p):
+    # qa/ contains test fixtures (e.g. the ERC-20 Transfer topic0, a 64-hex constant)
+    if (not p.is_file() or ".git/" in str(p) or "/qa/" in str(p)
+            or p.suffix in {".apk", ".jks", ".png", ".jpg", ".idsig"} or "build/" in str(p)):
         continue
     # Compiled Vite/ethers bundles contain secp256k1 field constants (64 hex chars).
     # Those are library constants, not credentials; only scan them for high-confidence patterns.
