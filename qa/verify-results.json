@@ -1,7 +1,7 @@
 {
-  "total": 131,
-  "passed": 131,
-  "failed": 0,
+  "total": 100,
+  "passed": 99,
+  "failed": 1,
   "results": [
     {
       "name": "[1-testnet-user] project dir exists",
@@ -479,164 +479,9 @@
       "detail": ""
     },
     {
-      "name": "[APK 1-testnet-user] exists",
-      "passed": true,
-      "detail": "/home/user/apk_out/crestline-1-testnet-user-release.apk"
-    },
-    {
-      "name": "[APK 1-testnet-user] size > 500 KB",
-      "passed": true,
-      "detail": "1,141,508 bytes"
-    },
-    {
-      "name": "[APK 1-testnet-user] signature verifies (v1+v2)",
-      "passed": true,
-      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
-    },
-    {
-      "name": "[APK 1-testnet-user] zipalign 4-byte aligned",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 1-testnet-user] web assets bundled",
-      "passed": true,
-      "detail": "3 assets/www files"
-    },
-    {
-      "name": "[APK 1-testnet-user] JS bridge + WebViewAssetLoader survive R8",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 1-testnet-user] release package name",
-      "passed": true,
-      "detail": "com.crestline.testnet.user"
-    },
-    {
-      "name": "[APK 1-testnet-user] minSdk 26 / targetSdk 35",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 2-testnet-admin] exists",
-      "passed": true,
-      "detail": "/home/user/apk_out/crestline-2-testnet-admin-release.apk"
-    },
-    {
-      "name": "[APK 2-testnet-admin] size > 500 KB",
-      "passed": true,
-      "detail": "1,129,220 bytes"
-    },
-    {
-      "name": "[APK 2-testnet-admin] signature verifies (v1+v2)",
-      "passed": true,
-      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
-    },
-    {
-      "name": "[APK 2-testnet-admin] zipalign 4-byte aligned",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 2-testnet-admin] web assets bundled",
-      "passed": true,
-      "detail": "3 assets/www files"
-    },
-    {
-      "name": "[APK 2-testnet-admin] JS bridge + WebViewAssetLoader survive R8",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 2-testnet-admin] release package name",
-      "passed": true,
-      "detail": "com.crestline.testnet.admin"
-    },
-    {
-      "name": "[APK 2-testnet-admin] minSdk 26 / targetSdk 35",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 3-mainnet-user] exists",
-      "passed": true,
-      "detail": "/home/user/apk_out/crestline-3-mainnet-user-release.apk"
-    },
-    {
-      "name": "[APK 3-mainnet-user] size > 500 KB",
-      "passed": true,
-      "detail": "1,141,508 bytes"
-    },
-    {
-      "name": "[APK 3-mainnet-user] signature verifies (v1+v2)",
-      "passed": true,
-      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
-    },
-    {
-      "name": "[APK 3-mainnet-user] zipalign 4-byte aligned",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 3-mainnet-user] web assets bundled",
-      "passed": true,
-      "detail": "3 assets/www files"
-    },
-    {
-      "name": "[APK 3-mainnet-user] JS bridge + WebViewAssetLoader survive R8",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 3-mainnet-user] release package name",
-      "passed": true,
-      "detail": "com.crestline.mainnet.user"
-    },
-    {
-      "name": "[APK 3-mainnet-user] minSdk 26 / targetSdk 35",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 4-mainnet-admin] exists",
-      "passed": true,
-      "detail": "/home/user/apk_out/crestline-4-mainnet-admin-release.apk"
-    },
-    {
-      "name": "[APK 4-mainnet-admin] size > 500 KB",
-      "passed": true,
-      "detail": "1,129,220 bytes"
-    },
-    {
-      "name": "[APK 4-mainnet-admin] signature verifies (v1+v2)",
-      "passed": true,
-      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
-    },
-    {
-      "name": "[APK 4-mainnet-admin] zipalign 4-byte aligned",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 4-mainnet-admin] web assets bundled",
-      "passed": true,
-      "detail": "3 assets/www files"
-    },
-    {
-      "name": "[APK 4-mainnet-admin] JS bridge + WebViewAssetLoader survive R8",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "[APK 4-mainnet-admin] release package name",
-      "passed": true,
-      "detail": "com.crestline.mainnet.admin"
-    },
-    {
-      "name": "[APK 4-mainnet-admin] minSdk 26 / targetSdk 35",
-      "passed": true,
-      "detail": ""
+      "name": "[APK] SDK toolchain available",
+      "passed": false,
+      "detail": "ANDROID_SDK_ROOT not set \u2014 APK checks skipped"
     },
     {
       "name": "[server 1-testnet-user] static bundle served",

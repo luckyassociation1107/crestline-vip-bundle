@@ -5,6 +5,7 @@
   "scripts": {
     "qa:browser": "node qa/browser_flow_test.mjs",
     "qa:full": "node qa/full_flow_test.mjs",
+    "qa:realrpc": "node qa/real_rpc_boot_test.mjs",
     "qa:external": "node qa/playwright_external_test.mjs",
     "qa:all": "bash qa/run_all_playwright.sh"
   },

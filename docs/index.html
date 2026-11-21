@@ -48,7 +48,7 @@
     </div>
   </header>
 
-  <div class="banner">⚠️ <b>QA build hub.</b> Shipped <b>testnet</b> config is defective (empty USDT address, dead default RPC) — see the status table below. Nothing here is financial advice; mainnet readiness is <b>not</b> implied by testnet.</div>
+  <div class="banner">✅ <b>Config fixed in these web builds:</b> testnet RPC now points to a live Amoy endpoint and the testnet token is set to Circle's official Amoy test-USDC (<code>0x41E9…7582</code>, 6 decimals — get free test tokens at <a href="https://faucet.circle.com">faucet.circle.com</a>). Apps boot, signup and the full deposit UI now work on the real chain. ⚠️ A real $20 deposit still needs a funded wallet, and mainnet readiness is <b>not</b> implied.</div>
 
   <h2>🚀 Launch an app</h2>
   <div class="grid">
@@ -78,18 +78,21 @@
       <tr><td>UI flows (4 builds, mocked RPC)</td><td class="ok">24 PASS · 2 BLOCKED</td><td><code>qa/browser_flow_test.mjs</code></td></tr>
       <tr><td>Full state machine (deposit→claims→withdrawal→import)</td><td class="ok">108 PASS · 6 BLOCKED</td><td><code>qa/full_flow_test.mjs</code></td></tr>
       <tr><td>External explorers + QuickNode faucet (Playwright, no API keys)</td><td class="ok">65 PASS · 5 BLOCKED</td><td><code>qa/playwright_external_test.mjs</code></td></tr>
-      <tr><td>Real testnet deposit / faucet drip / on-chain tx</td><td class="bad">NOT PROVEN</td><td>faucet cooldown; no funded wallet</td></tr>
+      <tr><td>Real-chain boot + signup + deposit UI (no mocks)</td><td class="ok">18 PASS · 1 BLOCKED</td><td><code>qa/real_rpc_boot_test.mjs</code></td></tr>
+      <tr><td>Testnet web config</td><td class="ok">FIXED</td><td>live RPC + Amoy test-USDC <code>0x41E9…7582</code> baked in</td></tr>
+      <tr><td>Real $20 deposit credit / withdrawal payout on live chain</td><td class="bad">NOT PROVEN</td><td>needs a funded wallet; no funds used in QA</td></tr>
       <tr><td>Admin console after login</td><td class="bad">BLOCKED</td><td>owner code not supplied</td></tr>
-      <tr><td>Shipped testnet config</td><td class="bad">DEFECTIVE</td><td>empty <code>USDT_ADDRESS</code>, dead RPC, <code>USE_SMART_CONTRACT=false</code></td></tr>
-      <tr><td>Mainnet readiness</td><td class="warn">NOT IMPLIED</td><td>testnet not fully green</td></tr>
+      <tr><td>Signed APKs in release v1.0.0-qa</td><td class="warn">OLD CONFIG</td><td>built before this fix; need rebuild to match</td></tr>
+      <tr><td>Mainnet readiness</td><td class="warn">NOT IMPLIED</td><td>real-money flows unproven</td></tr>
     </table>
   </div>
 
-  <h2>⚙️ Known issues on this hosted version</h2>
+  <h2>⚙️ How to try the full testnet flow (free, no real money)</h2>
   <ul>
-    <li><b>Live RPC needed:</b> user apps call Polygon RPCs from the browser; if an RPC is unreachable the app can hang at <b>“Loading Crestline VIP…”</b> (known defect — no offline/timeout UI).</li>
-    <li><b>Testnet build:</b> default RPC <code>rpc-amoy.polygon.technology</code> does not resolve and <code>USDT_ADDRESS</code> is empty — deposits fail with <i>“USDT token contract address is not configured for this network.”</i> unless a <code>?usdt=0x…</code> override is used.</li>
-    <li><b>This is a static host:</b> no backend; all state lives in your browser (localStorage) + the chain.</li>
+    <li><b>1.</b> Open the <a href="./1-testnet-user/">Testnet User app</a> → Create Account → save your <code>.crestline</code> file.</li>
+    <li><b>2.</b> Get free Amoy test tokens: POL gas from a faucet (e.g. <a href="https://faucet.quicknode.com/polygon/amoy">QuickNode</a>) and test-USDC from <a href="https://faucet.circle.com">faucet.circle.com</a> (select Polygon Amoy).</li>
+    <li><b>3.</b> Send exactly $20.00 of test-USDC (<code>0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582</code>) from your wallet to the deposit address shown in the app, then press <i>Verify &amp; Credit $20 Deposit</i>.</li>
+    <li><b>Notes:</b> static host — no backend; state lives in your browser (localStorage) + the chain. If an RPC is temporarily unreachable the splash can stall (known upstream defect). The Android APKs in the release still carry the old config until rebuilt.</li>
   </ul>
 
   <footer>

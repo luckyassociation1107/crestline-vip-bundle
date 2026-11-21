@@ -1,0 +1,103 @@
+{
+  "counts": {
+    "PASS": 18,
+    "BLOCKED": 1
+  },
+  "results": [
+    {
+      "name": "1-testnet-user: boots past splash on REAL RPC",
+      "status": "PASS",
+      "detail": "len=334"
+    },
+    {
+      "name": "1-testnet-user: real RPC host contacted",
+      "status": "PASS",
+      "detail": "polygon-amoy-bor-rpc.publicnode.com"
+    },
+    {
+      "name": "1-testnet-user: signup on real chain produces UID",
+      "status": "PASS",
+      "detail": "UID-8GXZNDSK8H"
+    },
+    {
+      "name": "1-testnet-user: .crestline recovery + Time-Cipher offered",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: dashboard renders on real chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: $20 deposit / bucket / wallet-lock UI",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: NO \"not configured\" config error",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: deposit QR / verify button present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: zero uncaught JS errors",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: boots past splash on REAL RPC",
+      "status": "PASS",
+      "detail": "len=334"
+    },
+    {
+      "name": "3-mainnet-user: real RPC host contacted",
+      "status": "PASS",
+      "detail": "polygon-bor-rpc.publicnode.com,polygon-amoy-bor-rpc.publicnode.com"
+    },
+    {
+      "name": "3-mainnet-user: signup on real chain produces UID",
+      "status": "PASS",
+      "detail": "UID-CG1VK7AYBM"
+    },
+    {
+      "name": "3-mainnet-user: .crestline recovery + Time-Cipher offered",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: dashboard renders on real chain",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: $20 deposit / bucket / wallet-lock UI",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: NO \"not configured\" config error",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: deposit QR / verify button present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: zero uncaught JS errors",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "Real $20 deposit credit on live chain",
+      "status": "BLOCKED",
+      "detail": "needs a funded wallet sending real tokens to the pool; no funds/keys are used by this suite"
+    }
+  ]
+}
