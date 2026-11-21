@@ -1,0 +1,93 @@
+{
+  "cycles": [
+    {
+      "at": "2026-11-21T11:13:51.427Z",
+      "bucket": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "faucetSkipped": "cooldown: next claim in 85 min",
+      "sender": "0x1fcb25fb286d9fa084c09988b64b40571446cde7",
+      "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+      "uid": "UID-6XRSHAV1AF",
+      "username": "auto_mwqb8iq2",
+      "credited": true,
+      "vipActivated": true,
+      "ledgerHasFullTxHash": false,
+      "ledgerUiShowsHash": true,
+      "bucketRotation": {
+        "needed": false,
+        "detail": "pool $20/140 — next deposit fits"
+      }
+    },
+    {
+      "at": "2026-11-21T11:15:25.762Z",
+      "bucket": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "faucetSkipped": "cooldown: next claim in 84 min",
+      "sender": "0x1fcb25fb286d9fa084c09988b64b40571446cde7",
+      "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+      "uid": "UID-RC5VMV1DKR",
+      "username": "auto_mwqbajso",
+      "credited": true,
+      "vipActivated": true,
+      "ledgerHasFullTxHash": true,
+      "ledgerUiShowsHash": true,
+      "bucketRotation": {
+        "needed": false,
+        "detail": "pool $20/140 — next deposit fits"
+      }
+    },
+    {
+      "at": "2026-11-21T11:16:07.288Z",
+      "bucket": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "faucetSkipped": "cooldown: next claim in 83 min",
+      "sender": "0x1fcb25fb286d9fa084c09988b64b40571446cde7",
+      "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+      "uid": "UID-NRG2C0VDMG",
+      "username": "auto_mwqbbfmi",
+      "credited": true,
+      "vipActivated": true,
+      "ledgerHasFullTxHash": true,
+      "ledgerUiShowsHash": true,
+      "bucketRotation": {
+        "needed": true,
+        "skipped": "TimeoutError: page.waitForFunction: Timeout 30000ms exceeded."
+      }
+    },
+    {
+      "at": "2026-11-21T11:17:28.320Z",
+      "bucket": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "faucetSkipped": "cooldown: next claim in 82 min",
+      "sender": "0x1fcb25fb286d9fa084c09988b64b40571446cde7",
+      "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+      "uid": "UID-03V8919J09",
+      "username": "auto_mwqbd5ua",
+      "credited": true,
+      "vipActivated": true,
+      "ledgerHasFullTxHash": true,
+      "ledgerUiShowsHash": true,
+      "bucketRotation": {
+        "needed": true,
+        "generated": false,
+        "buckets": "1 -> 1",
+        "newBucket": "0x4d0fc906db86c2676fd5d27d9521573538a732f9"
+      }
+    },
+    {
+      "at": "2026-11-21T11:18:37.109Z",
+      "bucket": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "faucetSkipped": "cooldown: next claim in 81 min",
+      "sender": "0x1fcb25fb286d9fa084c09988b64b40571446cde7",
+      "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+      "uid": "UID-B66C0E1HE8",
+      "username": "auto_mwqben5n",
+      "credited": true,
+      "vipActivated": true,
+      "ledgerHasFullTxHash": true,
+      "ledgerUiShowsHash": true,
+      "bucketRotation": {
+        "needed": true,
+        "generated": true,
+        "buckets": "1 -> 2",
+        "newBucket": "0xc3f308af3ca5ff5311c4f1bd3533057c64798a06"
+      }
+    }
+  ]
+}
