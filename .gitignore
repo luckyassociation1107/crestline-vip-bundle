@@ -18,3 +18,4 @@ payout-bot.sealed
 .env.*
 node_modules/
 qa/logs/
+node_modules/
