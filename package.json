@@ -6,6 +6,7 @@
     "qa:browser": "node qa/browser_flow_test.mjs",
     "qa:full": "node qa/full_flow_test.mjs",
     "qa:realrpc": "node qa/real_rpc_boot_test.mjs",
+    "qa:lifecycle": "node qa/seed_wallet_lifecycle_test.mjs",
     "qa:daemon": "xvfb-run -a node qa/auto_deposit_daemon.mjs",
     "qa:daemon:loop": "xvfb-run -a node qa/auto_deposit_daemon.mjs --loop",
     "qa:faucet": "xvfb-run -a node qa/faucet_deposit_e2e.mjs",

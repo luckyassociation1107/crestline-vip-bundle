@@ -82,6 +82,7 @@ run_suite() {
 mkdir -p qa/logs
 run_suite "1/5 browser_flow_test.mjs (mocked RPC UI flows)"        qa/browser_flow_test.mjs        qa/logs/browser_flow.log
 run_suite "2/5 full_flow_test.mjs (exhaustive state machine)"      qa/full_flow_test.mjs           qa/logs/full_flow.log
+run_suite "L/6 seed_wallet_lifecycle_test.mjs (seed wallets, daily logins, referrals, auto-approve withdrawals)" qa/seed_wallet_lifecycle_test.mjs qa/logs/lifecycle.log
 run_suite "3/5 real_rpc_boot_test.mjs (REAL chain boot+signup, no mocks)" qa/real_rpc_boot_test.mjs qa/logs/real_rpc.log
 run_suite "4/5 playwright_external_test.mjs (live explorer+faucet)" qa/playwright_external_test.mjs qa/logs/external.log
 if [ -n "${ADMIN_CODE:-}" ]; then
@@ -109,6 +110,8 @@ const ff = read('qa/full-flow-results.json');
 if (ff) { const a = ff.results || ff; const c = s => a.filter(r=>r.status===s).length; rows.push(['full_flow_test', c('PASS'), c('FAIL'), c('BLOCKED'), c('INFO')]); }
 const rr = read('qa/real-rpc-results.json');
 if (rr) { const c = rr.counts || {}; rows.push(['real_rpc_boot_test', c.PASS||0, c.FAIL||0, c.BLOCKED||0, c.INFO||0]); }
+const sw = read('qa/seed-wallet-results.json');
+if (sw) { const c = sw.counts || {}; rows.push(['seed_wallet_lifecycle', c.PASS||0, c.FAIL||0, c.BLOCKED||0, c.INFO||0]); }
 const ac = read('qa/admin-console-results.json');
 if (ac) { const c = ac.counts || {}; rows.push(['admin_console_test', c.PASS||0, c.FAIL||0, c.BLOCKED||0, c.INFO||0]); }
 const ex = read('qa/playwright-results.json');
