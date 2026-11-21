@@ -89,6 +89,13 @@ if [ -n "${ADMIN_CODE:-}" ]; then
 else
   say "Skipping admin_console_test.mjs (set ADMIN_CODE to include it)"
 fi
+if command -v xvfb-run >/dev/null 2>&1 && [ "${RUN_FAUCET:-}" = "1" ]; then
+  say "Running faucet_deposit_e2e.mjs (Circle faucet, REAL on-chain)"
+  xvfb-run -a node qa/faucet_deposit_e2e.mjs > qa/logs/faucet_e2e.log 2>&1 && echo "  -> OK" || { echo "  -> FAILURES"; FAILED=1; }
+  tail -2 qa/logs/faucet_e2e.log
+else
+  say "Skipping faucet_deposit_e2e.mjs (set RUN_FAUCET=1 with xvfb installed)"
+fi
 
 # ---------------------------------------------------------------- 4. scoreboard
 say "Combined scoreboard"

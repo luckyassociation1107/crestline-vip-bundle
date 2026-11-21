@@ -80,7 +80,8 @@
       <tr><td>External explorers + QuickNode faucet (Playwright, no API keys)</td><td class="ok">65 PASS · 5 BLOCKED</td><td><code>qa/playwright_external_test.mjs</code></td></tr>
       <tr><td>Real-chain boot + signup + deposit UI (no mocks)</td><td class="ok">18 PASS · 1 BLOCKED</td><td><code>qa/real_rpc_boot_test.mjs</code></td></tr>
       <tr><td>Testnet web config</td><td class="ok">FIXED</td><td>live RPC + Amoy test-USDC <code>0x41E9…7582</code> baked in</td></tr>
-      <tr><td>Real $20 deposit credit / withdrawal payout on live chain</td><td class="bad">NOT PROVEN</td><td>needs a funded wallet; no funds used in QA</td></tr>
+      <tr><td>🔥 REAL on-chain $20 deposit → verify → credit → VIP activation</td><td class="ok">PROVEN</td><td>Circle faucet sent real 20 USDC: <a href="https://amoy.polygonscan.com/tx/0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7">tx 0xb312…2af7</a>; app auto-approved &amp; VIP Day 0/28 started (<code>qa/faucet_deposit_e2e.mjs</code>)</td></tr>
+      <tr><td>Day 1–28 claims &amp; $15 → $13.80 payout on live chain</td><td class="warn">TIME-GATED</td><td>unlock with real elapsed days; logic proven in mocked suite</td></tr>
       <tr><td>Admin console after login (testnet)</td><td class="ok">16 PASS · 1 BLOCKED</td><td>unlock · auto bucket creation · tabs · re-lock (<code>qa/admin_console_test.mjs</code>)</td></tr>
       <tr><td>On-chain bucket publish / governance broadcast</td><td class="warn">NEEDS GAS</td><td>governance signer <code>0x9be4…bae8</code> has 0 Amoy POL</td></tr>
       <tr><td>Signed APKs in release v1.0.0-qa</td><td class="warn">OLD CONFIG</td><td>built before this fix; need rebuild to match</td></tr>

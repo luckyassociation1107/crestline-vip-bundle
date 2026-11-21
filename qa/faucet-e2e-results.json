@@ -1,0 +1,80 @@
+{
+  "counts": {
+    "INFO": 3,
+    "PASS": 10,
+    "BLOCKED": 1
+  },
+  "results": [
+    {
+      "name": "pool USDC balance before",
+      "status": "INFO",
+      "detail": "20"
+    },
+    {
+      "name": "Circle faucet loads (no Cloudflare)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "network \"Polygon PoS Amoy\" selectable",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "\"Send 20 USDC\" button enabled",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "faucet drip this run",
+      "status": "BLOCKED",
+      "detail": "Circle 2-hour cooldown for USDC + Polygon Amoy"
+    },
+    {
+      "name": "using existing pool funds for app test",
+      "status": "INFO",
+      "detail": "20 USDC already in pool"
+    },
+    {
+      "name": "app verifies REAL on-chain $20 deposit",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "wallet balance credited $20.00",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "sender wallet locked (1 wallet = 1 UID)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "VIP pass activates from the real deposit",
+      "status": "PASS",
+      "detail": "VIP Day 0 of 28"
+    },
+    {
+      "name": "payout milestones scheduled (Day 14 / Day 28)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "daily Check-In available",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "zero uncaught JS errors",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "time-gated remainder",
+      "status": "INFO",
+      "detail": "Day-1..28 claims and the $15→$13.80 payout unlock with real elapsed days; logic already covered by qa/full_flow_test.mjs"
+    }
+  ],
+  "txHash": null
+}
