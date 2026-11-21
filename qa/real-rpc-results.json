@@ -17,7 +17,7 @@
     {
       "name": "1-testnet-user: signup on real chain produces UID",
       "status": "PASS",
-      "detail": "UID-8GXZNDSK8H"
+      "detail": "UID-WXZAZXEEWK"
     },
     {
       "name": "1-testnet-user: .crestline recovery + Time-Cipher offered",
@@ -62,7 +62,7 @@
     {
       "name": "3-mainnet-user: signup on real chain produces UID",
       "status": "PASS",
-      "detail": "UID-CG1VK7AYBM"
+      "detail": "UID-KCXQFMNSVQ"
     },
     {
       "name": "3-mainnet-user: .crestline recovery + Time-Cipher offered",

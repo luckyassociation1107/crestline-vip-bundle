@@ -33,7 +33,7 @@
     {
       "name": "amoy-home: HTTP 200 via translate proxy",
       "status": "PASS",
-      "detail": "status=200 len=3865"
+      "detail": "status=200 len=3866"
     },
     {
       "name": "amoy-home: title / chain label",
@@ -43,7 +43,7 @@
     {
       "name": "amoy-home: latest block visible",
       "status": "PASS",
-      "detail": "Latest Block 53429219 Latest Blocks Block 53429219 6"
+      "detail": "Latest Block 53429539 Latest Blocks Block 53429539 7"
     },
     {
       "name": "amoy-home: transactions + gas/price stats visible",
@@ -68,7 +68,7 @@
     {
       "name": "polygon-home: HTTP 200 via translate proxy",
       "status": "PASS",
-      "detail": "status=200 len=4797"
+      "detail": "status=200 len=4795"
     },
     {
       "name": "polygon-home: title / chain label",
@@ -78,7 +78,7 @@
     {
       "name": "polygon-home: latest block visible",
       "status": "PASS",
-      "detail": "Latest Block 97697661 (1.50s) POLYGON POS CHAIN Tran"
+      "detail": "Latest Block 97697875 (1.50s) POLYGON POS CHAIN Tran"
     },
     {
       "name": "polygon-home: transactions + gas/price stats visible",
@@ -98,7 +98,7 @@
     {
       "name": "polygon-home: body excerpt",
       "status": "INFO",
-      "detail": "POL Price: $0.0739 (-5.64%) | Gas: 279.247 Web | Light | Dim | Dark | Auto (System) |    | Polygon Mainnet | Amoy Testnet |    | Sign In  | Home | Blockchain | Transactions | Pending Transactions | Contract Internal Transactions | Cross-Chain Transacti"
+      "detail": "POL Price: $0.0743 (-5.30%) | Gas: 288.226 Web | Light | Dim | Dark | Auto (System) |    | Polygon Mainnet | Amoy Testnet |    | Sign In  | Home | Blockchain | Transactions | Pending Transactions | Contract Internal Transactions | Cross-Chain Transacti"
     },
     {
       "name": "amoy-pool: HTTP 200, no Cloudflare",
@@ -223,7 +223,7 @@
     {
       "name": "mainnet-usdt: HTTP 200, no Cloudflare",
       "status": "PASS",
-      "detail": "status=200 len=41364"
+      "detail": "status=200 len=41388"
     },
     {
       "name": "mainnet-usdt: page shows exact address",
@@ -358,7 +358,7 @@
     {
       "name": "QuickNode faucet: invisible reCAPTCHA token auto-populated",
       "status": "PASS",
-      "detail": "len=2574"
+      "detail": "len=2596"
     },
     {
       "name": "QuickNode faucet: visitorId fingerprint present",

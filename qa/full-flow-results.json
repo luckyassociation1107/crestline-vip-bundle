@@ -33,7 +33,7 @@
     {
       "name": "[1-testnet-user] SIGNUP succeeds",
       "status": "PASS",
-      "detail": "UID-V50TQMVKH5 / token=true"
+      "detail": "UID-9RB61QJPQF / token=true"
     },
     {
       "name": "[1-testnet-user] signup emits .crestline / TC1 recovery payload",
@@ -73,7 +73,7 @@
     {
       "name": "[1-testnet-user] LOGIN succeeds",
       "status": "PASS",
-      "detail": "uid=UID-V50TQMVKH5 dailyLoginCount=undefined"
+      "detail": "uid=UID-9RB61QJPQF dailyLoginCount=undefined"
     },
     {
       "name": "[1-testnet-user] LOGIN rejects wrong PIN",
@@ -93,7 +93,7 @@
     {
       "name": "[1-testnet-user] BUCKET_LOCK reserves $140 slot",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795251893765-s6bt\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-V50TQMVKH5\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795251893765,\"expiresAtM"
+      "detail": "{\"id\":\"blk-1795252179005-mzp1\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-9RB61QJPQF\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795252179005,\"expiresAtM"
     },
     {
       "name": "[1-testnet-user] NEW VALID DEPOSIT recognized ($20)",
@@ -128,12 +128,12 @@
     {
       "name": "[1-testnet-user] BUCKET_RELEASE resolves lock",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795251894024-x3dp\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-V50TQMVKH5\",\"amount\":20,\"status\":\"FAILED\",\"r"
+      "detail": "{\"id\":\"blk-1795252179253-ym4c\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-9RB61QJPQF\",\"amount\":20,\"status\":\"FAILED\",\"r"
     },
     {
       "name": "[1-testnet-user] second account (referral target) registered",
       "status": "PASS",
-      "detail": "UID-1GK8WAQPP3"
+      "detail": "UID-PVFHDAYZPA"
     },
     {
       "name": "[1-testnet-user] 1-wallet-1-person enforced",
@@ -168,12 +168,12 @@
     {
       "name": "[1-testnet-user] join/check-in history recorded",
       "status": "PASS",
-      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795251894204,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
+      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795252179439,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
     },
     {
       "name": "[1-testnet-user] REFERRAL JOIN with referrer UID",
       "status": "PASS",
-      "detail": "uid=UID-3H8TTYA915 referrer=UID-V50TQMVKH5"
+      "detail": "uid=UID-BN669NAC8D referrer=UID-9RB61QJPQF"
     },
     {
       "name": "[1-testnet-user] referred user can deposit",
@@ -233,7 +233,7 @@
     {
       "name": "[1-testnet-user] UI signup shows UID + TC1 backup code",
       "status": "PASS",
-      "detail": "uid=UID-29CV1BPFQ7 tc1len=553"
+      "detail": "uid=UID-S44QF9T2AY tc1len=553"
     },
     {
       "name": "[1-testnet-user] .crestline recovery file exported",
@@ -243,7 +243,7 @@
     {
       "name": "[1-testnet-user] .crestline file is valid E2EE recovery JSON",
       "status": "PASS",
-      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-29CV1BPFQ7\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
+      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-S44QF9T2AY\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
     },
     {
       "name": "[1-testnet-user] Recover screen offers file + TC1 import",
@@ -303,7 +303,7 @@
     {
       "name": "[3-mainnet-user] SIGNUP succeeds",
       "status": "PASS",
-      "detail": "UID-AJEJ7TJ6N9 / token=true"
+      "detail": "UID-RXJMY12JJS / token=true"
     },
     {
       "name": "[3-mainnet-user] signup emits .crestline / TC1 recovery payload",
@@ -343,7 +343,7 @@
     {
       "name": "[3-mainnet-user] LOGIN succeeds",
       "status": "PASS",
-      "detail": "uid=UID-AJEJ7TJ6N9 dailyLoginCount=undefined"
+      "detail": "uid=UID-RXJMY12JJS dailyLoginCount=undefined"
     },
     {
       "name": "[3-mainnet-user] LOGIN rejects wrong PIN",
@@ -363,7 +363,7 @@
     {
       "name": "[3-mainnet-user] BUCKET_LOCK reserves $140 slot",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795251915546-u7hs\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-AJEJ7TJ6N9\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795251915546,\"expiresAtM"
+      "detail": "{\"id\":\"blk-1795252200349-vs1y\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-RXJMY12JJS\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795252200349,\"expiresAtM"
     },
     {
       "name": "[3-mainnet-user] NEW VALID DEPOSIT recognized ($20)",
@@ -398,12 +398,12 @@
     {
       "name": "[3-mainnet-user] BUCKET_RELEASE resolves lock",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795251915792-ooa3\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-AJEJ7TJ6N9\",\"amount\":20,\"status\":\"FAILED\",\"r"
+      "detail": "{\"id\":\"blk-1795252200583-vdih\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-RXJMY12JJS\",\"amount\":20,\"status\":\"FAILED\",\"r"
     },
     {
       "name": "[3-mainnet-user] second account (referral target) registered",
       "status": "PASS",
-      "detail": "UID-69A39485RT"
+      "detail": "UID-J42K515ENB"
     },
     {
       "name": "[3-mainnet-user] 1-wallet-1-person enforced",
@@ -438,12 +438,12 @@
     {
       "name": "[3-mainnet-user] join/check-in history recorded",
       "status": "PASS",
-      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795251915968,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
+      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795252200776,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
     },
     {
       "name": "[3-mainnet-user] REFERRAL JOIN with referrer UID",
       "status": "PASS",
-      "detail": "uid=UID-NGW6Y5D51K referrer=UID-AJEJ7TJ6N9"
+      "detail": "uid=UID-STEP1E5FHP referrer=UID-RXJMY12JJS"
     },
     {
       "name": "[3-mainnet-user] referred user can deposit",
@@ -503,7 +503,7 @@
     {
       "name": "[3-mainnet-user] UI signup shows UID + TC1 backup code",
       "status": "PASS",
-      "detail": "uid=UID-KTAB9AF4GG tc1len=553"
+      "detail": "uid=UID-MANFD3TMJY tc1len=553"
     },
     {
       "name": "[3-mainnet-user] .crestline recovery file exported",
@@ -513,7 +513,7 @@
     {
       "name": "[3-mainnet-user] .crestline file is valid E2EE recovery JSON",
       "status": "PASS",
-      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-KTAB9AF4GG\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
+      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-MANFD3TMJY\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
     },
     {
       "name": "[3-mainnet-user] Recover screen offers file + TC1 import",
@@ -553,7 +553,7 @@
     {
       "name": "[1-testnet-user DEFAULT-CONFIG] signup works",
       "status": "PASS",
-      "detail": "UID-MZHHNGJ41K"
+      "detail": "UID-ZE0WHJ46RB"
     },
     {
       "name": "[1-testnet-user DEFAULT-CONFIG] deposit verification FAILS out of the box",
@@ -568,7 +568,7 @@
     {
       "name": "[3-mainnet-user DEFAULT-CONFIG] signup works",
       "status": "PASS",
-      "detail": "UID-Z5PNXV7FDV"
+      "detail": "UID-V24Y72XH5H"
     },
     {
       "name": "[3-mainnet-user DEFAULT-CONFIG] deposit works with shipped USDT contract",

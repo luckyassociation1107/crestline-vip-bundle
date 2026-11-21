@@ -16,7 +16,7 @@
     {
       "name": "1-testnet-user: account creation produces UID",
       "passed": true,
-      "detail": "UID-D3PMFDSMRR"
+      "detail": "UID-Z6VANNWY65"
     },
     {
       "name": "1-testnet-user: encrypted recovery file offered",
@@ -81,7 +81,7 @@
     {
       "name": "3-mainnet-user: account creation produces UID",
       "passed": true,
-      "detail": "UID-TKZMSYP8DX"
+      "detail": "UID-YN78M9FSEE"
     },
     {
       "name": "3-mainnet-user: encrypted recovery file offered",
