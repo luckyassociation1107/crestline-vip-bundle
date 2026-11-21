@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Crestline VIP — App Hub & How It Works</title>
+<style>
+  :root{--bg:#090B10;--card:#10141D;--card2:#151B27;--gold:#E5C158;--gold2:#C9A227;--txt:#E8EAF0;--mut:#8B93A7;--ok:#4ade80;--warn:#f59e0b;--bad:#f87171;--line:#232B3B}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6}
+  .wrap{max-width:1060px;margin:0 auto;padding:32px 20px 80px}
+  header{display:flex;align-items:center;gap:14px;margin-bottom:8px}
+  .logo{width:52px;height:52px;border-radius:14px;background:#0F172A;display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+  h1{font-size:1.7rem;letter-spacing:.3px}
+  h1 span{color:var(--gold)}
+  .sub{color:var(--mut);margin-bottom:28px}
+  h2{font-size:1.15rem;margin:34px 0 14px;color:var(--gold);border-bottom:1px solid var(--line);padding-bottom:8px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  .app{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;text-decoration:none;color:var(--txt);display:block;transition:border-color .15s}
+  .app:hover{border-color:var(--gold2)}
+  .app .tag{display:inline-block;font-size:.7rem;padding:2px 9px;border-radius:99px;margin-bottom:9px;font-weight:600;letter-spacing:.5px}
+  .t-test{background:#123524;color:var(--ok)} .t-main{background:#3a2a12;color:var(--warn)}
+  .app b{font-size:1.02rem} .app p{color:var(--mut);font-size:.85rem;margin-top:5px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:14px}
+  .step{display:flex;gap:14px;margin-bottom:13px}
+  .n{min-width:30px;height:30px;border-radius:50%;background:var(--card2);border:1px solid var(--gold2);color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem}
+  .step b{color:var(--txt)} .step p{color:var(--mut);font-size:.9rem}
+  table{width:100%;border-collapse:collapse;font-size:.88rem}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--mut);font-weight:600;font-size:.78rem;text-transform:uppercase;letter-spacing:.6px}
+  code{background:var(--card2);padding:2px 7px;border-radius:6px;font-size:.84em;color:var(--gold)}
+  .ok{color:var(--ok)} .warn{color:var(--warn)} .bad{color:var(--bad)}
+  .banner{background:#271a0b;border:1px solid #6b4e16;border-radius:12px;padding:14px 18px;margin:18px 0;color:#fcd34d;font-size:.92rem}
+  ul{margin-left:20px;color:var(--mut);font-size:.92rem} ul li{margin-bottom:6px} ul b{color:var(--txt)}
+  footer{margin-top:44px;color:var(--mut);font-size:.8rem;border-top:1px solid var(--line);padding-top:16px}
+  a{color:var(--gold)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">
+      <svg width="34" height="34" viewBox="0 0 64 64" fill="none"><path d="M32 10L51 20.5V43.5L32 54L13 43.5V20.5L32 10Z" stroke="#E5C158" stroke-width="2.6" fill="#C9A227" fill-opacity="0.14"/><path d="M40 23.5C37.8 21.1 34.8 19.9 31.4 19.9C24.7 19.9 19.8 25 19.8 32C19.8 39 24.7 44.1 31.4 44.1C34.9 44.1 38 42.7 40.2 40.1" stroke="#E5C158" stroke-width="4.2" stroke-linecap="round"/><path d="M28 34L33.5 28.5L37 31.5L43.5 25" stroke="#FFF2BF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="43.5" cy="25" r="2.5" fill="#E5C158"/></svg>
+    </div>
+    <div>
+      <h1>Crestline <span>VIP</span></h1>
+      <div class="sub">Wallet &amp; Daily Income · Polygon USDT · 4-build hub + how the whole app works</div>
+    </div>
+  </header>
+
+  <div class="banner">⚠️ <b>QA build hub.</b> Shipped <b>testnet</b> config is defective (empty USDT address, dead default RPC) — see the status table below. Nothing here is financial advice; mainnet readiness is <b>not</b> implied by testnet.</div>
+
+  <h2>🚀 Launch an app</h2>
+  <div class="grid">
+    <a class="app" href="./1-testnet-user/"><span class="tag t-test">TESTNET · AMOY 80002</span><br/><b>1 · User App (Testnet)</b><p>Signup, deposit, daily claims, referrals, withdrawal — Polygon Amoy.</p></a>
+    <a class="app" href="./2-testnet-admin/"><span class="tag t-test">TESTNET · AMOY 80002</span><br/><b>2 · Admin Console (Testnet)</b><p>Owner passcode lock, master-seed / 2-of-3 guardian recovery.</p></a>
+    <a class="app" href="./3-mainnet-user/"><span class="tag t-main">MAINNET · POLYGON 137</span><br/><b>3 · User App (Mainnet)</b><p>Same user flows against Polygon mainnet USDT.</p></a>
+    <a class="app" href="./4-mainnet-admin/"><span class="tag t-main">MAINNET · POLYGON 137</span><br/><b>4 · Admin Console (Mainnet)</b><p>Mainnet owner console behind the same passcode gate.</p></a>
+  </div>
+
+  <h2>🧭 Total app ela pani chestundhi (how the whole thing works)</h2>
+  <div class="card">
+    <div class="step"><div class="n">1</div><div><b>Signup → UID + recovery file.</b><p>User creates an account with password + PIN. App generates a <code>UID-XXXXXXXXXX</code> identity and forces download of an encrypted <code>.crestline</code> recovery file (E2EE export). No email/phone — the file + credentials ARE the account.</p></div></div>
+    <div class="step"><div class="n">2</div><div><b>$20 USDT deposit = VIP pass.</b><p>App shows the pool wallet address and a reserved deposit bucket. User sends exactly <b>$20 USDT</b> from their own wallet. The app watches ERC-20 <code>Transfer</code> logs on the chain, recognizes the new valid deposit, locks that sender wallet to the account (<b>same-wallet policy, 1 wallet = 1 person</b>) and replay-protects the tx hash so one tx can't be claimed twice.</p></div></div>
+    <div class="step"><div class="n">3</div><div><b>Daily login &amp; 28-day claims.</b><p>After VIP activation, user checks in daily. The 28-day claim schedule accrues daily income to the in-app balance; missed days don't double-pay. Chain clock (block timestamps) is used, so device-clock cheating is limited.</p></div></div>
+    <div class="step"><div class="n">4</div><div><b>Referrals.</b><p>Each user gets a referral code. A referral only counts when the joined friend makes their own valid $20 deposit and first claim (validity gate) — no deposit, no credit.</p></div></div>
+    <div class="step"><div class="n">5</div><div><b>Withdrawal: $15 → $13.80.</b><p>When balance reaches <b>$15</b>, withdrawal permission unlocks. An 8% fee applies, so the user receives <b>$13.80</b>, paid back only to the same locked wallet. Below $15, every withdrawal path is rejected.</p></div></div>
+    <div class="step"><div class="n">6</div><div><b>Logout / lost device → import.</b><p>Logging out or wiping the device is fine: importing the <code>.crestline</code> file + credentials restores the full account on a new device. A no-file “Time-Cipher” (TC1) recovery path also exists.</p></div></div>
+    <div class="step"><div class="n">7</div><div><b>Admin side.</b><p>Admin builds boot to an owner passcode lock (6-char code derived from the master seed). Recovery tabs: direct seed or 2-of-3 guardian shares. Wrong seed/code is rejected. The console behind the lock manages pools/payouts — it stays locked without the owner code.</p></div></div>
+    <div class="step"><div class="n">8</div><div><b>Android wrapper.</b><p>Each build also ships as a native Android APK (WebView + <code>WebViewAssetLoader</code>, <code>FLAG_SECURE</code>, JS bridge, deep links). 4 signed QA APKs exist in the GitHub release <code>v1.0.0-qa</code>.</p></div></div>
+  </div>
+
+  <h2>📊 Verified status (honest)</h2>
+  <div class="card">
+    <table>
+      <tr><th>Area</th><th>Status</th><th>Evidence</th></tr>
+      <tr><td>Static / build / APK checks</td><td class="ok">131/131 PASS</td><td><code>qa/verify.py</code></td></tr>
+      <tr><td>UI flows (4 builds, mocked RPC)</td><td class="ok">24 PASS · 2 BLOCKED</td><td><code>qa/browser_flow_test.mjs</code></td></tr>
+      <tr><td>Full state machine (deposit→claims→withdrawal→import)</td><td class="ok">108 PASS · 6 BLOCKED</td><td><code>qa/full_flow_test.mjs</code></td></tr>
+      <tr><td>External explorers + QuickNode faucet (Playwright, no API keys)</td><td class="ok">65 PASS · 5 BLOCKED</td><td><code>qa/playwright_external_test.mjs</code></td></tr>
+      <tr><td>Real testnet deposit / faucet drip / on-chain tx</td><td class="bad">NOT PROVEN</td><td>faucet cooldown; no funded wallet</td></tr>
+      <tr><td>Admin console after login</td><td class="bad">BLOCKED</td><td>owner code not supplied</td></tr>
+      <tr><td>Shipped testnet config</td><td class="bad">DEFECTIVE</td><td>empty <code>USDT_ADDRESS</code>, dead RPC, <code>USE_SMART_CONTRACT=false</code></td></tr>
+      <tr><td>Mainnet readiness</td><td class="warn">NOT IMPLIED</td><td>testnet not fully green</td></tr>
+    </table>
+  </div>
+
+  <h2>⚙️ Known issues on this hosted version</h2>
+  <ul>
+    <li><b>Live RPC needed:</b> user apps call Polygon RPCs from the browser; if an RPC is unreachable the app can hang at <b>“Loading Crestline VIP…”</b> (known defect — no offline/timeout UI).</li>
+    <li><b>Testnet build:</b> default RPC <code>rpc-amoy.polygon.technology</code> does not resolve and <code>USDT_ADDRESS</code> is empty — deposits fail with <i>“USDT token contract address is not configured for this network.”</i> unless a <code>?usdt=0x…</code> override is used.</li>
+    <li><b>This is a static host:</b> no backend; all state lives in your browser (localStorage) + the chain.</li>
+  </ul>
+
+  <footer>
+    Crestline VIP QA hub · repo: <a href="https://github.com/GAMBLING-PRO-AI/crestline-vip-bundle">GAMBLING-PRO-AI/crestline-vip-bundle</a> · signed QA APKs: release <a href="https://github.com/GAMBLING-PRO-AI/crestline-vip-bundle/releases/tag/v1.0.0-qa">v1.0.0-qa</a> · reports: <code>TEST_RESULTS_FULL.md</code>, <code>PLAYWRIGHT_ALL_REPORT.md</code>, <code>EXTERNAL_PLAYWRIGHT_REPORT.md</code>
+  </footer>
+</div>
+</body>
+</html>
