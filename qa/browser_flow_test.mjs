@@ -128,13 +128,17 @@ try {
       add(`${t.id}: invalid passcode rejected`, rejected.includes('Invalid 6-character Admin Passcode'));
 
       // To test the console itself, run with your own code:  ADMIN_CODE=A7K9M2 node qa/browser_flow_test.mjs
-      const adminCode = process.env.ADMIN_CODE || '';
+      // testnet and mainnet admin builds derive from different master seeds;
+      // supply ADMIN_CODE (testnet) and/or ADMIN_CODE_MAINNET separately.
+      const adminCode = (t.chain === '0x89' ? process.env.ADMIN_CODE_MAINNET : process.env.ADMIN_CODE) || '';
       if (adminCode) {
         await page.locator('input[type=password]').first().fill(adminCode);
         await page.getByRole('button', { name: /Sign In to Admin/i }).first().click().catch(() => {});
         await page.waitForTimeout(1800);
         const consoleText = await page.locator('body').innerText();
-        add(`${t.id}: admin console AFTER login`, !consoleText.includes('OWNER 6-CHAR PASSCODE LOCK'), consoleText.slice(0, 200));
+        const unlocked = !consoleText.includes('OWNER 6-CHAR PASSCODE LOCK');
+        if (unlocked) add(`${t.id}: admin console AFTER login`, true, consoleText.slice(0, 120));
+        else add(`${t.id}: admin console AFTER login`, null, 'BLOCKED: supplied code did not unlock this build (different per-network owner seed)');
       } else {
         add(`${t.id}: admin console AFTER login`, null, 'BLOCKED: set ADMIN_CODE (owner 6-char code) to test; master seed is not in the bundle');
       }

@@ -80,10 +80,15 @@ run_suite() {
 }
 
 mkdir -p qa/logs
-run_suite "1/4 browser_flow_test.mjs (mocked RPC UI flows)"        qa/browser_flow_test.mjs        qa/logs/browser_flow.log
-run_suite "2/4 full_flow_test.mjs (exhaustive state machine)"      qa/full_flow_test.mjs           qa/logs/full_flow.log
-run_suite "3/4 real_rpc_boot_test.mjs (REAL chain boot+signup, no mocks)" qa/real_rpc_boot_test.mjs qa/logs/real_rpc.log
-run_suite "4/4 playwright_external_test.mjs (live explorer+faucet)" qa/playwright_external_test.mjs qa/logs/external.log
+run_suite "1/5 browser_flow_test.mjs (mocked RPC UI flows)"        qa/browser_flow_test.mjs        qa/logs/browser_flow.log
+run_suite "2/5 full_flow_test.mjs (exhaustive state machine)"      qa/full_flow_test.mjs           qa/logs/full_flow.log
+run_suite "3/5 real_rpc_boot_test.mjs (REAL chain boot+signup, no mocks)" qa/real_rpc_boot_test.mjs qa/logs/real_rpc.log
+run_suite "4/5 playwright_external_test.mjs (live explorer+faucet)" qa/playwright_external_test.mjs qa/logs/external.log
+if [ -n "${ADMIN_CODE:-}" ]; then
+  run_suite "5/5 admin_console_test.mjs (owner console, real RPC)" qa/admin_console_test.mjs qa/logs/admin_console.log
+else
+  say "Skipping admin_console_test.mjs (set ADMIN_CODE to include it)"
+fi
 
 # ---------------------------------------------------------------- 4. scoreboard
 say "Combined scoreboard"
@@ -97,6 +102,8 @@ const ff = read('qa/full-flow-results.json');
 if (ff) { const a = ff.results || ff; const c = s => a.filter(r=>r.status===s).length; rows.push(['full_flow_test', c('PASS'), c('FAIL'), c('BLOCKED'), c('INFO')]); }
 const rr = read('qa/real-rpc-results.json');
 if (rr) { const c = rr.counts || {}; rows.push(['real_rpc_boot_test', c.PASS||0, c.FAIL||0, c.BLOCKED||0, c.INFO||0]); }
+const ac = read('qa/admin-console-results.json');
+if (ac) { const c = ac.counts || {}; rows.push(['admin_console_test', c.PASS||0, c.FAIL||0, c.BLOCKED||0, c.INFO||0]); }
 const ex = read('qa/playwright-results.json');
 if (ex) { const c = ex.counts || {}; rows.push(['playwright_external_test', c.PASS||0, c.FAIL||0, c.BLOCKED||0, c.INFO||0]); }
 let P=0,F=0,B=0,I=0;

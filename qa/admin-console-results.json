@@ -1,0 +1,94 @@
+{
+  "counts": {
+    "PASS": 16,
+    "BLOCKED": 1
+  },
+  "results": [
+    {
+      "name": "admin unlock with owner code",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "live Amoy chain sync",
+      "status": "PASS",
+      "detail": "Live #53432662 (106ms)"
+    },
+    {
+      "name": "overview KPIs render",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "bucket #1 bound to configured pool",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "treasury 1/3 / payout 2/3 split shown",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "AUTO BUCKET CREATION (Generate Bucket)",
+      "status": "PASS",
+      "detail": "locks counter 1 -> 2"
+    },
+    {
+      "name": "new bucket queued with distinct address + $140 cap",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "one-time private-key custody prompt",
+      "status": "PASS",
+      "detail": "key shown once, admin custody only (not recorded)"
+    },
+    {
+      "name": "publish / governance controls present",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "on-chain bucket publish / governance broadcast",
+      "status": "BLOCKED",
+      "detail": "governance signer 0x9be43b…cbae8 has 0 POL gas; fund via an Amoy faucet to enable"
+    },
+    {
+      "name": "tab \"Members\" renders",
+      "status": "PASS",
+      "detail": "len=702"
+    },
+    {
+      "name": "tab \"Random\" renders",
+      "status": "PASS",
+      "detail": "len=841"
+    },
+    {
+      "name": "tab \"Notices\" renders",
+      "status": "PASS",
+      "detail": "len=1172"
+    },
+    {
+      "name": "tab \"Settings\" renders",
+      "status": "PASS",
+      "detail": "len=1107"
+    },
+    {
+      "name": "tab \"Overview\" renders",
+      "status": "PASS",
+      "detail": "len=4194"
+    },
+    {
+      "name": "re-lock returns to passcode gate",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "name": "zero uncaught JS errors",
+      "status": "PASS",
+      "detail": ""
+    }
+  ],
+  "note": "ADMIN_CODE value is never recorded."
+}
