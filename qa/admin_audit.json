@@ -1,0 +1,247 @@
+[
+  {
+    "operation": "Freeze",
+    "user_testnet": 52,
+    "admin_testnet": 65,
+    "user_mainnet": 52,
+    "admin_mainnet": 65
+  },
+  {
+    "operation": "Unfreeze",
+    "user_testnet": 2,
+    "admin_testnet": 8,
+    "user_mainnet": 2,
+    "admin_mainnet": 8
+  },
+  {
+    "operation": "Ban Member",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Unban",
+    "user_testnet": 0,
+    "admin_testnet": 3,
+    "user_mainnet": 0,
+    "admin_mainnet": 3
+  },
+  {
+    "operation": "Random Stop",
+    "user_testnet": 0,
+    "admin_testnet": 6,
+    "user_mainnet": 0,
+    "admin_mainnet": 6
+  },
+  {
+    "operation": "Appeal",
+    "user_testnet": 12,
+    "admin_testnet": 2,
+    "user_mainnet": 12,
+    "admin_mainnet": 2
+  },
+  {
+    "operation": "Announcement",
+    "user_testnet": 28,
+    "admin_testnet": 52,
+    "user_mainnet": 28,
+    "admin_mainnet": 52
+  },
+  {
+    "operation": "Treasury",
+    "user_testnet": 18,
+    "admin_testnet": 34,
+    "user_mainnet": 18,
+    "admin_mainnet": 34
+  },
+  {
+    "operation": "Sweep",
+    "user_testnet": 1,
+    "admin_testnet": 9,
+    "user_mainnet": 1,
+    "admin_mainnet": 9
+  },
+  {
+    "operation": "Auto-Sync",
+    "user_testnet": 2,
+    "admin_testnet": 1,
+    "user_mainnet": 2,
+    "admin_mainnet": 1
+  },
+  {
+    "operation": "Auto Watcher",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Bucket",
+    "user_testnet": 220,
+    "admin_testnet": 244,
+    "user_mainnet": 220,
+    "admin_mainnet": 244
+  },
+  {
+    "operation": "Master Vault",
+    "user_testnet": 1,
+    "admin_testnet": 2,
+    "user_mainnet": 1,
+    "admin_mainnet": 2
+  },
+  {
+    "operation": "Withdraw Ticket",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Withdrawal Request",
+    "user_testnet": 0,
+    "admin_testnet": 1,
+    "user_mainnet": 0,
+    "admin_mainnet": 1
+  },
+  {
+    "operation": "Guardian",
+    "user_testnet": 6,
+    "admin_testnet": 13,
+    "user_mainnet": 6,
+    "admin_mainnet": 13
+  },
+  {
+    "operation": "2-of-3",
+    "user_testnet": 0,
+    "admin_testnet": 8,
+    "user_mainnet": 0,
+    "admin_mainnet": 8
+  },
+  {
+    "operation": "Master Seed",
+    "user_testnet": 0,
+    "admin_testnet": 2,
+    "user_mainnet": 0,
+    "admin_mainnet": 2
+  },
+  {
+    "operation": "Admin Passcode",
+    "user_testnet": 0,
+    "admin_testnet": 2,
+    "user_mainnet": 0,
+    "admin_mainnet": 2
+  },
+  {
+    "operation": "Payout Queue",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Member Search",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "User Sequence",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "userSeq",
+    "user_testnet": 8,
+    "admin_testnet": 8,
+    "user_mainnet": 8,
+    "admin_mainnet": 8
+  },
+  {
+    "operation": "E2EE2",
+    "user_testnet": 5,
+    "admin_testnet": 8,
+    "user_mainnet": 5,
+    "admin_mainnet": 8
+  },
+  {
+    "operation": "BUCKET_LOCK",
+    "user_testnet": 1,
+    "admin_testnet": 0,
+    "user_mainnet": 1,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "BUCKET_RELEASE",
+    "user_testnet": 1,
+    "admin_testnet": 0,
+    "user_mainnet": 1,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Kill Switch",
+    "user_testnet": 1,
+    "admin_testnet": 2,
+    "user_mainnet": 1,
+    "admin_mainnet": 2
+  },
+  {
+    "operation": "Approve Payout",
+    "user_testnet": 0,
+    "admin_testnet": 1,
+    "user_mainnet": 0,
+    "admin_mainnet": 1
+  },
+  {
+    "operation": "Reject Payout",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Pool Liquidity",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Admin Notice",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Region",
+    "user_testnet": 12,
+    "admin_testnet": 7,
+    "user_mainnet": 12,
+    "admin_mainnet": 7
+  },
+  {
+    "operation": "Reset System",
+    "user_testnet": 0,
+    "admin_testnet": 0,
+    "user_mainnet": 0,
+    "admin_mainnet": 0
+  },
+  {
+    "operation": "Export Audit",
+    "user_testnet": 0,
+    "admin_testnet": 1,
+    "user_mainnet": 0,
+    "admin_mainnet": 1
+  },
+  {
+    "operation": "Audit Log",
+    "user_testnet": 0,
+    "admin_testnet": 1,
+    "user_mainnet": 0,
+    "admin_mainnet": 1
+  }
+]

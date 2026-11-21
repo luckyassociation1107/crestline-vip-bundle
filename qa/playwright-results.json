@@ -1,0 +1,410 @@
+{
+  "counts": {
+    "PASS": 65,
+    "INFO": 10,
+    "BLOCKED": 5
+  },
+  "results": [
+    {
+      "name": "polygonscan-direct: HTTP 403 Cloudflare (recorded, not a product failure)",
+      "status": "PASS",
+      "detail": "status=403 title=Just a moment..."
+    },
+    {
+      "name": "polygonscan-direct: Cloudflare message",
+      "status": "INFO",
+      "detail": "polygonscan.com | Performing security verification |  | This website uses a security service to protect against malicious bots. This page is displayed while the websi"
+    },
+    {
+      "name": "amoy-direct: HTTP 403 Cloudflare (recorded, not a product failure)",
+      "status": "PASS",
+      "detail": "status=403 title=Just a moment..."
+    },
+    {
+      "name": "amoy-direct: Cloudflare message",
+      "status": "INFO",
+      "detail": "amoy.polygonscan.com | Performing security verification |  | This website uses a security service to protect against malicious bots. This page is displayed while the "
+    },
+    {
+      "name": "Direct Polygonscan/Amoy UI in this sandbox",
+      "status": "BLOCKED",
+      "detail": "Cloudflare 403; same pages verified below via translate proxy inside Playwright"
+    },
+    {
+      "name": "amoy-home: HTTP 200 via translate proxy",
+      "status": "PASS",
+      "detail": "status=200 len=3861"
+    },
+    {
+      "name": "amoy-home: title / chain label",
+      "status": "PASS",
+      "detail": "TESTNET Polygon PoS Chain Amoy (POL) Blockchain Explorer"
+    },
+    {
+      "name": "amoy-home: latest block visible",
+      "status": "PASS",
+      "detail": "Latest Block 53420680 Latest Blocks Block53420680 4 "
+    },
+    {
+      "name": "amoy-home: transactions + gas/price stats visible",
+      "status": "PASS",
+      "detail": "stats present"
+    },
+    {
+      "name": "amoy-home: address/tx search box present",
+      "status": "PASS",
+      "detail": "Search by Address / Txn Hash / Block / Token"
+    },
+    {
+      "name": "amoy-home: search box accepts an address",
+      "status": "PASS",
+      "detail": "typed address"
+    },
+    {
+      "name": "amoy-home: body excerpt",
+      "status": "INFO",
+      "detail": "Amoy Testnet | Light | Dim | Dark | Auto (System) |    | Polygon Mainnet | Amoy Testnet |    | Home | Blockchain | Transactions | Pending Transactions | Contract Internal Transactions | Plasma Deposit Transactions | AA Transactions | EIP-7702 Authoriza"
+    },
+    {
+      "name": "polygon-home: HTTP 200 via translate proxy",
+      "status": "PASS",
+      "detail": "status=200 len=4767"
+    },
+    {
+      "name": "polygon-home: title / chain label",
+      "status": "PASS",
+      "detail": "Polygon PoS Chain (POL) Blockchain Explorer"
+    },
+    {
+      "name": "polygon-home: latest block visible",
+      "status": "PASS",
+      "detail": "Latest Block 97691967 (1.50s) POLYGON POS CHAIN Tran"
+    },
+    {
+      "name": "polygon-home: transactions + gas/price stats visible",
+      "status": "PASS",
+      "detail": "stats present"
+    },
+    {
+      "name": "polygon-home: address/tx search box present",
+      "status": "PASS",
+      "detail": "Search by Address / Txn Hash / Block / Token / Domain Name"
+    },
+    {
+      "name": "polygon-home: search box accepts an address",
+      "status": "PASS",
+      "detail": "typed address"
+    },
+    {
+      "name": "polygon-home: body excerpt",
+      "status": "INFO",
+      "detail": "POL Price: $0.0735 (-6.19%) | Gas: 272.375 Web | Light | Dim | Dark | Auto (System) |    | Polygon Mainnet | Amoy Testnet |    | Sign In  | Home | Blockchain | Transactions | Pending Transactions | Contract Internal Transactions | Cross-Chain Transacti"
+    },
+    {
+      "name": "amoy-pool: HTTP 200, no Cloudflare",
+      "status": "PASS",
+      "detail": "status=200 len=4632"
+    },
+    {
+      "name": "amoy-pool: page shows exact address",
+      "status": "PASS",
+      "detail": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8"
+    },
+    {
+      "name": "amoy-pool: explorer/network label",
+      "status": "PASS",
+      "detail": "Amoy Testnet"
+    },
+    {
+      "name": "amoy-pool: 0 POL balance",
+      "status": "PASS",
+      "detail": "POL Balance 0 POL More Info Transactions Sent Latest: N/A First: N/A Fu"
+    },
+    {
+      "name": "amoy-pool: no transactions",
+      "status": "PASS",
+      "detail": "no matching entries"
+    },
+    {
+      "name": "amoy-pool: no verified contract / compiler",
+      "status": "PASS",
+      "detail": "no contract code"
+    },
+    {
+      "name": "amoy-pool: Transactions Sent = N/A",
+      "status": "PASS",
+      "detail": "N/A"
+    },
+    {
+      "name": "amoy-pool: title",
+      "status": "INFO",
+      "detail": "Address: 0x08EE5Cf3...ec8E96Db8 | PolygonScan Testnet"
+    },
+    {
+      "name": "amoy-registry: HTTP 200, no Cloudflare",
+      "status": "PASS",
+      "detail": "status=200 len=4632"
+    },
+    {
+      "name": "amoy-registry: page shows exact address",
+      "status": "PASS",
+      "detail": "0x9be43bC43b1b3e47f9507696101938EB830cbae8"
+    },
+    {
+      "name": "amoy-registry: explorer/network label",
+      "status": "PASS",
+      "detail": "Amoy Testnet"
+    },
+    {
+      "name": "amoy-registry: 0 POL balance",
+      "status": "PASS",
+      "detail": "POL Balance 0 POL More Info Transactions Sent Latest: N/A First: N/A Fu"
+    },
+    {
+      "name": "amoy-registry: no transactions",
+      "status": "PASS",
+      "detail": "no matching entries"
+    },
+    {
+      "name": "amoy-registry: no verified contract / compiler",
+      "status": "PASS",
+      "detail": "no contract code"
+    },
+    {
+      "name": "amoy-registry: Transactions Sent = N/A",
+      "status": "PASS",
+      "detail": "N/A"
+    },
+    {
+      "name": "amoy-registry: title",
+      "status": "INFO",
+      "detail": "Address: 0x9be43bC4...B830cbae8 | PolygonScan Testnet"
+    },
+    {
+      "name": "mainnet-pool: HTTP 200, no Cloudflare",
+      "status": "PASS",
+      "detail": "status=200 len=7305"
+    },
+    {
+      "name": "mainnet-pool: page shows exact address",
+      "status": "PASS",
+      "detail": "0xA14e867C7B4539B776F88FEDA19cf011b88c793b"
+    },
+    {
+      "name": "mainnet-pool: explorer/network label",
+      "status": "PASS",
+      "detail": "Polygon Mainnet"
+    },
+    {
+      "name": "mainnet-pool: 0 POL balance",
+      "status": "PASS",
+      "detail": "POL Balance 0 POL POL Value $0.00 More Info Private Name Tags Add Trans"
+    },
+    {
+      "name": "mainnet-pool: no transactions",
+      "status": "PASS",
+      "detail": "no matching entries"
+    },
+    {
+      "name": "mainnet-pool: no verified contract / compiler",
+      "status": "PASS",
+      "detail": "no contract code"
+    },
+    {
+      "name": "mainnet-pool: Transactions Sent = N/A",
+      "status": "PASS",
+      "detail": "N/A"
+    },
+    {
+      "name": "mainnet-pool: title",
+      "status": "INFO",
+      "detail": "Address: 0xA14e867C...1b88c793b | PolygonScan"
+    },
+    {
+      "name": "mainnet-usdt: HTTP 200, no Cloudflare",
+      "status": "PASS",
+      "detail": "status=200 len=41414"
+    },
+    {
+      "name": "mainnet-usdt: page shows exact address",
+      "status": "PASS",
+      "detail": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    },
+    {
+      "name": "mainnet-usdt: explorer/network label",
+      "status": "PASS",
+      "detail": "Polygon Mainnet"
+    },
+    {
+      "name": "mainnet-usdt: USDT0 token contract",
+      "status": "PASS",
+      "detail": "USDT0 / Token Contract"
+    },
+    {
+      "name": "mainnet-usdt: source code / proxy present",
+      "status": "PASS",
+      "detail": "verified source"
+    },
+    {
+      "name": "mainnet-usdt: non-zero native POL balance",
+      "status": "PASS",
+      "detail": "0.001014010001 POL"
+    },
+    {
+      "name": "mainnet-usdt: title",
+      "status": "INFO",
+      "detail": "USDT0: USDT0 Token | Address: 0xc2132D05...b04B58e8F | PolygonScan"
+    },
+    {
+      "name": "Token page via translate proxy",
+      "status": "INFO",
+      "detail": "/token/... returned 403; /address/... contract page used instead (same Polygonscan data, no API key)"
+    },
+    {
+      "name": "QuickNode faucet: HTTP 200 direct",
+      "status": "PASS",
+      "detail": "status=200 title=Polygon Amoy Faucet - Free Testnet POL Tokens"
+    },
+    {
+      "name": "QuickNode faucet: Polygon Amoy page",
+      "status": "PASS",
+      "detail": "Polygon Amoy Faucet - Free Testnet POL Tokens"
+    },
+    {
+      "name": "QuickNode faucet: 3-step flow shown",
+      "status": "PASS",
+      "detail": "3 steps"
+    },
+    {
+      "name": "QuickNode faucet: chain/network preselected",
+      "status": "PASS",
+      "detail": "polygon / amoy"
+    },
+    {
+      "name": "QuickNode faucet: Polygon option exists",
+      "status": "PASS",
+      "detail": "Polygon"
+    },
+    {
+      "name": "QuickNode faucet: Amoy + Mumbai options exist",
+      "status": "PASS",
+      "detail": "Amoy / Mumbai"
+    },
+    {
+      "name": "QuickNode faucet: wallet input placeholder",
+      "status": "PASS",
+      "detail": "0x..."
+    },
+    {
+      "name": "QuickNode faucet: Connect Wallet button present",
+      "status": "PASS",
+      "detail": "button present"
+    },
+    {
+      "name": "QuickNode faucet: FAQ states chain ID 80002",
+      "status": "PASS",
+      "detail": "80002"
+    },
+    {
+      "name": "QuickNode faucet: FAQ states base drip needs no account",
+      "status": "PASS",
+      "detail": "no account"
+    },
+    {
+      "name": "QuickNode faucet: FAQ states small mainnet balance gate",
+      "status": "PASS",
+      "detail": "anti-abuse gate"
+    },
+    {
+      "name": "QuickNode faucet: FAQ states 12h cooldown",
+      "status": "PASS",
+      "detail": "12h"
+    },
+    {
+      "name": "QuickNode faucet: authToken hidden field empty",
+      "status": "PASS",
+      "detail": "no login token"
+    },
+    {
+      "name": "QuickNode faucet: zero-ETH address rejected",
+      "status": "PASS",
+      "detail": "Insufficient ETH mainnet balance"
+    },
+    {
+      "name": "QuickNode faucet: Mumbai route rejected/redirected correctly",
+      "status": "PASS",
+      "detail": "https://faucet.quicknode.com/polygon/mumbai/bonus?wallet=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+    },
+    {
+      "name": "QuickNode faucet: step 2 URL / Choose your amount",
+      "status": "PASS",
+      "detail": "https://faucet.quicknode.com/polygon/amoy/bonus?wallet=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045"
+    },
+    {
+      "name": "QuickNode faucet: base drip amount 0.025 POL",
+      "status": "PASS",
+      "detail": "0.025 POL"
+    },
+    {
+      "name": "QuickNode faucet: optional 0.05 / 0.1 bonuses locked",
+      "status": "PASS",
+      "detail": "locked bonuses"
+    },
+    {
+      "name": "QuickNode faucet: hidden chain/network/wallet preserved",
+      "status": "PASS",
+      "detail": "hidden fields"
+    },
+    {
+      "name": "QuickNode faucet: invisible reCAPTCHA token auto-populated",
+      "status": "PASS",
+      "detail": "len=2596"
+    },
+    {
+      "name": "QuickNode faucet: visitorId fingerprint present",
+      "status": "PASS",
+      "detail": "visitorId"
+    },
+    {
+      "name": "QuickNode faucet: authToken still empty (no login needed)",
+      "status": "PASS",
+      "detail": "empty"
+    },
+    {
+      "name": "QuickNode faucet: \"Send to\" button present",
+      "status": "PASS",
+      "detail": "Send to\n0xd8...5"
+    },
+    {
+      "name": "QuickNode faucet: real 0.025 POL drip",
+      "status": "BLOCKED",
+      "detail": "QuickNode returned \"Please come back in 12 hours\" (wallet / egress rate-limit cooldown); no tx hash produced"
+    },
+    {
+      "name": "QuickNode faucet: cooldown/rate-limit response captured",
+      "status": "PASS",
+      "detail": "Please come back in 12 hours."
+    },
+    {
+      "name": "QuickNode faucet: formErrors response",
+      "status": "INFO",
+      "detail": "[{\"_1\":2},\"data\",{\"_3\":4,\"_5\":6,\"_7\":8},\"formErrors\",{\"_9\":10},\"chain\",\"polygon\",\"network\",\"amoy\",\"send\",\"Please come back in 12 hours.\"]\n"
+    },
+    {
+      "name": "Real on-chain $20 USDT deposit / $13.80 payout",
+      "status": "BLOCKED",
+      "detail": "Explorer/faucet UI cannot exercise the app ledger; needs deployed vault, test USDT contract, funded wallet and tx hashes"
+    },
+    {
+      "name": "Admin console post-login operations",
+      "status": "BLOCKED",
+      "detail": "owner 6-char passcode / master seed not supplied (see TEST_RESULTS_FULL.md)"
+    },
+    {
+      "name": "Native Android runtime",
+      "status": "BLOCKED",
+      "detail": "no emulator/device; APKs are structurally valid but not launched"
+    }
+  ],
+  "note": "No API keys, no QuickNode account, no private keys, no funds, no transaction signing."
+}

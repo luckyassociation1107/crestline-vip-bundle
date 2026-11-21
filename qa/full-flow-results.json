@@ -1,0 +1,589 @@
+{
+  "counts": {
+    "PASS": 108,
+    "INFO": 2,
+    "BLOCKED": 6
+  },
+  "results": [
+    {
+      "name": "[1-testnet-user] config: chain + USDT + pool",
+      "status": "PASS",
+      "detail": "{\"chain\":80002,\"usdt\":\"0x1111111111111111111111111111111111111111\",\"pool\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\"}"
+    },
+    {
+      "name": "[1-testnet-user] shipped USDT_ADDRESS default",
+      "status": "INFO",
+      "detail": "(EMPTY — deposit verification impossible out of the box)"
+    },
+    {
+      "name": "[1-testnet-user] register rejects short username",
+      "status": "PASS",
+      "detail": "Username must be at least 3 characters."
+    },
+    {
+      "name": "[1-testnet-user] register rejects short password",
+      "status": "PASS",
+      "detail": "Password must be at least 6 characters."
+    },
+    {
+      "name": "[1-testnet-user] register rejects weak PIN",
+      "status": "PASS",
+      "detail": "Choose a stronger 6-digit PIN (avoid repeating or sequential digits like 123456 or 111111)."
+    },
+    {
+      "name": "[1-testnet-user] SIGNUP succeeds",
+      "status": "PASS",
+      "detail": "UID-TRCR6HJ0VP / token=true"
+    },
+    {
+      "name": "[1-testnet-user] signup emits .crestline / TC1 recovery payload",
+      "status": "PASS",
+      "detail": "token,user,portfolio,amoyUserSync,recoveryPayload"
+    },
+    {
+      "name": "[1-testnet-user] duplicate username rejected",
+      "status": "PASS",
+      "detail": "Username already taken."
+    },
+    {
+      "name": "[1-testnet-user] portfolio: zero balance, 13.80 net payout policy",
+      "status": "PASS",
+      "detail": "net=13.8 fee=1.2 canWithdraw=false"
+    },
+    {
+      "name": "[1-testnet-user] withdrawal blocked by referral gate",
+      "status": "PASS",
+      "detail": "1 Valid Referral required to unlock 1st payout ($15.00 gross · $13.80 net)."
+    },
+    {
+      "name": "[1-testnet-user] LOGOUT clears session",
+      "status": "PASS",
+      "detail": "session cleared"
+    },
+    {
+      "name": "[1-testnet-user] portfolio after logout is denied",
+      "status": "PASS",
+      "detail": "Session expired. Please sign in."
+    },
+    {
+      "name": "[1-testnet-user] LOGIN rejects wrong password",
+      "status": "PASS",
+      "detail": "Invalid username or password."
+    },
+    {
+      "name": "[1-testnet-user] LOGIN succeeds",
+      "status": "PASS",
+      "detail": "uid=UID-TRCR6HJ0VP dailyLoginCount=undefined"
+    },
+    {
+      "name": "[1-testnet-user] LOGIN rejects wrong PIN",
+      "status": "PASS",
+      "detail": "Incorrect 6-digit Security PIN (4 attempts before cooldown)."
+    },
+    {
+      "name": "[1-testnet-user] deposit rejects non-$20 amount",
+      "status": "PASS",
+      "detail": "Only exact $20.00 USDT VIP Pass deposit is permitted."
+    },
+    {
+      "name": "[1-testnet-user] deposit requires sender wallet",
+      "status": "PASS",
+      "detail": "Enter the 0x... USDT wallet address you are sending from (locks permanently on 1st deposit)."
+    },
+    {
+      "name": "[1-testnet-user] BUCKET_LOCK reserves $140 slot",
+      "status": "PASS",
+      "detail": "{\"id\":\"blk-1795243348167-h2gk\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-TRCR6HJ0VP\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795243348167,\"expiresAtM"
+    },
+    {
+      "name": "[1-testnet-user] NEW VALID DEPOSIT recognized ($20)",
+      "status": "PASS",
+      "detail": "tx=0xabababababababababababababababababababababababababababababababab amt=20"
+    },
+    {
+      "name": "[1-testnet-user] deposit credits wallet + binds sender wallet",
+      "status": "PASS",
+      "detail": "balance=20 wallet=0x2222222222222222222222222222222222222222"
+    },
+    {
+      "name": "[1-testnet-user] DEPOSIT tx recorded in history",
+      "status": "PASS",
+      "detail": "count=1"
+    },
+    {
+      "name": "[1-testnet-user] deposit replay protection (same tx rejected)",
+      "status": "PASS",
+      "detail": "No unspent $20.00 USDT Transfer found on-chain from 0x2222...2222 to Pool 0x08EE...6Db8."
+    },
+    {
+      "name": "[1-testnet-user] second NEW deposit recognized",
+      "status": "PASS",
+      "detail": "tx=0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+    },
+    {
+      "name": "[1-testnet-user] strict same-wallet policy enforced",
+      "status": "PASS",
+      "detail": "Account is permanently locked to 0x2222...2222. Send from that wallet only."
+    },
+    {
+      "name": "[1-testnet-user] BUCKET_RELEASE resolves lock",
+      "status": "PASS",
+      "detail": "{\"id\":\"blk-1795243348440-balf\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-TRCR6HJ0VP\",\"amount\":20,\"status\":\"FAILED\",\"r"
+    },
+    {
+      "name": "[1-testnet-user] second account (referral target) registered",
+      "status": "PASS",
+      "detail": "UID-NG0TCNN2SF"
+    },
+    {
+      "name": "[1-testnet-user] 1-wallet-1-person enforced",
+      "status": "PASS",
+      "detail": "This USDT wallet address is already locked to another UID (1 Wallet = 1 Person)."
+    },
+    {
+      "name": "[1-testnet-user] VIP JOIN / purchase activates 28-day membership",
+      "status": "PASS",
+      "detail": "{\"status\":\"ACTIVE\",\"days\":0,\"bal\":20,\"inv\":1}"
+    },
+    {
+      "name": "[1-testnet-user] duplicate VIP purchase rejected",
+      "status": "PASS",
+      "detail": "VIP Membership is already active."
+    },
+    {
+      "name": "[1-testnet-user] DAILY CHECK-IN claim +$1.00",
+      "status": "PASS",
+      "detail": "{\"days\":1,\"bal\":21}"
+    },
+    {
+      "name": "[1-testnet-user] double claim same day rejected",
+      "status": "PASS",
+      "detail": "Already claimed today (+$1.00)."
+    },
+    {
+      "name": "[1-testnet-user] 15 more daily check-ins across simulated days",
+      "status": "PASS",
+      "detail": "successful=15/15"
+    },
+    {
+      "name": "[1-testnet-user] join/check-in history recorded",
+      "status": "PASS",
+      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795243348620,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
+    },
+    {
+      "name": "[1-testnet-user] REFERRAL JOIN with referrer UID",
+      "status": "PASS",
+      "detail": "uid=UID-SVPKEXWYB3 referrer=UID-TRCR6HJ0VP"
+    },
+    {
+      "name": "[1-testnet-user] referred user can deposit",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "[1-testnet-user] referred user activates VIP",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "[1-testnet-user] referral gate counts VIP-activated referrals",
+      "status": "PASS",
+      "detail": "refs=1 canWithdraw=true reason="
+    },
+    {
+      "name": "[1-testnet-user] $13.80 WITHDRAWAL permission granted",
+      "status": "PASS",
+      "detail": "net=13.8 reason="
+    },
+    {
+      "name": "[1-testnet-user] withdraw rejects wrong amount",
+      "status": "PASS",
+      "detail": "Each monthly withdrawal payout is fixed at $15.00 USDT gross ($13.80 net after 8% fee)."
+    },
+    {
+      "name": "[1-testnet-user] withdraw rejects wrong destination wallet",
+      "status": "PASS",
+      "detail": "Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0x2222...2222)."
+    },
+    {
+      "name": "[1-testnet-user] withdraw rejects wrong PIN",
+      "status": "PASS",
+      "detail": "Incorrect 6-digit Security PIN (4 attempts before cooldown)."
+    },
+    {
+      "name": "[1-testnet-user] 1st CLAIM / $15 gross → $13.80 net withdrawal",
+      "status": "PASS",
+      "detail": "keys=user,governanceNotice,announcements,vipConfig,summary,activeMembership,membershipHistory,withdrawalPolicy,referralStats,securityStatus,transactions,vipTier"
+    },
+    {
+      "name": "[1-testnet-user] withdrawal state: balance -$15, payout #1",
+      "status": "PASS",
+      "detail": "{\"bal\":21,\"cnt\":1,\"sess\":15,\"total\":13.8}"
+    },
+    {
+      "name": "[1-testnet-user] 2nd payout blocked within 14-day window",
+      "status": "PASS",
+      "detail": "1 more Valid Referral (2 total) required to unlock 2nd payout ($15.00 gross · $13.80 net)."
+    },
+    {
+      "name": "[1-testnet-user] JS errors",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "name": "[1-testnet-user] UI signup shows UID + TC1 backup code",
+      "status": "PASS",
+      "detail": "uid=UID-C5S90PEX3G tc1len=553"
+    },
+    {
+      "name": "[1-testnet-user] .crestline recovery file exported",
+      "status": "PASS",
+      "detail": "1769 bytes"
+    },
+    {
+      "name": "[1-testnet-user] .crestline file is valid E2EE recovery JSON",
+      "status": "PASS",
+      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-C5S90PEX3G\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
+    },
+    {
+      "name": "[1-testnet-user] Recover screen offers file + TC1 import",
+      "status": "PASS",
+      "detail": "Crestline VIP  $20 VIP Pass · +$1.00/day Check-In · $7 / $19 / $28 Payout Tiers  Zero PII · Encrypted .crestline & 3-field on-chain recovery Strict Same-Wallet Policy & $140 HD Bucket Concurrency Locks Sign In Create Acc"
+    },
+    {
+      "name": "[1-testnet-user] .crestline FILE IMPORT restores account (fresh device)",
+      "status": "PASS",
+      "detail": "Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a"
+    },
+    {
+      "name": "[1-testnet-user] TC1 time-cipher IMPORT restores account (no file)",
+      "status": "PASS",
+      "detail": "Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a"
+    },
+    {
+      "name": "[1-testnet-user] UI JS errors",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "name": "[1-testnet-user] real on-chain USDT deposit",
+      "status": "BLOCKED",
+      "detail": "mocked Transfer log used; needs funded wallet + live tx hash"
+    },
+    {
+      "name": "[1-testnet-user] real $13.80 USDT payout on chain",
+      "status": "BLOCKED",
+      "detail": "no funds moved; local Phase-1 ledger only"
+    },
+    {
+      "name": "[3-mainnet-user] config: chain + USDT + pool",
+      "status": "PASS",
+      "detail": "{\"chain\":137,\"usdt\":\"0x1111111111111111111111111111111111111111\",\"pool\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\"}"
+    },
+    {
+      "name": "[3-mainnet-user] shipped USDT_ADDRESS default",
+      "status": "INFO",
+      "detail": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    },
+    {
+      "name": "[3-mainnet-user] register rejects short username",
+      "status": "PASS",
+      "detail": "Username must be at least 3 characters."
+    },
+    {
+      "name": "[3-mainnet-user] register rejects short password",
+      "status": "PASS",
+      "detail": "Password must be at least 6 characters."
+    },
+    {
+      "name": "[3-mainnet-user] register rejects weak PIN",
+      "status": "PASS",
+      "detail": "Choose a stronger 6-digit PIN (avoid repeating or sequential digits like 123456 or 111111)."
+    },
+    {
+      "name": "[3-mainnet-user] SIGNUP succeeds",
+      "status": "PASS",
+      "detail": "UID-BTSYNNXMSG / token=true"
+    },
+    {
+      "name": "[3-mainnet-user] signup emits .crestline / TC1 recovery payload",
+      "status": "PASS",
+      "detail": "token,user,portfolio,amoyUserSync,recoveryPayload"
+    },
+    {
+      "name": "[3-mainnet-user] duplicate username rejected",
+      "status": "PASS",
+      "detail": "Username already taken."
+    },
+    {
+      "name": "[3-mainnet-user] portfolio: zero balance, 13.80 net payout policy",
+      "status": "PASS",
+      "detail": "net=13.8 fee=1.2 canWithdraw=false"
+    },
+    {
+      "name": "[3-mainnet-user] withdrawal blocked by referral gate",
+      "status": "PASS",
+      "detail": "1 Valid Referral required to unlock 1st payout ($15.00 gross · $13.80 net)."
+    },
+    {
+      "name": "[3-mainnet-user] LOGOUT clears session",
+      "status": "PASS",
+      "detail": "session cleared"
+    },
+    {
+      "name": "[3-mainnet-user] portfolio after logout is denied",
+      "status": "PASS",
+      "detail": "Session expired. Please sign in."
+    },
+    {
+      "name": "[3-mainnet-user] LOGIN rejects wrong password",
+      "status": "PASS",
+      "detail": "Invalid username or password."
+    },
+    {
+      "name": "[3-mainnet-user] LOGIN succeeds",
+      "status": "PASS",
+      "detail": "uid=UID-BTSYNNXMSG dailyLoginCount=undefined"
+    },
+    {
+      "name": "[3-mainnet-user] LOGIN rejects wrong PIN",
+      "status": "PASS",
+      "detail": "Incorrect 6-digit Security PIN (4 attempts before cooldown)."
+    },
+    {
+      "name": "[3-mainnet-user] deposit rejects non-$20 amount",
+      "status": "PASS",
+      "detail": "Only exact $20.00 USDT VIP Pass deposit is permitted."
+    },
+    {
+      "name": "[3-mainnet-user] deposit requires sender wallet",
+      "status": "PASS",
+      "detail": "Enter the 0x... USDT wallet address you are sending from (locks permanently on 1st deposit)."
+    },
+    {
+      "name": "[3-mainnet-user] BUCKET_LOCK reserves $140 slot",
+      "status": "PASS",
+      "detail": "{\"id\":\"blk-1795243370848-ciss\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-BTSYNNXMSG\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795243370848,\"expiresAtM"
+    },
+    {
+      "name": "[3-mainnet-user] NEW VALID DEPOSIT recognized ($20)",
+      "status": "PASS",
+      "detail": "tx=0xabababababababababababababababababababababababababababababababab amt=20"
+    },
+    {
+      "name": "[3-mainnet-user] deposit credits wallet + binds sender wallet",
+      "status": "PASS",
+      "detail": "balance=20 wallet=0x2222222222222222222222222222222222222222"
+    },
+    {
+      "name": "[3-mainnet-user] DEPOSIT tx recorded in history",
+      "status": "PASS",
+      "detail": "count=1"
+    },
+    {
+      "name": "[3-mainnet-user] deposit replay protection (same tx rejected)",
+      "status": "PASS",
+      "detail": "No unspent $20.00 USDT Transfer found on-chain from 0x2222...2222 to Pool 0xA14e...793b."
+    },
+    {
+      "name": "[3-mainnet-user] second NEW deposit recognized",
+      "status": "PASS",
+      "detail": "tx=0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd"
+    },
+    {
+      "name": "[3-mainnet-user] strict same-wallet policy enforced",
+      "status": "PASS",
+      "detail": "Account is permanently locked to 0x2222...2222. Send from that wallet only."
+    },
+    {
+      "name": "[3-mainnet-user] BUCKET_RELEASE resolves lock",
+      "status": "PASS",
+      "detail": "{\"id\":\"blk-1795243371126-a5qj\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-BTSYNNXMSG\",\"amount\":20,\"status\":\"FAILED\",\"r"
+    },
+    {
+      "name": "[3-mainnet-user] second account (referral target) registered",
+      "status": "PASS",
+      "detail": "UID-8SQ4HRWB1A"
+    },
+    {
+      "name": "[3-mainnet-user] 1-wallet-1-person enforced",
+      "status": "PASS",
+      "detail": "This USDT wallet address is already locked to another UID (1 Wallet = 1 Person)."
+    },
+    {
+      "name": "[3-mainnet-user] VIP JOIN / purchase activates 28-day membership",
+      "status": "PASS",
+      "detail": "{\"status\":\"ACTIVE\",\"days\":0,\"bal\":20,\"inv\":1}"
+    },
+    {
+      "name": "[3-mainnet-user] duplicate VIP purchase rejected",
+      "status": "PASS",
+      "detail": "VIP Membership is already active."
+    },
+    {
+      "name": "[3-mainnet-user] DAILY CHECK-IN claim +$1.00",
+      "status": "PASS",
+      "detail": "{\"days\":1,\"bal\":21}"
+    },
+    {
+      "name": "[3-mainnet-user] double claim same day rejected",
+      "status": "PASS",
+      "detail": "Already claimed today (+$1.00)."
+    },
+    {
+      "name": "[3-mainnet-user] 15 more daily check-ins across simulated days",
+      "status": "PASS",
+      "detail": "successful=15/15"
+    },
+    {
+      "name": "[3-mainnet-user] join/check-in history recorded",
+      "status": "PASS",
+      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795243371363,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
+    },
+    {
+      "name": "[3-mainnet-user] REFERRAL JOIN with referrer UID",
+      "status": "PASS",
+      "detail": "uid=UID-5KWHWVFCFG referrer=UID-BTSYNNXMSG"
+    },
+    {
+      "name": "[3-mainnet-user] referred user can deposit",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "[3-mainnet-user] referred user activates VIP",
+      "status": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "[3-mainnet-user] referral gate counts VIP-activated referrals",
+      "status": "PASS",
+      "detail": "refs=1 canWithdraw=true reason="
+    },
+    {
+      "name": "[3-mainnet-user] $13.80 WITHDRAWAL permission granted",
+      "status": "PASS",
+      "detail": "net=13.8 reason="
+    },
+    {
+      "name": "[3-mainnet-user] withdraw rejects wrong amount",
+      "status": "PASS",
+      "detail": "Each monthly withdrawal payout is fixed at $15.00 USDT gross ($13.80 net after 8% fee)."
+    },
+    {
+      "name": "[3-mainnet-user] withdraw rejects wrong destination wallet",
+      "status": "PASS",
+      "detail": "Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0x2222...2222)."
+    },
+    {
+      "name": "[3-mainnet-user] withdraw rejects wrong PIN",
+      "status": "PASS",
+      "detail": "Incorrect 6-digit Security PIN (4 attempts before cooldown)."
+    },
+    {
+      "name": "[3-mainnet-user] 1st CLAIM / $15 gross → $13.80 net withdrawal",
+      "status": "PASS",
+      "detail": "keys=user,governanceNotice,announcements,vipConfig,summary,activeMembership,membershipHistory,withdrawalPolicy,referralStats,securityStatus,transactions,vipTier"
+    },
+    {
+      "name": "[3-mainnet-user] withdrawal state: balance -$15, payout #1",
+      "status": "PASS",
+      "detail": "{\"bal\":21,\"cnt\":1,\"sess\":15,\"total\":13.8}"
+    },
+    {
+      "name": "[3-mainnet-user] 2nd payout blocked within 14-day window",
+      "status": "PASS",
+      "detail": "1 more Valid Referral (2 total) required to unlock 2nd payout ($15.00 gross · $13.80 net)."
+    },
+    {
+      "name": "[3-mainnet-user] JS errors",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "name": "[3-mainnet-user] UI signup shows UID + TC1 backup code",
+      "status": "PASS",
+      "detail": "uid=UID-5TV7SY8XGF tc1len=553"
+    },
+    {
+      "name": "[3-mainnet-user] .crestline recovery file exported",
+      "status": "PASS",
+      "detail": "1769 bytes"
+    },
+    {
+      "name": "[3-mainnet-user] .crestline file is valid E2EE recovery JSON",
+      "status": "PASS",
+      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-5TV7SY8XGF\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
+    },
+    {
+      "name": "[3-mainnet-user] Recover screen offers file + TC1 import",
+      "status": "PASS",
+      "detail": "Crestline VIP  $20 VIP Pass · +$1.00/day Check-In · $7 / $19 / $28 Payout Tiers  Zero PII · Encrypted .crestline & 3-field on-chain recovery Strict Same-Wallet Policy & $140 HD Bucket Concurrency Locks Sign In Create Acc"
+    },
+    {
+      "name": "[3-mainnet-user] .crestline FILE IMPORT restores account (fresh device)",
+      "status": "PASS",
+      "detail": "Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a"
+    },
+    {
+      "name": "[3-mainnet-user] TC1 time-cipher IMPORT restores account (no file)",
+      "status": "PASS",
+      "detail": "Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a"
+    },
+    {
+      "name": "[3-mainnet-user] UI JS errors",
+      "status": "PASS",
+      "detail": "none"
+    },
+    {
+      "name": "[3-mainnet-user] real on-chain USDT deposit",
+      "status": "BLOCKED",
+      "detail": "mocked Transfer log used; needs funded wallet + live tx hash"
+    },
+    {
+      "name": "[3-mainnet-user] real $13.80 USDT payout on chain",
+      "status": "BLOCKED",
+      "detail": "no funds moved; local Phase-1 ledger only"
+    },
+    {
+      "name": "[1-testnet-user DEFAULT-CONFIG] USDT_ADDRESS as shipped",
+      "status": "PASS",
+      "detail": "USDT_ADDRESS=(EMPTY)"
+    },
+    {
+      "name": "[1-testnet-user DEFAULT-CONFIG] signup works",
+      "status": "PASS",
+      "detail": "UID-GZFJY416BM"
+    },
+    {
+      "name": "[1-testnet-user DEFAULT-CONFIG] deposit verification FAILS out of the box",
+      "status": "PASS",
+      "detail": "USDT token contract address is not configured for this network."
+    },
+    {
+      "name": "[3-mainnet-user DEFAULT-CONFIG] USDT_ADDRESS as shipped",
+      "status": "PASS",
+      "detail": "USDT_ADDRESS=0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    },
+    {
+      "name": "[3-mainnet-user DEFAULT-CONFIG] signup works",
+      "status": "PASS",
+      "detail": "UID-AR13GREARD"
+    },
+    {
+      "name": "[3-mainnet-user DEFAULT-CONFIG] deposit works with shipped USDT contract",
+      "status": "PASS",
+      "detail": "tx=0xabababababababababababababababababababababababababababababababab"
+    },
+    {
+      "name": "[2-testnet-admin] admin console post-login operations",
+      "status": "BLOCKED",
+      "detail": "owner 6-char passcode / 12-word master seed not supplied; hardcoded seed hash in bundle"
+    },
+    {
+      "name": "[4-mainnet-admin] admin console post-login operations",
+      "status": "BLOCKED",
+      "detail": "owner 6-char passcode / 12-word master seed not supplied; hardcoded seed hash in bundle"
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "total": 131,
+  "passed": 131,
+  "failed": 0,
+  "results": [
+    {
+      "name": "[1-testnet-user] project dir exists",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/1-testnet-user"
+    },
+    {
+      "name": "[1-testnet-user] namespace + applicationId",
+      "passed": true,
+      "detail": "matches=2"
+    },
+    {
+      "name": "[1-testnet-user] compileSdk 35 / minSdk 26 / Java 17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] gradle.properties has AndroidX flag",
+      "passed": true,
+      "detail": "required fix: upstream bundle shipped without this file"
+    },
+    {
+      "name": "[1-testnet-user] AndroidManifest.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] INTERNET + POST_NOTIFICATIONS",
+      "passed": true,
+      "detail": "['android.permission.INTERNET', 'android.permission.POST_NOTIFICATIONS']"
+    },
+    {
+      "name": "[1-testnet-user] cleartext disabled",
+      "passed": true,
+      "detail": "usesCleartextTraffic=false"
+    },
+    {
+      "name": "[1-testnet-user] networkSecurityConfig set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] crestline://sync deep link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] network_security_config.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] Amoy RPC domains pinned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] testnet build excludes mainnet RPC",
+      "passed": true,
+      "detail": "network isolation"
+    },
+    {
+      "name": "[1-testnet-user] MainActivity.java + AmoySyncWorker.java",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/1-testnet-user/android/app/src/main/java/com/crestline/testnet/user"
+    },
+    {
+      "name": "[1-testnet-user] WebViewAssetLoader + FLAG_SECURE + JS bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] index.html references JS + CSS",
+      "passed": true,
+      "detail": "['index-D8DkQUNS.js', 'index-DGrBDhMe.css']"
+    },
+    {
+      "name": "[1-testnet-user] referenced asset exists: index-D8DkQUNS.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] referenced asset exists: index-DGrBDhMe.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] www/public/android asset parity",
+      "passed": true,
+      "detail": "{'www/assets': 2, 'public/assets': 2, 'android/app/src/main/assets/www/assets': 2}"
+    },
+    {
+      "name": "[1-testnet-user] USER: referral/bucket logic present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[1-testnet-user] USER: admin console absent",
+      "passed": true,
+      "detail": "role isolation"
+    },
+    {
+      "name": "[1-testnet-user] testnet build has no mainnet RPC",
+      "passed": true,
+      "detail": "network isolation"
+    },
+    {
+      "name": "[1-testnet-user] JS bundle parses (node --check)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] project dir exists",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/2-testnet-admin"
+    },
+    {
+      "name": "[2-testnet-admin] namespace + applicationId",
+      "passed": true,
+      "detail": "matches=2"
+    },
+    {
+      "name": "[2-testnet-admin] compileSdk 35 / minSdk 26 / Java 17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] gradle.properties has AndroidX flag",
+      "passed": true,
+      "detail": "required fix: upstream bundle shipped without this file"
+    },
+    {
+      "name": "[2-testnet-admin] AndroidManifest.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] INTERNET + POST_NOTIFICATIONS",
+      "passed": true,
+      "detail": "['android.permission.INTERNET', 'android.permission.POST_NOTIFICATIONS']"
+    },
+    {
+      "name": "[2-testnet-admin] cleartext disabled",
+      "passed": true,
+      "detail": "usesCleartextTraffic=false"
+    },
+    {
+      "name": "[2-testnet-admin] networkSecurityConfig set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] crestline://sync deep link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] network_security_config.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] Amoy RPC domains pinned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] testnet build excludes mainnet RPC",
+      "passed": true,
+      "detail": "network isolation"
+    },
+    {
+      "name": "[2-testnet-admin] MainActivity.java + AmoySyncWorker.java",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/2-testnet-admin/android/app/src/main/java/com/crestline/testnet/admin"
+    },
+    {
+      "name": "[2-testnet-admin] WebViewAssetLoader + FLAG_SECURE + JS bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] index.html references JS + CSS",
+      "passed": true,
+      "detail": "['index-CH__K5KW.js', 'index-DGrBDhMe.css']"
+    },
+    {
+      "name": "[2-testnet-admin] referenced asset exists: index-CH__K5KW.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] referenced asset exists: index-DGrBDhMe.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] www/public/android asset parity",
+      "passed": true,
+      "detail": "{'www/assets': 2, 'public/assets': 2, 'android/app/src/main/assets/www/assets': 2}"
+    },
+    {
+      "name": "[2-testnet-admin] ADMIN: console + master seed present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[2-testnet-admin] ADMIN: user referral logic absent",
+      "passed": true,
+      "detail": "role isolation"
+    },
+    {
+      "name": "[2-testnet-admin] ADMIN: owner seed/code hash baked in",
+      "passed": true,
+      "detail": "auth gate is bound to a fixed owner seed"
+    },
+    {
+      "name": "[2-testnet-admin] testnet build has no mainnet RPC",
+      "passed": true,
+      "detail": "network isolation"
+    },
+    {
+      "name": "[2-testnet-admin] JS bundle parses (node --check)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] project dir exists",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/3-mainnet-user"
+    },
+    {
+      "name": "[3-mainnet-user] namespace + applicationId",
+      "passed": true,
+      "detail": "matches=2"
+    },
+    {
+      "name": "[3-mainnet-user] compileSdk 35 / minSdk 26 / Java 17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] gradle.properties has AndroidX flag",
+      "passed": true,
+      "detail": "required fix: upstream bundle shipped without this file"
+    },
+    {
+      "name": "[3-mainnet-user] AndroidManifest.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] INTERNET + POST_NOTIFICATIONS",
+      "passed": true,
+      "detail": "['android.permission.INTERNET', 'android.permission.POST_NOTIFICATIONS']"
+    },
+    {
+      "name": "[3-mainnet-user] cleartext disabled",
+      "passed": true,
+      "detail": "usesCleartextTraffic=false"
+    },
+    {
+      "name": "[3-mainnet-user] networkSecurityConfig set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] crestline://sync deep link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] network_security_config.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] Amoy RPC domains pinned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] mainnet RPC domain pinned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] MainActivity.java + AmoySyncWorker.java",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/3-mainnet-user/android/app/src/main/java/com/crestline/mainnet/user"
+    },
+    {
+      "name": "[3-mainnet-user] WebViewAssetLoader + FLAG_SECURE + JS bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] index.html references JS + CSS",
+      "passed": true,
+      "detail": "['index-D627spdH.js', 'index-DGrBDhMe.css']"
+    },
+    {
+      "name": "[3-mainnet-user] referenced asset exists: index-D627spdH.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] referenced asset exists: index-DGrBDhMe.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] www/public/android asset parity",
+      "passed": true,
+      "detail": "{'www/assets': 2, 'public/assets': 2, 'android/app/src/main/assets/www/assets': 2}"
+    },
+    {
+      "name": "[3-mainnet-user] USER: referral/bucket logic present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] USER: admin console absent",
+      "passed": true,
+      "detail": "role isolation"
+    },
+    {
+      "name": "[3-mainnet-user] mainnet RPC present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[3-mainnet-user] JS bundle parses (node --check)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] project dir exists",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/4-mainnet-admin"
+    },
+    {
+      "name": "[4-mainnet-admin] namespace + applicationId",
+      "passed": true,
+      "detail": "matches=2"
+    },
+    {
+      "name": "[4-mainnet-admin] compileSdk 35 / minSdk 26 / Java 17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] gradle.properties has AndroidX flag",
+      "passed": true,
+      "detail": "required fix: upstream bundle shipped without this file"
+    },
+    {
+      "name": "[4-mainnet-admin] AndroidManifest.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] INTERNET + POST_NOTIFICATIONS",
+      "passed": true,
+      "detail": "['android.permission.INTERNET', 'android.permission.POST_NOTIFICATIONS']"
+    },
+    {
+      "name": "[4-mainnet-admin] cleartext disabled",
+      "passed": true,
+      "detail": "usesCleartextTraffic=false"
+    },
+    {
+      "name": "[4-mainnet-admin] networkSecurityConfig set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] crestline://sync deep link",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] network_security_config.xml well-formed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] Amoy RPC domains pinned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] mainnet RPC domain pinned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] MainActivity.java + AmoySyncWorker.java",
+      "passed": true,
+      "detail": "/home/user/crestline_bundle/4-mainnet-admin/android/app/src/main/java/com/crestline/mainnet/admin"
+    },
+    {
+      "name": "[4-mainnet-admin] WebViewAssetLoader + FLAG_SECURE + JS bridge",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] index.html references JS + CSS",
+      "passed": true,
+      "detail": "['index-DG9_RbOV.js', 'index-DGrBDhMe.css']"
+    },
+    {
+      "name": "[4-mainnet-admin] referenced asset exists: index-DG9_RbOV.js",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] referenced asset exists: index-DGrBDhMe.css",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] www/public/android asset parity",
+      "passed": true,
+      "detail": "{'www/assets': 2, 'public/assets': 2, 'android/app/src/main/assets/www/assets': 2}"
+    },
+    {
+      "name": "[4-mainnet-admin] ADMIN: console + master seed present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] ADMIN: user referral logic absent",
+      "passed": true,
+      "detail": "role isolation"
+    },
+    {
+      "name": "[4-mainnet-admin] ADMIN: owner seed/code hash baked in",
+      "passed": true,
+      "detail": "auth gate is bound to a fixed owner seed"
+    },
+    {
+      "name": "[4-mainnet-admin] mainnet RPC present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[4-mainnet-admin] JS bundle parses (node --check)",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[scripts] build-local-zips.mjs parses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[scripts] serve.mjs parses",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[scripts] build-signed-apks.sh shell syntax",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[security] no obvious private keys / API keys in source",
+      "passed": true,
+      "detail": "clean"
+    },
+    {
+      "name": "[security] no keystore committed",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 1-testnet-user] exists",
+      "passed": true,
+      "detail": "/home/user/apk_out/crestline-1-testnet-user-release.apk"
+    },
+    {
+      "name": "[APK 1-testnet-user] size > 500 KB",
+      "passed": true,
+      "detail": "1,141,508 bytes"
+    },
+    {
+      "name": "[APK 1-testnet-user] signature verifies (v1+v2)",
+      "passed": true,
+      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
+    },
+    {
+      "name": "[APK 1-testnet-user] zipalign 4-byte aligned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 1-testnet-user] web assets bundled",
+      "passed": true,
+      "detail": "3 assets/www files"
+    },
+    {
+      "name": "[APK 1-testnet-user] JS bridge + WebViewAssetLoader survive R8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 1-testnet-user] release package name",
+      "passed": true,
+      "detail": "com.crestline.testnet.user"
+    },
+    {
+      "name": "[APK 1-testnet-user] minSdk 26 / targetSdk 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 2-testnet-admin] exists",
+      "passed": true,
+      "detail": "/home/user/apk_out/crestline-2-testnet-admin-release.apk"
+    },
+    {
+      "name": "[APK 2-testnet-admin] size > 500 KB",
+      "passed": true,
+      "detail": "1,129,220 bytes"
+    },
+    {
+      "name": "[APK 2-testnet-admin] signature verifies (v1+v2)",
+      "passed": true,
+      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
+    },
+    {
+      "name": "[APK 2-testnet-admin] zipalign 4-byte aligned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 2-testnet-admin] web assets bundled",
+      "passed": true,
+      "detail": "3 assets/www files"
+    },
+    {
+      "name": "[APK 2-testnet-admin] JS bridge + WebViewAssetLoader survive R8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 2-testnet-admin] release package name",
+      "passed": true,
+      "detail": "com.crestline.testnet.admin"
+    },
+    {
+      "name": "[APK 2-testnet-admin] minSdk 26 / targetSdk 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 3-mainnet-user] exists",
+      "passed": true,
+      "detail": "/home/user/apk_out/crestline-3-mainnet-user-release.apk"
+    },
+    {
+      "name": "[APK 3-mainnet-user] size > 500 KB",
+      "passed": true,
+      "detail": "1,141,508 bytes"
+    },
+    {
+      "name": "[APK 3-mainnet-user] signature verifies (v1+v2)",
+      "passed": true,
+      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
+    },
+    {
+      "name": "[APK 3-mainnet-user] zipalign 4-byte aligned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 3-mainnet-user] web assets bundled",
+      "passed": true,
+      "detail": "3 assets/www files"
+    },
+    {
+      "name": "[APK 3-mainnet-user] JS bridge + WebViewAssetLoader survive R8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 3-mainnet-user] release package name",
+      "passed": true,
+      "detail": "com.crestline.mainnet.user"
+    },
+    {
+      "name": "[APK 3-mainnet-user] minSdk 26 / targetSdk 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 4-mainnet-admin] exists",
+      "passed": true,
+      "detail": "/home/user/apk_out/crestline-4-mainnet-admin-release.apk"
+    },
+    {
+      "name": "[APK 4-mainnet-admin] size > 500 KB",
+      "passed": true,
+      "detail": "1,129,220 bytes"
+    },
+    {
+      "name": "[APK 4-mainnet-admin] signature verifies (v1+v2)",
+      "passed": true,
+      "detail": "Signer #1 certificate DN: CN=Crestline QA, O=Arena QA, C=IN\nSigner #1 certificate SHA-256 digest: 3998c52ba6e0ce85ad126f3f608e0ac6d3c10ba3f68d06ea921e33edb715a2a5\nSigner #1 certifi"
+    },
+    {
+      "name": "[APK 4-mainnet-admin] zipalign 4-byte aligned",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 4-mainnet-admin] web assets bundled",
+      "passed": true,
+      "detail": "3 assets/www files"
+    },
+    {
+      "name": "[APK 4-mainnet-admin] JS bridge + WebViewAssetLoader survive R8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[APK 4-mainnet-admin] release package name",
+      "passed": true,
+      "detail": "com.crestline.mainnet.admin"
+    },
+    {
+      "name": "[APK 4-mainnet-admin] minSdk 26 / targetSdk 35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "[server 1-testnet-user] static bundle served",
+      "passed": true,
+      "detail": "3/3 checks"
+    },
+    {
+      "name": "[server 2-testnet-admin] static bundle served",
+      "passed": true,
+      "detail": "3/3 checks"
+    },
+    {
+      "name": "[server 3-mainnet-user] static bundle served",
+      "passed": true,
+      "detail": "3/3 checks"
+    },
+    {
+      "name": "[server 4-mainnet-admin] static bundle served",
+      "passed": true,
+      "detail": "3/3 checks"
+    }
+  ]
+}

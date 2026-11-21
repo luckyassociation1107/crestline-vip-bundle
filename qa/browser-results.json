@@ -1,0 +1,137 @@
+{
+  "passed": 24,
+  "failed": 0,
+  "blocked": 2,
+  "results": [
+    {
+      "name": "1-testnet-user: login/signup screen renders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: no admin UI leaked into user build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: account creation produces UID",
+      "passed": true,
+      "detail": "UID-CD7BTC029Z"
+    },
+    {
+      "name": "1-testnet-user: encrypted recovery file offered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: dashboard reached",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: $20 deposit / bucket lock / same-wallet UI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "1-testnet-user: no uncaught JS errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2-testnet-admin: admin auth gate renders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2-testnet-admin: no user deposit UI leaked into admin build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2-testnet-admin: seed + 2-of-3 guardian recovery tabs work",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2-testnet-admin: invalid passcode rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "2-testnet-admin: admin console AFTER login",
+      "passed": null,
+      "detail": "BLOCKED: set ADMIN_CODE (owner 6-char code) to test; master seed is not in the bundle"
+    },
+    {
+      "name": "2-testnet-admin: no uncaught JS errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: login/signup screen renders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: no admin UI leaked into user build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: account creation produces UID",
+      "passed": true,
+      "detail": "UID-RYGHPE4GBX"
+    },
+    {
+      "name": "3-mainnet-user: encrypted recovery file offered",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: dashboard reached",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: $20 deposit / bucket lock / same-wallet UI",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "3-mainnet-user: no uncaught JS errors",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4-mainnet-admin: admin auth gate renders",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4-mainnet-admin: no user deposit UI leaked into admin build",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4-mainnet-admin: seed + 2-of-3 guardian recovery tabs work",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4-mainnet-admin: invalid passcode rejected",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "4-mainnet-admin: admin console AFTER login",
+      "passed": null,
+      "detail": "BLOCKED: set ADMIN_CODE (owner 6-char code) to test; master seed is not in the bundle"
+    },
+    {
+      "name": "4-mainnet-admin: no uncaught JS errors",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

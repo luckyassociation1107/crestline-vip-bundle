@@ -1,0 +1,14 @@
+{
+  "name": "crestline-vip-qa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "qa:browser": "node qa/browser_flow_test.mjs",
+    "qa:full": "node qa/full_flow_test.mjs",
+    "qa:external": "node qa/playwright_external_test.mjs",
+    "qa:all": "bash qa/run_all_playwright.sh"
+  },
+  "devDependencies": {
+    "playwright": "^1.65.1"
+  }
+}
