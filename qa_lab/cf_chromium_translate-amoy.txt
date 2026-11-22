@@ -1,0 +1,217 @@
+Amoy Testnet
+ /
+Light
+Dim
+Dark
+Auto (System)
+  
+Polygon Mainnet
+Amoy Testnet
+  
+Home
+Blockchain
+Transactions
+Pending Transactions
+Contract Internal Transactions
+Plasma Deposit Transactions
+AA Transactions
+EIP-7702 Authorizations Beta
+View Blocks
+Forked Blocks (Reorgs)
+Top Accounts
+Verified Contracts
+Tokens
+View ERC-20 Transfers
+NFTs
+Latest Transfers
+Latest Mints
+API
+Multichain API
+API Pricing
+API Documentation
+More
+Converters
+Unit Converter
+Base64 Converter
+Block & Date Converter
+UTF-8 Converter
+Method ID Converter
+API
+API Documentation
+Verify Contract
+Contract Diff Checker
+Similar Contract Search
+Vyper Online Compiler
+Bytecode to Opcode
+Broadcast Transaction
+Tools & Services
+CSV Export
+Input Data Decoder
+Input Data Encoder Beta
+Account Balance Checker
+Token Supply Checker
+Token Standard Checker
+Explorers
+Polygon Mainnet
+Amoy Testnet
+Site Settings
+Appearance
+Light
+Dim
+Dark
+Auto (System)
+Address
+0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8
+API
+Check Previous Balance
+Overview
+POL Balance
+0 POL
+More Info
+Transactions Sent
+Latest: N/A First: N/A
+Funded By
+N/A
+Multichain Info
+N/A
+Transactions
+Token Transfers (ERC-20)
+	Transaction Hash	
+Method
+	
+Block
+	
+	
+From
+		
+To
+	
+Amount
+	
+
+
+There are no matching entries
+
+Please try again later
+
+Parent Transaction Hash	Block		From		To	Amount
+View All Internal Transactions
+Loading...
+Loading
+Custom ABI tools are out of date or failed to load. Reload this page once and try again.
+API
+Contract Name
+0 POL
+Compiler Version
+0
+Optimization Enabled
+0 POL
+Other Settings
+-NA-
+License
+-NA-
+Custom Contract ABI
+
+Block		Transaction	Gas Used	Reward
+view all blocks produced
+
+Block		Uncle Number	Difficulty	Gas Used	Reward
+View All Uncles
+Loading...
+Loading
+Loading...
+Loading
+
+Validator Index	Block		Amount
+View All Withdrawals
+
+Transaction Hash	Block		Value	Eth2 PubKey	Valid
+View All Deposits
+0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8
+Loading...
+Loading
+Loading...
+Loading
+
+A wallet address is a publicly available address that allows its owner to receive funds from another party. To access the funds in an address, you must have its private key. Learn more about addresses in our Knowledge Base.
+
+Address QR Code
+My Address - Private Name Tag or Note
+
+My Name Tag:
+
+Character limit:
+Private Name Tags (up to 35 characters) can be used for easy identification of addresses
+
+Private Note:
+
+Character limit:
+A private note (up to 500 characters) can be attached to this address.
+Please DO NOT store any passwords or private keys here.
+View all Private Name Tags
+Close Save Changes
+👋
+Before You Continue...
+📝
+Connecting your wallet enables signing messages to verify ownership or signing messages to interact with smart contracts.
+⚠️
+This is provided as is, without guarantees or warranties of any kind.
+💸
+All interactions are at your own risk. polygonscan is not responsible for any losses or damages resulting from use of this feature.
+🧠
+Please ensure you understand what you're doing before continuing.
+🔗
+Learn more about connecting your wallet on polygonscan.
+Understand and Continue
+Connect a Wallet
+Rabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets
+No wallet found
+Connect a Wallet
+Rabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets
+No wallet found
+Connect a Wallet
+Rabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets
+No wallet found
+Add Custom ABI
+Address 
+Custom ABI tools are out of date or failed to load. Reload this page once and try again.
+Custom ABI Magic Fill Find Similar
+Apply Custom ABI to enable custom read/write functions for the current session. Save to also enable them for future sessions.
+Cancel Apply Custom ABI
+×
+Before You Copy
+
+ Don't show this for 30 days
+Understand, Copy Address
+Transaction Private Note
+Transaction Hash 
+Private Note Description 
+
+Please DO NOT store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.
+
+View All Transactions Private Notes
+Cancel Save changes
+My Address - Private Name Tag or Note
+
+My Name Tag:
+
+Private Name Tags (up to 35 characters) can be used for easy identification of addresses
+
+Private Note:
+
+A private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.
+View all Private Name Tags
+Close Save Changes
+   Powered by Polygon PoS Chain
+Back to Top
+ Add Polygon Amoy Network
+
+PolygonScan © 2026 (POLY-AMOY-A) | ⛏ Built by Team Etherscan
+
+Terms & Privacy | Network Status |
+
+Donations: 0x71c765...d8976f
+
+This website uses cookies to improve your experience. By continuing to use this website, you agree to its Terms and Privacy Policy.
+
+Got it!

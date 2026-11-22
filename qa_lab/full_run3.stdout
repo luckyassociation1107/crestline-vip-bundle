@@ -1,0 +1,114 @@
+
+==============================================================================
+FULL FLOW: PASS 100 · FAIL 2 · BLOCKED 6 · INFO 2
+==============================================================================
+  PASS    [1-testnet-user] config: chain + USDT + pool :: {"chain":80002,"usdt":"0x1111111111111111111111111111111111111111","pool":"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8"}
+  INFO    [1-testnet-user] shipped USDT_ADDRESS default :: (EMPTY — deposit verification impossible out of the box)
+  PASS    [1-testnet-user] register rejects short username :: Username must be at least 3 characters.
+  PASS    [1-testnet-user] register rejects short password :: Password must be at least 6 characters.
+  PASS    [1-testnet-user] register rejects weak PIN :: Choose a stronger 6-digit PIN (avoid repeating or sequential digits like 123456 or 111111).
+  PASS    [1-testnet-user] SIGNUP succeeds :: UID-K0RFY5JW35 / token=true
+  PASS    [1-testnet-user] signup emits .crestline / TC1 recovery payload :: token,user,portfolio,amoyUserSync,recoveryPayload
+  PASS    [1-testnet-user] duplicate username rejected :: Username already taken.
+  PASS    [1-testnet-user] portfolio: zero balance, 13.80 net payout policy :: net=13.8 fee=1.2 canWithdraw=false
+  PASS    [1-testnet-user] withdrawal blocked by referral gate :: 1 Valid Referral required to unlock 1st payout ($15.00 gross · $13.80 net).
+  PASS    [1-testnet-user] LOGOUT clears session :: session cleared
+  PASS    [1-testnet-user] portfolio after logout is denied :: Session expired. Please sign in.
+  PASS    [1-testnet-user] LOGIN rejects wrong password :: Invalid username or password.
+  PASS    [1-testnet-user] LOGIN succeeds :: uid=UID-K0RFY5JW35 dailyLoginCount=undefined
+  PASS    [1-testnet-user] LOGIN rejects wrong PIN :: Incorrect 6-digit Security PIN (4 attempts before cooldown).
+  PASS    [1-testnet-user] deposit rejects non-$20 amount :: Only exact $20.00 USDT VIP Pass deposit is permitted.
+  PASS    [1-testnet-user] deposit requires sender wallet :: Enter the 0x... USDT wallet address you are sending from (locks permanently on 1st deposit).
+  PASS    [1-testnet-user] BUCKET_LOCK reserves $140 slot :: {"id":"blk-1795125885347-v4nu","bucketId":1,"bucketAddress":"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8","uid":"UID-K0RFY5JW35","amount":20,"status":"RESERVED","reservedAtMs":1795125885347,"expiresAtM
+  PASS    [1-testnet-user] NEW VALID DEPOSIT recognized ($20) :: tx=0xabababababababababababababababababababababababababababababababab amt=20
+  PASS    [1-testnet-user] deposit credits wallet + binds sender wallet :: balance=20 wallet=0x2222222222222222222222222222222222222222
+  PASS    [1-testnet-user] DEPOSIT tx recorded in history :: count=1
+  PASS    [1-testnet-user] deposit replay protection (same tx rejected) :: No unspent $20.00 USDT Transfer found on-chain from 0x2222...2222 to Pool 0x08EE...6Db8.
+  PASS    [1-testnet-user] second NEW deposit recognized :: tx=0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+  PASS    [1-testnet-user] strict same-wallet policy enforced :: Account is permanently locked to 0x2222...2222. Send from that wallet only.
+  PASS    [1-testnet-user] BUCKET_RELEASE resolves lock :: {"id":"blk-1795125885589-vzg5","bucketId":1,"bucketAddress":"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8","uid":"UID-K0RFY5JW35","amount":20,"status":"FAILED","r
+  PASS    [1-testnet-user] second account (referral target) registered :: UID-PAT7GE3TWJ
+  PASS    [1-testnet-user] 1-wallet-1-person enforced :: This USDT wallet address is already locked to another UID (1 Wallet = 1 Person).
+  PASS    [1-testnet-user] VIP JOIN / purchase activates 28-day membership :: {"status":"ACTIVE","days":0,"bal":20,"inv":1}
+  PASS    [1-testnet-user] duplicate VIP purchase rejected :: VIP Membership is already active.
+  PASS    [1-testnet-user] DAILY CHECK-IN claim +$1.00 :: {"days":1,"bal":21}
+  PASS    [1-testnet-user] double claim same day rejected :: Already claimed today (+$1.00).
+  PASS    [1-testnet-user] 15 more daily check-ins across simulated days :: successful=15/15
+  PASS    [1-testnet-user] join/check-in history recorded :: {"balance":36,"daysClaimed":16,"startedAtMs":1795125885788,"history":0,"txTypes":["DAILY_LOGIN","DEPOSIT","VIP_PURCHASE","DAILY_CLAIM"]}
+  PASS    [1-testnet-user] REFERRAL JOIN with referrer UID :: uid=UID-F0Q9CYDKGN referrer=UID-K0RFY5JW35
+  PASS    [1-testnet-user] referred user can deposit :: ok
+  PASS    [1-testnet-user] referred user activates VIP :: ok
+  PASS    [1-testnet-user] referral gate counts VIP-activated referrals :: refs=1 canWithdraw=true reason=
+  PASS    [1-testnet-user] $13.80 WITHDRAWAL permission granted :: net=13.8 reason=
+  PASS    [1-testnet-user] withdraw rejects wrong amount :: Each monthly withdrawal payout is fixed at $15.00 USDT gross ($13.80 net after 8% fee).
+  PASS    [1-testnet-user] withdraw rejects wrong destination wallet :: Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0x2222...2222).
+  PASS    [1-testnet-user] withdraw rejects wrong PIN :: Incorrect 6-digit Security PIN (4 attempts before cooldown).
+  PASS    [1-testnet-user] 1st CLAIM / $15 gross → $13.80 net withdrawal :: keys=user,governanceNotice,announcements,vipConfig,summary,activeMembership,membershipHistory,withdrawalPolicy,referralStats,securityStatus,transactions,vipTier
+  PASS    [1-testnet-user] withdrawal state: balance -$15, payout #1 :: {"bal":21,"cnt":1,"sess":15,"total":13.8}
+  PASS    [1-testnet-user] 2nd payout blocked within 14-day window :: 1 more Valid Referral (2 total) required to unlock 2nd payout ($15.00 gross · $13.80 net).
+  PASS    [1-testnet-user] JS errors :: none
+  PASS    [1-testnet-user] UI signup shows UID + TC1 backup code :: uid=UID-FNFK2BJ66D tc1len=553
+  PASS    [1-testnet-user] .crestline recovery file exported :: 1769 bytes
+  PASS    [1-testnet-user] Recover screen offers file + TC1 import :: Crestline VIP  $20 VIP Pass · +$1.00/day Check-In · $7 / $19 / $28 Payout Tiers  Zero PII · Encrypted .crestline & 3-field on-chain recovery Strict Same-Wallet Policy & $140 HD Bucket Concurrency Locks Sign In Create Acc
+  FAIL    [1-testnet-user] .crestline file auto-fills TC1 payload :: len=0
+  PASS    [1-testnet-user] .crestline FILE IMPORT restores account (fresh device) :: Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a
+  PASS    [1-testnet-user] TC1 time-cipher IMPORT restores account (no file) :: Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a
+  PASS    [1-testnet-user] UI JS errors :: none
+  BLOCKED [1-testnet-user] real on-chain USDT deposit :: mocked Transfer log used; needs funded wallet + live tx hash
+  BLOCKED [1-testnet-user] real $13.80 USDT payout on chain :: no funds moved; local Phase-1 ledger only
+  PASS    [3-mainnet-user] config: chain + USDT + pool :: {"chain":137,"usdt":"0x1111111111111111111111111111111111111111","pool":"0xA14e867C7B4539B776F88FEDA19cf011b88c793b"}
+  INFO    [3-mainnet-user] shipped USDT_ADDRESS default :: 0xc2132D05D31c914a87C6611C10748AEb04B58e8F
+  PASS    [3-mainnet-user] register rejects short username :: Username must be at least 3 characters.
+  PASS    [3-mainnet-user] register rejects short password :: Password must be at least 6 characters.
+  PASS    [3-mainnet-user] register rejects weak PIN :: Choose a stronger 6-digit PIN (avoid repeating or sequential digits like 123456 or 111111).
+  PASS    [3-mainnet-user] SIGNUP succeeds :: UID-8BJR227XD0 / token=true
+  PASS    [3-mainnet-user] signup emits .crestline / TC1 recovery payload :: token,user,portfolio,amoyUserSync,recoveryPayload
+  PASS    [3-mainnet-user] duplicate username rejected :: Username already taken.
+  PASS    [3-mainnet-user] portfolio: zero balance, 13.80 net payout policy :: net=13.8 fee=1.2 canWithdraw=false
+  PASS    [3-mainnet-user] withdrawal blocked by referral gate :: 1 Valid Referral required to unlock 1st payout ($15.00 gross · $13.80 net).
+  PASS    [3-mainnet-user] LOGOUT clears session :: session cleared
+  PASS    [3-mainnet-user] portfolio after logout is denied :: Session expired. Please sign in.
+  PASS    [3-mainnet-user] LOGIN rejects wrong password :: Invalid username or password.
+  PASS    [3-mainnet-user] LOGIN succeeds :: uid=UID-8BJR227XD0 dailyLoginCount=undefined
+  PASS    [3-mainnet-user] LOGIN rejects wrong PIN :: Incorrect 6-digit Security PIN (4 attempts before cooldown).
+  PASS    [3-mainnet-user] deposit rejects non-$20 amount :: Only exact $20.00 USDT VIP Pass deposit is permitted.
+  PASS    [3-mainnet-user] deposit requires sender wallet :: Enter the 0x... USDT wallet address you are sending from (locks permanently on 1st deposit).
+  PASS    [3-mainnet-user] BUCKET_LOCK reserves $140 slot :: {"id":"blk-1795125907091-bsxs","bucketId":1,"bucketAddress":"0xA14e867C7B4539B776F88FEDA19cf011b88c793b","uid":"UID-8BJR227XD0","amount":20,"status":"RESERVED","reservedAtMs":1795125907091,"expiresAtM
+  PASS    [3-mainnet-user] NEW VALID DEPOSIT recognized ($20) :: tx=0xabababababababababababababababababababababababababababababababab amt=20
+  PASS    [3-mainnet-user] deposit credits wallet + binds sender wallet :: balance=20 wallet=0x2222222222222222222222222222222222222222
+  PASS    [3-mainnet-user] DEPOSIT tx recorded in history :: count=1
+  PASS    [3-mainnet-user] deposit replay protection (same tx rejected) :: No unspent $20.00 USDT Transfer found on-chain from 0x2222...2222 to Pool 0xA14e...793b.
+  PASS    [3-mainnet-user] second NEW deposit recognized :: tx=0xcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+  PASS    [3-mainnet-user] strict same-wallet policy enforced :: Account is permanently locked to 0x2222...2222. Send from that wallet only.
+  PASS    [3-mainnet-user] BUCKET_RELEASE resolves lock :: {"id":"blk-1795125907348-0tnm","bucketId":1,"bucketAddress":"0xA14e867C7B4539B776F88FEDA19cf011b88c793b","uid":"UID-8BJR227XD0","amount":20,"status":"FAILED","r
+  PASS    [3-mainnet-user] second account (referral target) registered :: UID-3G2TXYN7MY
+  PASS    [3-mainnet-user] 1-wallet-1-person enforced :: This USDT wallet address is already locked to another UID (1 Wallet = 1 Person).
+  PASS    [3-mainnet-user] VIP JOIN / purchase activates 28-day membership :: {"status":"ACTIVE","days":0,"bal":20,"inv":1}
+  PASS    [3-mainnet-user] duplicate VIP purchase rejected :: VIP Membership is already active.
+  PASS    [3-mainnet-user] DAILY CHECK-IN claim +$1.00 :: {"days":1,"bal":21}
+  PASS    [3-mainnet-user] double claim same day rejected :: Already claimed today (+$1.00).
+  PASS    [3-mainnet-user] 15 more daily check-ins across simulated days :: successful=15/15
+  PASS    [3-mainnet-user] join/check-in history recorded :: {"balance":36,"daysClaimed":16,"startedAtMs":1795125907618,"history":0,"txTypes":["DAILY_LOGIN","DEPOSIT","VIP_PURCHASE","DAILY_CLAIM"]}
+  PASS    [3-mainnet-user] REFERRAL JOIN with referrer UID :: uid=UID-Y3CRZXPND8 referrer=UID-8BJR227XD0
+  PASS    [3-mainnet-user] referred user can deposit :: ok
+  PASS    [3-mainnet-user] referred user activates VIP :: ok
+  PASS    [3-mainnet-user] referral gate counts VIP-activated referrals :: refs=1 canWithdraw=true reason=
+  PASS    [3-mainnet-user] $13.80 WITHDRAWAL permission granted :: net=13.8 reason=
+  PASS    [3-mainnet-user] withdraw rejects wrong amount :: Each monthly withdrawal payout is fixed at $15.00 USDT gross ($13.80 net after 8% fee).
+  PASS    [3-mainnet-user] withdraw rejects wrong destination wallet :: Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0x2222...2222).
+  PASS    [3-mainnet-user] withdraw rejects wrong PIN :: Incorrect 6-digit Security PIN (4 attempts before cooldown).
+  PASS    [3-mainnet-user] 1st CLAIM / $15 gross → $13.80 net withdrawal :: keys=user,governanceNotice,announcements,vipConfig,summary,activeMembership,membershipHistory,withdrawalPolicy,referralStats,securityStatus,transactions,vipTier
+  PASS    [3-mainnet-user] withdrawal state: balance -$15, payout #1 :: {"bal":21,"cnt":1,"sess":15,"total":13.8}
+  PASS    [3-mainnet-user] 2nd payout blocked within 14-day window :: 1 more Valid Referral (2 total) required to unlock 2nd payout ($15.00 gross · $13.80 net).
+  PASS    [3-mainnet-user] JS errors :: none
+  PASS    [3-mainnet-user] UI signup shows UID + TC1 backup code :: uid=UID-CBQ7TGJC1K tc1len=553
+  PASS    [3-mainnet-user] .crestline recovery file exported :: 1769 bytes
+  PASS    [3-mainnet-user] Recover screen offers file + TC1 import :: Crestline VIP  $20 VIP Pass · +$1.00/day Check-In · $7 / $19 / $28 Payout Tiers  Zero PII · Encrypted .crestline & 3-field on-chain recovery Strict Same-Wallet Policy & $140 HD Bucket Concurrency Locks Sign In Create Acc
+  FAIL    [3-mainnet-user] .crestline file auto-fills TC1 payload :: len=0
+  PASS    [3-mainnet-user] .crestline FILE IMPORT restores account (fresh device) :: Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a
+  PASS    [3-mainnet-user] TC1 time-cipher IMPORT restores account (no file) :: Crestline VIP Activate Membership @import_qa · $0.00 USDT  CAUTION: DO NOT DELETE THIS APPLICATION  If you delete this application or clear app/browser data without your .crestline recovery file, you can lose your data a
+  PASS    [3-mainnet-user] UI JS errors :: none
+  BLOCKED [3-mainnet-user] real on-chain USDT deposit :: mocked Transfer log used; needs funded wallet + live tx hash
+  BLOCKED [3-mainnet-user] real $13.80 USDT payout on chain :: no funds moved; local Phase-1 ledger only
+  BLOCKED [2-testnet-admin] admin console post-login operations :: owner 6-char passcode / 12-word master seed not supplied; hardcoded seed hash in bundle
+  BLOCKED [4-mainnet-admin] admin console post-login operations :: owner 6-char passcode / 12-word master seed not supplied; hardcoded seed hash in bundle

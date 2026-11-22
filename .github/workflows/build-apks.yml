@@ -1,0 +1,42 @@
+name: Build signed APKs
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Restore signing keystore
+        run: |
+          if [ -n "${{ secrets.CRESTLINE_KEYSTORE_B64 }}" ]; then
+            echo "${{ secrets.CRESTLINE_KEYSTORE_B64 }}" | base64 -d > crestline-release.jks
+          else
+            echo "::error::Add CRESTLINE_KEYSTORE_B64 repo secret (base64 of the .jks)"; exit 1
+          fi
+
+      - name: Build signed APKs
+        env:
+          STORE_PASS: ${{ secrets.CRESTLINE_STORE_PASS }}
+        run: bash build-signed-apks.sh
+
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: crestline-apks
+          path: "**/*-release.apk"
+
+      - name: Attach APKs to release (tag builds only)
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "**/*-release.apk"

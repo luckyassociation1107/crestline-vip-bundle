@@ -1,0 +1,182 @@
+{
+  "url": "https://faucet.quicknode.com/polygon/amoy",
+  "status": 200,
+  "title": "Polygon Amoy Faucet - Free Testnet POL Tokens",
+  "text": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\nContinue\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences\n\nThis website stores cookies on your computer to collect information about how you interact with our website to improve and customize your browsing experience. To learn more, see our Privacy Policy.\n\nIf you decline, your information won’t be tracked when you visit this website. A single cookie will be used in your browser to remember your preference not to be tracked.\n\nCookies settings\nAccept\nDecline",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "wallet",
+      "name": "wallet",
+      "placeholder": "0x...",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "chain",
+      "name": "chain",
+      "aria": "",
+      "value": "polygon"
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "network",
+      "name": "network",
+      "aria": "",
+      "value": "amoy"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "",
+      "name": "authToken",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    }
+  ],
+  "selects": [
+    {
+      "id": "chain",
+      "name": "chain",
+      "options": [
+        {
+          "value": "",
+          "text": "Chain..."
+        },
+        {
+          "value": "ethereum",
+          "text": "Ethereum"
+        },
+        {
+          "value": "polygon",
+          "text": "Polygon"
+        },
+        {
+          "value": "binance-smart-chain",
+          "text": "Binance Smart Chain"
+        },
+        {
+          "value": "optimism",
+          "text": "Optimism"
+        },
+        {
+          "value": "arbitrum",
+          "text": "Arbitrum"
+        },
+        {
+          "value": "avalanche",
+          "text": "Avalanche"
+        },
+        {
+          "value": "solana",
+          "text": "Solana"
+        },
+        {
+          "value": "base",
+          "text": "Base"
+        },
+        {
+          "value": "blast",
+          "text": "Blast"
+        },
+        {
+          "value": "zksync",
+          "text": "zkSync"
+        },
+        {
+          "value": "berachain",
+          "text": "Berachain"
+        },
+        {
+          "value": "morph",
+          "text": "Morph"
+        },
+        {
+          "value": "cyber",
+          "text": "Cyber"
+        },
+        {
+          "value": "mantle",
+          "text": "Mantle"
+        },
+        {
+          "value": "story",
+          "text": "Story"
+        },
+        {
+          "value": "monad",
+          "text": "Monad"
+        },
+        {
+          "value": "unichain",
+          "text": "Unichain"
+        },
+        {
+          "value": "ink",
+          "text": "Ink"
+        },
+        {
+          "value": "plasma",
+          "text": "Plasma"
+        },
+        {
+          "value": "hyperliquid",
+          "text": "Hyperliquid"
+        },
+        {
+          "value": "sei",
+          "text": "Sei"
+        },
+        {
+          "value": "robinhood",
+          "text": "Robinhood"
+        },
+        {
+          "value": "elysium",
+          "text": "Elysium"
+        }
+      ]
+    },
+    {
+      "id": "network",
+      "name": "network",
+      "options": [
+        {
+          "value": "",
+          "text": "Network..."
+        },
+        {
+          "value": "mumbai",
+          "text": "Mumbai"
+        },
+        {
+          "value": "zkevm-goerli",
+          "text": "zkEVM Goerli"
+        },
+        {
+          "value": "amoy",
+          "text": "Amoy"
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    "Connect Wallet",
+    "Continue",
+    "How do I get Polygon Amoy POL from the Quicknode faucet?",
+    "How much POL can I get, and how often can I use the Polygon faucet?",
+    "What is Polygon Amoy?",
+    "What are the Polygon Amoy network details, including chain ID and RPC URL?",
+    "Why is my Polygon faucet request failing?",
+    "What can I build on Polygon Amoy?",
+    "Cookie Preferences",
+    "Cookies settings",
+    "Accept",
+    "Decline"
+  ]
+}

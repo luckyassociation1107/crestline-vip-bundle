@@ -1,0 +1,323 @@
+{
+  "url": "https://amoy-polygonscan-com.translate.goog/address/0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
+  "status": 200,
+  "title": "Address: 0x08EE5Cf3...ec8E96Db8 | PolygonScan Testnet",
+  "text": "Amoy Testnet\n /\nLight\nDim\nDark\nAuto (System)\n  \nPolygon Mainnet\nAmoy Testnet\n  \nHome\nBlockchain\nTransactions\nPending Transactions\nContract Internal Transactions\nPlasma Deposit Transactions\nAA Transactions\nEIP-7702 Authorizations Beta\nView Blocks\nForked Blocks (Reorgs)\nTop Accounts\nVerified Contracts\nTokens\nView ERC-20 Transfers\nNFTs\nLatest Transfers\nLatest Mints\nAPI\nMultichain API\nAPI Pricing\nAPI Documentation\nMore\nConverters\nUnit Converter\nBase64 Converter\nBlock & Date Converter\nUTF-8 Converter\nMethod ID Converter\nAPI\nAPI Documentation\nVerify Contract\nContract Diff Checker\nSimilar Contract Search\nVyper Online Compiler\nBytecode to Opcode\nBroadcast Transaction\nTools & Services\nCSV Export\nInput Data Decoder\nInput Data Encoder Beta\nAccount Balance Checker\nToken Supply Checker\nToken Standard Checker\nExplorers\nPolygon Mainnet\nAmoy Testnet\nSite Settings\nAppearance\nLight\nDim\nDark\nAuto (System)\nAddress\n0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\nAPI\nCheck Previous Balance\nOverview\nPOL Balance\n0 POL\nMore Info\nTransactions Sent\nLatest: N/A First: N/A\nFunded By\nN/A\nMultichain Info\nN/A\nTransactions\nToken Transfers (ERC-20)\n\tTransaction Hash\t\nMethod\n\t\nBlock\n\t\n\t\nFrom\n\t\t\nTo\n\t\nAmount\n\t\n\n\nThere are no matching entries\n\nPlease try again later\n\nParent Transaction Hash\tBlock\t\tFrom\t\tTo\tAmount\nView All Internal Transactions\nLoading...\nLoading\nCustom ABI tools are out of date or failed to load. Reload this page once and try again.\nAPI\nContract Name\n0 POL\nCompiler Version\n0\nOptimization Enabled\n0 POL\nOther Settings\n-NA-\nLicense\n-NA-\nCustom Contract ABI\n\nBlock\t\tTransaction\tGas Used\tReward\nview all blocks produced\n\nBlock\t\tUncle Number\tDifficulty\tGas Used\tReward\nView All Uncles\nLoading...\nLoading\nLoading...\nLoading\n\nValidator Index\tBlock\t\tAmount\nView All Withdrawals\n\nTransaction Hash\tBlock\t\tValue\tEth2 PubKey\tValid\nView All Deposits\n0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\nLoading...\nLoading\nLoading...\nLoading\n\nA wallet address is a publicly available address that allows its owner to receive funds from another party. To access the funds in an address, you must have its private key. Learn more about addresses in our Knowledge Base.\n\nAddress QR Code\nMy Address - Private Name Tag or Note\n\nMy Name Tag:\n\nCharacter limit:\nPrivate Name Tags (up to 35 characters) can be used for easy identification of addresses\n\nPrivate Note:\n\nCharacter limit:\nA private note (up to 500 characters) can be attached to this address.\nPlease DO NOT store any passwords or private keys here.\nView all Private Name Tags\nClose Save Changes\n👋\nBefore You Continue...\n📝\nConnecting your wallet enables signing messages to verify ownership or signing messages to interact with smart contracts.\n⚠️\nThis is provided as is, without guarantees or warranties of any kind.\n💸\nAll interactions are at your own risk. polygonscan is not responsible for any losses or damages resulting from use of this feature.\n🧠\nPlease ensure you understand what you're doing before continuing.\n🔗\nLearn more about connecting your wallet on polygonscan.\nUnderstand and Continue\nConnect a Wallet\nRabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets\nNo wallet found\nConnect a Wallet\nRabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets\nNo wallet found\nConnect a Wallet\nRabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets\nNo wallet found\nAdd Custom ABI\nAddress \nCustom ABI tools are out of date or failed to load. Reload this page once and try again.\nCustom ABI Magic Fill Find Similar\nApply Custom ABI to enable custom read/write functions for the current session. Save to also enable them for future sessions.\nCancel Apply Custom ABI\n×\nBefore You Copy\n\n Don't show this for 30 days\nUnderstand, Copy Address\nTransaction Private Note\nTransaction Hash \nPrivate Note Description \n\nPlease DO NOT store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.\n\nView All Transactions Private Notes\nCancel Save changes\nMy Address - Private Name Tag or Note\n\nMy Name Tag:\n\nPrivate Name Tags (up to 35 characters) can be used for easy identification of addresses\n\nPrivate Note:\n\nA private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.\nView all Private Name Tags\nClose Save Changes\n   Powered by Polygon PoS Chain\nBack to Top\n Add Polygon Amoy Network\n\nPolygonScan © 2026 (POLY-AMOY-A) | ⛏ Built by Team Etherscan\n\nTerms & Privacy | Network Status |\n\nDonations: 0x71c765...d8976f\n\nThis website uses cookies to improve your experience. By continuing to use this website, you agree to its Terms and Privacy Policy.\n\nGot it!",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "search-panel",
+      "name": "q",
+      "placeholder": "Search by Address / Txn Hash / Block / Token",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSearchText",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSearchLabel",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnIsTestNet",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": "True"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnAgeText",
+      "name": "hdnAgeText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Age"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnDateTimeText",
+      "name": "hdnDateTimeText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Date Time (UTC)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnAgeTitle",
+      "name": "hdnAgeTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "Click to show Age Format"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnDateTimeTitle",
+      "name": "hdnDateTimeTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "Click to show Datetime Format"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnTxnText",
+      "name": "hdnTxnText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Txn Fee"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnGasPriceText",
+      "name": "hdnGasPriceText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Gas Price"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnTxnFeeTitle",
+      "name": "hdnTxnFeeTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "(Gas Price * Gas Used by Txns) in POL"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnGasPriceTitle",
+      "name": "hdnGasPriceTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "Gas Price in Gwei"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSiteName",
+      "name": "hdnSiteName",
+      "placeholder": "",
+      "aria": "",
+      "value": "polygonscan"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSiteEmptyToken",
+      "name": "hdnSiteEmptyToken",
+      "placeholder": "",
+      "aria": "",
+      "value": "/assets/poly/images/svg/empty-token.svg?v=26.11.2.1"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSiteShortUrl",
+      "name": "hdnSiteShortUrl",
+      "placeholder": "",
+      "aria": "",
+      "value": "amoy.polygonscan.com"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnAddress",
+      "name": "ctl00$ContentPlaceHolder1$hdnAddress",
+      "placeholder": "",
+      "aria": "",
+      "value": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnEnsText",
+      "name": "ctl00$ContentPlaceHolder1$hdnEnsText",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnAgentIdText",
+      "name": "ctl00$ContentPlaceHolder1$hdnAgentIdText",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnIsEnsContainUnicodeChars",
+      "name": "ctl00$ContentPlaceHolder1$hdnIsEnsContainUnicodeChars",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnIsEnsContainZeroWidthChars",
+      "name": "ctl00$ContentPlaceHolder1$hdnIsEnsContainZeroWidthChars",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnIsUDContainUnicodeChars",
+      "name": "ctl00$ContentPlaceHolder1$hdnIsUDContainUnicodeChars",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnIsUDContainZeroWidthChars",
+      "name": "ctl00$ContentPlaceHolder1$hdnIsUDContainZeroWidthChars",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnIsBluePrintContract",
+      "name": "ctl00$ContentPlaceHolder1$hdnIsBluePrintContract",
+      "placeholder": "",
+      "aria": "",
+      "value": "0"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnErc20",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "txtPrivateNameTag",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "txtPrivateNoteArea",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "otherReadWriteWalletSearch",
+      "name": "",
+      "placeholder": "Search wallet",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "otherProxyReadWriteWalletSearch",
+      "name": "",
+      "placeholder": "Search wallet",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "otherCustomReadWriteWalletSearch",
+      "name": "",
+      "placeholder": "Search wallet",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "customAbiAddress",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8"
+    }
+  ],
+  "selects": [],
+  "buttons": [
+    "Light",
+    "Dim",
+    "Dark",
+    "Auto (System)",
+    "Blockchain",
+    "Tokens",
+    "NFTs",
+    "API",
+    "More",
+    "Explorers",
+    "Site Settings",
+    "Appearance",
+    "Light",
+    "Dim",
+    "Dark",
+    "Auto (System)",
+    "Close",
+    "Save Changes",
+    "Understand and Continue",
+    "Rabby Wallet",
+    "MetaMask",
+    "WalletConnect (Reown)",
+    "Other Wallets",
+    "Rabby Wallet",
+    "MetaMask",
+    "WalletConnect (Reown)",
+    "Other Wallets",
+    "Rabby Wallet",
+    "MetaMask",
+    "WalletConnect (Reown)",
+    "Other Wallets",
+    "Magic Fill",
+    "Cancel",
+    "Apply Custom ABI",
+    "×",
+    "Understand, Copy Address",
+    "Cancel",
+    "Save changes",
+    "Close",
+    "Save Changes",
+    "Add Polygon Amoy Network",
+    "Got it!"
+  ]
+}

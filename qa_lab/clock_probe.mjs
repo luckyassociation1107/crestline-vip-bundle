@@ -1,0 +1,13 @@
+import { chromium } from 'playwright';
+const b=await chromium.launch({headless:true,args:['--no-sandbox']});
+const p=await b.newPage();
+console.log('clock methods:',Object.getOwnPropertyNames(Object.getPrototypeOf(p.clock)).filter(x=>x!=='constructor'));
+await p.clock.install({time:new Date('2026-01-01T00:00:00Z')});
+await p.goto('data:text/html,<h1>x</h1>');
+console.log('t0',await p.evaluate(()=>new Date().toISOString()));
+let fired=0; await p.evaluate(()=>{window.__f=0;setTimeout(()=>window.__f++,1000)});
+await p.clock.setFixedTime(new Date('2026-01-02T00:00:00Z'));
+console.log('t1',await p.evaluate(()=>new Date().toISOString()),'timeoutFired',await p.evaluate(()=>window.__f));
+await p.clock.setFixedTime(new Date('2026-01-16T00:00:00Z'));
+console.log('t2',await p.evaluate(()=>new Date().toISOString()),'timeoutFired',await p.evaluate(()=>window.__f));
+await b.close();

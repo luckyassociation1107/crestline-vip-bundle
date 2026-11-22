@@ -1,0 +1,38 @@
+import { chromium } from 'playwright';
+import { spawn } from 'node:child_process';
+const srv=spawn('node',['/home/user/crestline_bundle/serve.mjs','/home/user/crestline_bundle/1-testnet-user/www','4576'],{stdio:'ignore'});
+await new Promise(r=>setTimeout(r,1200));
+const b=await chromium.launch({headless:true,args:['--no-sandbox']});
+const c=await b.newContext({acceptDownloads:true,viewport:{width:1280,height:950}});
+const p=await c.newPage(); const errs=[];
+p.on('pageerror',e=>errs.push(String(e).slice(0,150)));
+await p.goto('http://127.0.0.1:4576/',{waitUntil:'domcontentloaded'});
+await p.waitForTimeout(9000);
+await p.getByText('Create Account',{exact:false}).first().click();
+await p.waitForTimeout(1500);
+await p.getByPlaceholder('e.g., kiran_vip').fill('qauser_'+Date.now().toString(36));
+await p.getByPlaceholder('Minimum 6 characters').fill('QaPass!2345');
+await p.getByPlaceholder('6 digits (e.g. 482910)').fill('482910');
+const dl=p.waitForEvent('download',{timeout:30000}).catch(()=>null);
+await p.getByRole('button',{name:/Create Account/i}).first().click();
+await p.waitForTimeout(14000);
+const d=await dl;
+const t2=(await p.locator('body').innerText())||'';
+const uid=(t2.match(/UID-[A-Z0-9]+/)||[])[0];
+console.log('download:',d?await d.suggestedFilename():'none');
+console.log('UID:',uid||'none','textLen:',t2.length);
+console.log('excerpt:',t2.slice(0,700).replace(/\n+/g,' | '));
+// continue to dashboard if there's a continue button
+const cont=p.getByRole('button',{name:/continue|dashboard|proceed/i}).first();
+if(await cont.count()){await cont.click().catch(()=>{});await p.waitForTimeout(9000);}
+const t3=(await p.locator('body').innerText())||'';
+console.log('\n--- dashboard ---');
+console.log('len:',t3.length);
+console.log('deposit section:',(t3.match(/[^|]{0,80}(deposit|USDT|USDC|bucket)[^|]{0,120}/i)||['none'])[0].replace(/\n+/g,' '));
+console.log('config error?:',t3.includes('not configured')?'YES':'none');
+console.log('shows token addr?:',/0x41E94Eb0/i.test(t3));
+console.log('pool addr?:',/0x08EE5Cf3/i.test(t3));
+console.log('jsErrors:',errs.length);
+await p.screenshot({path:'/home/user/qa_lab/shots/real_dashboard.png',fullPage:true}).catch(()=>{});
+console.log('full dash text:',t3.slice(0,1500).replace(/\n+/g,' | '));
+await b.close(); srv.kill();

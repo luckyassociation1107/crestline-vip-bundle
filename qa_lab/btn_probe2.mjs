@@ -1,0 +1,16 @@
+import { chromium } from 'playwright';
+const b=await chromium.launch({headless:true,args:['--no-sandbox','--disable-blink-features=AutomationControlled']});
+const c=await b.newContext({viewport:{width:1440,height:1000},locale:'en-US'});const p=await c.newPage();
+await p.goto('https://faucet.quicknode.com/polygon/amoy',{waitUntil:'domcontentloaded',timeout:45000});await p.waitForTimeout(2500);
+const cont=p.getByRole('button',{name:'Continue',exact:true});
+console.log('initial enabled?',await cont.isEnabled());
+await p.selectOption('#chain','polygon');await p.selectOption('#network','amoy');await p.fill('#wallet','0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8');
+await p.waitForTimeout(500);
+console.log('after fill enabled?',await cont.isEnabled());
+console.log('attr value:',await cont.getAttribute('value'),'name:',await cont.getAttribute('name'));
+console.log('selector count:',await p.locator('button[name=_action][value=step-one]').count());
+console.log('outer:',await cont.evaluate(e=>e.outerHTML.slice(0,400)));
+await cont.click({timeout:10000}).catch(e=>console.log('click err',String(e).slice(0,150)));
+await p.waitForTimeout(3500);
+console.log('text after:',(await p.locator('body').innerText()).slice(0,800).replace(/\n{2,}/g,'\n'));
+await b.close();

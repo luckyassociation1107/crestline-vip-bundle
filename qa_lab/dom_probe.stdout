@@ -1,0 +1,479 @@
+
+===== amoy-home ===== 200 err=null len=3859
+TEXT: Amoy Testnet
+Light
+Dim
+Dark
+Auto (System)
+  
+Polygon Mainnet
+Amoy Testnet
+  
+Home
+Blockchain
+Transactions
+Pending Transactions
+Contract Internal Transactions
+Plasma Deposit Transactions
+AA Transactions
+EIP-7702 Authorizations Beta
+View Blocks
+Forked Blocks (Reorgs)
+Top Accounts
+Verified Contracts
+Tokens
+View ERC-20 Transfers
+NFTs
+Latest Transfers
+Latest Mints
+API
+Multichain API
+API Pricing
+API Documentation
+More
+Converters
+Unit Converter
+Base64 Converter
+Block & Date Converter
+UTF-8 Converter
+Method ID Converter
+API
+API Documentation
+Verify Contract
+Contract Diff Checker
+Similar Contract Search
+Vyper Online Compiler
+Bytecode to Opcode
+Broadcast Transaction
+Tools & Services
+CSV Export
+Input Data Decoder
+Input Data Encoder Beta
+Account Balance Checker
+Token Supply Checker
+Token Standard Checker
+Explorers
+Polygon Mainnet
+Amoy Testnet
+Site Settings
+Appearance
+Light
+Dim
+Dark
+Auto (System)
+Polygon PoS Chain Amoy Testnet Explorer
+All Filters
+Addresses
+Tokens
+Search 
+Transactions
+98.06 M (3.1 TPS)
+Base Fee
+18,487 wei
+Latest Block
+53304107
+Latest Blocks
+Block53304107
+3 secs ago
+Validated By 0x6dc2dD54...eD722280c
+5 txns in 1 sec0.06241 POL
+0.06241 POL
+Block53304106
+4 secs ago
+Validated By 0x6dc2dD54...eD722280c
+2 txns in 1 sec0.00246 POL
+0.00246 POL
+Block53304105
+5 secs ago
+Validated By 0x6dc2dD54...eD722280c
+3 txns in 1 sec0.10278 POL
+0.10278 POL
+Block53304104
+6 secs ago
+Validated By 0x6dc2dD54...eD722280c
+2 txns in 1 sec0.06066 POL
+0.06066 POL
+Block53304103
+7 secs ago
+Validated By 0x6dc2dD54...eD722280c
+1 txn in 1 sec0.00075 POL
+0.00075 POL
+Block53304102
+8 secs ago
+Validated By 0x6dc2dD54...eD722280c
+2 txns in 1 sec0.05008 POL
+0.05008 POL
+View all blocks
+Latest Transactions
+TX#0x023b004cc79ce7ceeff2f154fcd14af365678a156260b4bfa46f1462b7e53e56
+3 secs ago
+From 0xe7d1B266...618F02ba7
+To 0xA506Be11...DABACB83C0.2 POL
+0.2 POL
+TX#0x3e3c147e590e1b6e9df9ee995c808e0649db6be530c870da0ac9559e04b1694d
+3 secs ago
+From 0x1522E0De...a4A88abBB
+To 0xd15D967D...8406Ddf670 POL
+0 POL
+TX#0x6f82382ebffbc00140aa6add2a73dbba740908ef4be77e02fad97000613957d4
+3 secs ago
+From 0x9fA93d09...9E40C9BD0
+To 0xe3333700...05F6c00Aa0 POL
+0 POL
+TX#0x78e5f4c22f996ba06d3d378cd9ffadcf66ab72e00318e1bf146652487
+INPUTS: [{"tag":"INPUT","type":"hidden","id":"hdnAgeText","name":"hdnAgeText","placeholder":"","aria":"","value":"Age"},{"tag":"INPUT","type":"hidden","id":"hdnDateTimeText","name":"hdnDateTimeText","placeholder":"","aria":"","value":"Date Time (UTC)"},{"tag":"INPUT","type":"hidden","id":"hdnAgeTitle","name":"hdnAgeTitle","placeholder":"","aria":"","value":"Click to show Age Format"},{"tag":"INPUT","type":"hidden","id":"hdnDateTimeTitle","name":"hdnDateTimeTitle","placeholder":"","aria":"","value":"Click to show Datetime Format"},{"tag":"INPUT","type":"hidden","id":"hdnTxnText","name":"hdnTxnText","placeholder":"","aria":"","value":"Txn Fee"},{"tag":"INPUT","type":"hidden","id":"hdnGasPriceText","name":"hdnGasPriceText","placeholder":"","aria":"","value":"Gas Price"},{"tag":"INPUT","type":"hidden","id":"hdnTxnFeeTitle","name":"hdnTxnFeeTitle","placeholder":"","aria":"","value":"(Gas Price * Gas Used by Txns) in POL"},{"tag":"INPUT","type":"hidden","id":"hdnGasPriceTitle","name":"hdnGasPriceTitle","placeholder":"","aria":"","value":"Gas Price in Gwei"},{"tag":"INPUT","type":"hidden","id":"hdnSiteName","name":"hdnSiteName","placeholder":"","aria":"","value":"polygonscan"},{"tag":"INPUT","type":"hidden","id":"hdnSiteEmptyToken","name":"hdnSiteEmptyToken","placeholder":"","aria":"","value":"/assets/poly/images/svg/empty-token.svg?v=26.11.2.1"},{"tag":"INPUT","type":"hidden","id":"hdnSiteShortUrl","name":"hdnSiteShortUrl","placeholder":"","aria":"","value":"amoy.polygonscan.com"},{"tag":"SELECT","type":"select-one","id":"","name":"f","aria":"Default select example","value":"0"},{"tag":"INPUT","type":"text","id":"search-panel","name":"q","placeholder":"Search by Address / Txn Hash / Block / Token","aria":"","value":""},{"tag":"INPUT","type":"hidden","id":"hdnSearchText","name":"","placeholder":"","aria":"","value":""},{"tag":"INPUT","type":"hidden","id":"hdnSearchLabel","name":"","placeholder":"","aria":"","value":""}]
+SELECTS: [{"id":"","name":"f","options":[{"value":"0","text":"All Filters"},{"value":"1","text":"Addresses"},{"value":"2","text":"Tokens"}]}]
+BUTTONS: ["Light","Dim","Dark","Auto (System)","Blockchain","Tokens","NFTs","API","More","Explorers","Site Settings","Appearance","Light","Dim","Dark","Auto (System)","Close","Save changes","Close","Save changes","×","Understand, Copy Address","Cancel","Save changes","Close","Save Changes","Add Polygon Amoy Network","Got it!"]
+
+===== amoy-pool ===== 200 err=null len=4632
+TEXT: Amoy Testnet
+ /
+Light
+Dim
+Dark
+Auto (System)
+  
+Polygon Mainnet
+Amoy Testnet
+  
+Home
+Blockchain
+Transactions
+Pending Transactions
+Contract Internal Transactions
+Plasma Deposit Transactions
+AA Transactions
+EIP-7702 Authorizations Beta
+View Blocks
+Forked Blocks (Reorgs)
+Top Accounts
+Verified Contracts
+Tokens
+View ERC-20 Transfers
+NFTs
+Latest Transfers
+Latest Mints
+API
+Multichain API
+API Pricing
+API Documentation
+More
+Converters
+Unit Converter
+Base64 Converter
+Block & Date Converter
+UTF-8 Converter
+Method ID Converter
+API
+API Documentation
+Verify Contract
+Contract Diff Checker
+Similar Contract Search
+Vyper Online Compiler
+Bytecode to Opcode
+Broadcast Transaction
+Tools & Services
+CSV Export
+Input Data Decoder
+Input Data Encoder Beta
+Account Balance Checker
+Token Supply Checker
+Token Standard Checker
+Explorers
+Polygon Mainnet
+Amoy Testnet
+Site Settings
+Appearance
+Light
+Dim
+Dark
+Auto (System)
+Address
+0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8
+API
+Check Previous Balance
+Overview
+POL Balance
+0 POL
+More Info
+Transactions Sent
+Latest: N/A First: N/A
+Funded By
+N/A
+Multichain Info
+N/A
+Transactions
+Token Transfers (ERC-20)
+	Transaction Hash	
+Method
+	
+Block
+	
+	
+From
+		
+To
+	
+Amount
+	
+There are no matching entries
+Please try again later
+Parent Transaction Hash	Block		From		To	Amount
+View All Internal Transactions
+Loading...
+Loading
+Custom ABI tools are out of date or failed to load. Reload this page once and try again.
+API
+Contract Name
+0 POL
+Compiler Version
+0
+Optimization Enabled
+0 POL
+Other Settings
+-NA-
+License
+-NA-
+Custom Contract ABI
+Block		Transaction	Gas Used	Reward
+view all blocks produced
+Block		Uncle Number	Difficulty	Gas Used	Reward
+View All Uncles
+Loading...
+Loading
+Loading...
+Loading
+Validator Index	Block		Amount
+View All Withdrawals
+Transaction Hash	Block		Value	Eth2 PubKey	Valid
+View All Deposits
+0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8
+Loading...
+Loading
+Loading...
+Loading
+A wallet address is a publicly available address that allows its owner to receive funds from another party. To access the funds in an address, you must have its private key. Learn more about addresses in our Knowledge Base.
+Address QR Code
+My Address - Private Name Tag or Note
+My
+INPUTS: [{"tag":"INPUT","type":"text","id":"search-panel","name":"q","placeholder":"Search by Address / Txn Hash / Block / Token","aria":"","value":""},{"tag":"INPUT","type":"hidden","id":"hdnSearchText","name":"","placeholder":"","aria":"","value":""},{"tag":"INPUT","type":"hidden","id":"hdnSearchLabel","name":"","placeholder":"","aria":"","value":""},{"tag":"INPUT","type":"hidden","id":"hdnIsTestNet","name":"","placeholder":"","aria":"","value":"True"},{"tag":"INPUT","type":"hidden","id":"hdnAgeText","name":"hdnAgeText","placeholder":"","aria":"","value":"Age"},{"tag":"INPUT","type":"hidden","id":"hdnDateTimeText","name":"hdnDateTimeText","placeholder":"","aria":"","value":"Date Time (UTC)"},{"tag":"INPUT","type":"hidden","id":"hdnAgeTitle","name":"hdnAgeTitle","placeholder":"","aria":"","value":"Click to show Age Format"},{"tag":"INPUT","type":"hidden","id":"hdnDateTimeTitle","name":"hdnDateTimeTitle","placeholder":"","aria":"","value":"Click to show Datetime Format"},{"tag":"INPUT","type":"hidden","id":"hdnTxnText","name":"hdnTxnText","placeholder":"","aria":"","value":"Txn Fee"},{"tag":"INPUT","type":"hidden","id":"hdnGasPriceText","name":"hdnGasPriceText","placeholder":"","aria":"","value":"Gas Price"},{"tag":"INPUT","type":"hidden","id":"hdnTxnFeeTitle","name":"hdnTxnFeeTitle","placeholder":"","aria":"","value":"(Gas Price * Gas Used by Txns) in POL"},{"tag":"INPUT","type":"hidden","id":"hdnGasPriceTitle","name":"hdnGasPriceTitle","placeholder":"","aria":"","value":"Gas Price in Gwei"},{"tag":"INPUT","type":"hidden","id":"hdnSiteName","name":"hdnSiteName","placeholder":"","aria":"","value":"polygonscan"},{"tag":"INPUT","type":"hidden","id":"hdnSiteEmptyToken","name":"hdnSiteEmptyToken","placeholder":"","aria":"","value":"/assets/poly/images/svg/empty-token.svg?v=26.11.2.1"},{"tag":"INPUT","type":"hidden","id":"hdnSiteShortUrl","name":"hdnSiteShortUrl","placeholder":"","aria":"","value":"amoy.polygonscan.com"}]
+SELECTS: []
+BUTTONS: ["Light","Dim","Dark","Auto (System)","Blockchain","Tokens","NFTs","API","More","Explorers","Site Settings","Appearance","Light","Dim","Dark","Auto (System)","Close","Save Changes","Understand and Continue","Rabby Wallet","MetaMask","WalletConnect (Reown)","Other Wallets","Rabby Wallet","MetaMask","WalletConnect (Reown)","Other Wallets","Rabby Wallet","MetaMask","WalletConnect (Reown)"]
+
+===== poly-home ===== 200 err=null len=4780
+TEXT: POL Price: $0.0798 (-0.81%)
+Gas: 273.349 Web
+Light
+Dim
+Dark
+Auto (System)
+  
+Polygon Mainnet
+Amoy Testnet
+  
+Sign In 
+Home
+Blockchain
+Transactions
+Pending Transactions
+Contract Internal Transactions
+Cross-Chain Transactions
+Plasma Deposit Transactions
+AA Transactions
+EIP-7702 Authorizations Beta
+View Blocks
+Forked Blocks (Reorgs)
+Top Accounts
+Verified Contracts
+Tokens
+Top Tokens (ERC-20)
+Token Transfers (ERC-20)
+Token Flow VisualizerBeta
+NFTs
+Top Mints
+Latest Trades
+Latest Transfers
+Latest Mints
+Resources
+Charts & Stats
+Directory
+API
+Multichain API
+API Pricing
+API Documentation
+More
+Developer Tools
+Input Data Encoder Beta
+Input Data Decoder
+Unit Converter
+Download Data (CSV Export)
+Account Balance Checker
+Broadcast Transaction
+Bytecode to Opcode
+Smart Contract Tools
+Code Reader
+Verify Contract
+Similar Contract Search
+Contract Diff Checker
+Vyper Online Compiler
+Explore
+Gas Tracker
+Node Tracker
+Label Cloud
+Domain Name Lookup
+Services
+Token Approvals
+Verified Signature
+Input Data Messages (IDM)
+Advanced Filter
+Explorers
+Polygon Mainnet
+Amoy Testnet
+Site Settings
+Appearance
+Light
+Dim
+Dark
+Auto (System)
+|
+Sign In
+Polygon PoS Chain Explorer
+All Filters
+Addresses
+Tokens
+Name Tags
+Domain Names
+Labels
+Websites
+Search 
+Polygonscan - Sponsored slots available. Book your slot here!
+Advertisement Advertisement Advertisement
+POL Price
+$0.0798 @ 0.000001 BTC (-0.81%)
+POL Market Cap on Polygon
+$849,742,235.00 (10,652,537,142 POL)
+Transactions
+8,385.76 M (37.0 TPS)
+Med Gas Price
+273.349 Net (< $0.00001)
+Latest Block
+97614257 (1.50s)
+POLYGON POS CHAIN Transaction History in 14 days
+Advertisement Advertisement Advertisement
+Latest Blocks
+Customize
+Block 97614257
+5 secs ago
+Validated By 0x233d596e...c6b086cb7
+81 txns in 2 secs11.27421 POL
+11.27421 POL
+Block97614256
+7 secs ago
+Validated By 0x233d596e...c6b086cb7
+37 txns in 1 sec3.79431 POL
+3.79431 POL
+Block97614255
+8 secs ago
+Validated By 0x233d596e...c6b086cb7
+49 txns in 2 secs6.93012 POL
+6.93012 POL
+Block97614254
+10 secs ago
+Validated By 0x233d596e...c6b086cb7
+65 txns in 1 sec 11 . 10956 POL
+11.10956 POL
+Block 97614253
+11 secs ago
+Validated By 0x233d596e...c6b086cb7
+50 txns in 2 secs8.52265 POL
+8.52265 POL
+Block 97614252
+13 secs
+INPUTS: [{"tag":"INPUT","type":"hidden","id":"hdnAgeText","name":"hdnAgeText","placeholder":"","aria":"","value":"Age"},{"tag":"INPUT","type":"hidden","id":"hdnDateTimeText","name":"hdnDateTimeText","placeholder":"","aria":"","value":"Date Time (UTC)"},{"tag":"INPUT","type":"hidden","id":"hdnAgeTitle","name":"hdnAgeTitle","placeholder":"","aria":"","value":"Click to show Age Format"},{"tag":"INPUT","type":"hidden","id":"hdnDateTimeTitle","name":"hdnDateTimeTitle","placeholder":"","aria":"","value":"Click to show Datetime Format"},{"tag":"INPUT","type":"hidden","id":"hdnTxnText","name":"hdnTxnText","placeholder":"","aria":"","value":"Txn Fee"},{"tag":"INPUT","type":"hidden","id":"hdnGasPriceText","name":"hdnGasPriceText","placeholder":"","aria":"","value":"Gas Price"},{"tag":"INPUT","type":"hidden","id":"hdnTxnFeeTitle","name":"hdnTxnFeeTitle","placeholder":"","aria":"","value":"(Gas Price * Gas Used by Txns) in POL"},{"tag":"INPUT","type":"hidden","id":"hdnGasPriceTitle","name":"hdnGasPriceTitle","placeholder":"","aria":"","value":"Gas Price in Gwei"},{"tag":"INPUT","type":"hidden","id":"hdnSiteName","name":"hdnSiteName","placeholder":"","aria":"","value":"polygonscan"},{"tag":"INPUT","type":"hidden","id":"hdnSiteEmptyToken","name":"hdnSiteEmptyToken","placeholder":"","aria":"","value":"/assets/poly/images/svg/empty-token.svg?v=26.11.2.1"},{"tag":"INPUT","type":"hidden","id":"hdnSiteShortUrl","name":"hdnSiteShortUrl","placeholder":"","aria":"","value":"polygonscan.com"},{"tag":"SELECT","type":"select-one","id":"","name":"f","aria":"Default select example","value":"0"},{"tag":"INPUT","type":"text","id":"search-panel","name":"q","placeholder":"Search by Address / Txn Hash / Block / Token / Domain Name","aria":"","value":""},{"tag":"INPUT","type":"hidden","id":"hdnSearchText","name":"","placeholder":"","aria":"","value":""},{"tag":"INPUT","type":"hidden","id":"hdnSearchLabel","name":"","placeholder":"","aria":"","value":""}]
+SELECTS: [{"id":"","name":"f","options":[{"value":"0","text":"All Filters"},{"value":"1","text":"Addresses"},{"value":"2","text":"Tokens"},{"value":"3","text":"Name Tags"},{"value":"6","text":"Domain Names"},{"value":"4","text":"Labels"},{"value":"5","text":"Websites"}]}]
+BUTTONS: ["Light","Dim","Dark","Auto (System)","Blockchain","Tokens","NFTs","Resources","API","More","Explorers","Site Settings","Appearance","Light","Dim","Dark","Auto (System)","Customize","Customize","Close","Save changes","Close","Save changes","×","Understand, Copy Address","Cancel","Save changes","Close","Save Changes","Add Polygon Network"]
+
+===== poly-usdt-token ===== 403 err=null len=0
+TEXT: 
+INPUTS: []
+SELECTS: []
+BUTTONS: []
+
+===== poly-usdt-filtered ===== 403 err=null len=0
+TEXT: 
+INPUTS: []
+SELECTS: []
+BUTTONS: []
+
+===== faucet ===== 200 err=null len=5054
+TEXT: // FAUCET
+Polygon
+Amoy Faucet
+Quicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.
+1
+Connect your wallet
+2
+Choose your amount
+3
+Receive your tokens
+Drop in your wallet details
+Connect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.
+Wallet Address
+Connect Wallet
+Select your chain and network
+Chain...
+Ethereum
+Polygon
+Binance Smart Chain
+Optimism
+Arbitrum
+Avalanche
+Solana
+Base
+Blast
+zkSync
+Berachain
+Morph
+Cyber
+Mantle
+Story
+Monad
+Unichain
+Ink
+Plasma
+Hyperliquid
+Sei
+Robinhood
+Elysium
+Network...
+Mumbai
+zkEVM Goerli
+Amoy
+Continue
+// KEEP EXPLORING
+Tutorials, docs and more
+We do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.
+// GUIDE
+How to Deploy a Smart Contract on Polygon (Smart Contract)
+In this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.
+VIEW GUIDE
+// GUIDE
+How to Mint an NFT on Polygon with Ethers.js (NFT)
+In this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.
+VIEW GUIDE
+// GUIDE
+How to Create a Telegram Bot with QuickAlerts on Polygon
+Learn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.
+VIEW GUIDE
+// GUIDE
+(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)
+Learn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.
+VIEW GUIDE
+// FAQ
+Polygon Amoy Faucet FAQ
+How do I get Polygon Amoy POL from the Quicknode faucet?
+Select Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.
+How 
+INPUTS: [{"tag":"INPUT","type":"text","id":"wallet","name":"wallet","placeholder":"0x...","aria":"","value":""},{"tag":"SELECT","type":"select-one","id":"chain","name":"chain","aria":"","value":"polygon"},{"tag":"SELECT","type":"select-one","id":"network","name":"network","aria":"","value":"amoy"},{"tag":"INPUT","type":"hidden","id":"","name":"authToken","placeholder":"","aria":"","value":""}]
+SELECTS: [{"id":"chain","name":"chain","options":[{"value":"","text":"Chain..."},{"value":"ethereum","text":"Ethereum"},{"value":"polygon","text":"Polygon"},{"value":"binance-smart-chain","text":"Binance Smart Chain"},{"value":"optimism","text":"Optimism"},{"value":"arbitrum","text":"Arbitrum"},{"value":"avalanche","text":"Avalanche"},{"value":"solana","text":"Solana"},{"value":"base","text":"Base"},{"value":"blast","text":"Blast"},{"value":"zksync","text":"zkSync"},{"value":"berachain","text":"Berachain"},{"value":"morph","text":"Morph"},{"value":"cyber","text":"Cyber"},{"value":"mantle","text":"Mantle"},{"value":"story","text":"Story"},{"value":"monad","text":"Monad"},{"value":"unichain","text":"Unichain"},{"value":"ink","text":"Ink"},{"value":"plasma","text":"Plasma"},{"value":"hyperliquid","text":"Hyperliquid"},{"value":"sei","text":"Sei"},{"value":"robinhood","text":"Robinhood"},{"value":"elysium","text":"Elysium"}]},{"id":"network","name":"network","options":[{"value":"","text":"Network..."},{"value":"mumbai","text":"Mumbai"},{"value":"zkevm-goerli","text":"zkEVM Goerli"},{"value":"amoy","text":"Amoy"}]}]
+BUTTONS: ["Connect Wallet","Continue","How do I get Polygon Amoy POL from the Quicknode faucet?","How much POL can I get, and how often can I use the Polygon faucet?","What is Polygon Amoy?","What are the Polygon Amoy network details, including chain ID and RPC URL?","Why is my Polygon faucet request failing?","What can I build on Polygon Amoy?","Cookie Preferences","Cookies settings","Accept","Decline"]

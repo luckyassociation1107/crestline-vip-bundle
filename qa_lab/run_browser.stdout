@@ -1,0 +1,30 @@
+
+======================================================================
+BROWSER FLOWS: 24 passed, 0 failed, 2 blocked
+======================================================================
+  PASS  1-testnet-user: login/signup screen renders
+  PASS  1-testnet-user: no admin UI leaked into user build
+  PASS  1-testnet-user: account creation produces UID :: UID-7VKT7KHSBP
+  PASS  1-testnet-user: encrypted recovery file offered
+  PASS  1-testnet-user: dashboard reached
+  PASS  1-testnet-user: $20 deposit / bucket lock / same-wallet UI
+  PASS  1-testnet-user: no uncaught JS errors
+  PASS  2-testnet-admin: admin auth gate renders
+  PASS  2-testnet-admin: no user deposit UI leaked into admin build
+  PASS  2-testnet-admin: seed + 2-of-3 guardian recovery tabs work
+  PASS  2-testnet-admin: invalid passcode rejected
+  BLOCK  2-testnet-admin: admin console AFTER login :: BLOCKED: set ADMIN_CODE (owner 6-char code) to test; master seed is not in the bundle
+  PASS  2-testnet-admin: no uncaught JS errors
+  PASS  3-mainnet-user: login/signup screen renders
+  PASS  3-mainnet-user: no admin UI leaked into user build
+  PASS  3-mainnet-user: account creation produces UID :: UID-6YC9KANHKR
+  PASS  3-mainnet-user: encrypted recovery file offered
+  PASS  3-mainnet-user: dashboard reached
+  PASS  3-mainnet-user: $20 deposit / bucket lock / same-wallet UI
+  PASS  3-mainnet-user: no uncaught JS errors
+  PASS  4-mainnet-admin: admin auth gate renders
+  PASS  4-mainnet-admin: no user deposit UI leaked into admin build
+  PASS  4-mainnet-admin: seed + 2-of-3 guardian recovery tabs work
+  PASS  4-mainnet-admin: invalid passcode rejected
+  BLOCK  4-mainnet-admin: admin console AFTER login :: BLOCKED: set ADMIN_CODE (owner 6-char code) to test; master seed is not in the bundle
+  PASS  4-mainnet-admin: no uncaught JS errors

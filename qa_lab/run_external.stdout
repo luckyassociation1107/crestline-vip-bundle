@@ -1,0 +1,86 @@
+
+==============================================================================
+PLAYWRIGHT EXTERNAL: PASS 65 · FAIL 0 · BLOCKED 5 · INFO 10
+==============================================================================
+  PASS    polygonscan-direct: HTTP 403 Cloudflare (recorded, not a product failure) :: status=403 title=Just a moment...
+  INFO    polygonscan-direct: Cloudflare message :: polygonscan.com | Performing security verification |  | This website uses a security service to protect against malicious bots. This page is displayed while the websi
+  PASS    amoy-direct: HTTP 403 Cloudflare (recorded, not a product failure) :: status=403 title=Just a moment...
+  INFO    amoy-direct: Cloudflare message :: amoy.polygonscan.com | Performing security verification |  | This website uses a security service to protect against malicious bots. This page is displayed while the 
+  BLOCKED Direct Polygonscan/Amoy UI in this sandbox :: Cloudflare 403; same pages verified below via translate proxy inside Playwright
+  PASS    amoy-home: HTTP 200 via translate proxy :: status=200 len=3860
+  PASS    amoy-home: title / chain label :: TESTNET Polygon PoS Chain Amoy (POL) Blockchain Explorer
+  PASS    amoy-home: latest block visible :: Latest Block 53420463 Latest Blocks Block53420463 5 
+  PASS    amoy-home: transactions + gas/price stats visible :: stats present
+  PASS    amoy-home: address/tx search box present :: Search by Address / Txn Hash / Block / Token
+  PASS    amoy-home: search box accepts an address :: typed address
+  INFO    amoy-home: body excerpt :: Amoy Testnet | Light | Dim | Dark | Auto (System) |    | Polygon Mainnet | Amoy Testnet |    | Home | Blockchain | Transactions | Pending Transactions | Contract Internal Transactions | Plasma Deposit Transactions | AA Transactions | EIP-7702 Authoriza
+  PASS    polygon-home: HTTP 200 via translate proxy :: status=200 len=4752
+  PASS    polygon-home: title / chain label :: Polygon PoS Chain (POL) Blockchain Explorer
+  PASS    polygon-home: latest block visible :: Latest Block 97691823 (1.50s) POLYGON POS CHAIN Tran
+  PASS    polygon-home: transactions + gas/price stats visible :: stats present
+  PASS    polygon-home: address/tx search box present :: Search by Address / Txn Hash / Block / Token / Domain Name
+  PASS    polygon-home: search box accepts an address :: typed address
+  INFO    polygon-home: body excerpt :: POL Price: $0.0729 (-6.97%) | Gas: 271.887 Web | Light | Dim | Dark | Auto (System) |    | Polygon Mainnet | Amoy Testnet |    | Sign In  | Home | Blockchain | Transactions | Pending Transactions | Contract Internal Transactions | Cross-Chain Transacti
+  PASS    amoy-pool: HTTP 200, no Cloudflare :: status=200 len=4632
+  PASS    amoy-pool: page shows exact address :: 0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8
+  PASS    amoy-pool: explorer/network label :: Amoy Testnet
+  PASS    amoy-pool: 0 POL balance :: POL Balance 0 POL More Info Transactions Sent Latest: N/A First: N/A Fu
+  PASS    amoy-pool: no transactions :: no matching entries
+  PASS    amoy-pool: no verified contract / compiler :: no contract code
+  PASS    amoy-pool: Transactions Sent = N/A :: N/A
+  INFO    amoy-pool: title :: Address: 0x08EE5Cf3...ec8E96Db8 | PolygonScan Testnet
+  PASS    amoy-registry: HTTP 200, no Cloudflare :: status=200 len=4632
+  PASS    amoy-registry: page shows exact address :: 0x9be43bC43b1b3e47f9507696101938EB830cbae8
+  PASS    amoy-registry: explorer/network label :: Amoy Testnet
+  PASS    amoy-registry: 0 POL balance :: POL Balance 0 POL More Info Transactions Sent Latest: N/A First: N/A Fu
+  PASS    amoy-registry: no transactions :: no matching entries
+  PASS    amoy-registry: no verified contract / compiler :: no contract code
+  PASS    amoy-registry: Transactions Sent = N/A :: N/A
+  INFO    amoy-registry: title :: Address: 0x9be43bC4...B830cbae8 | PolygonScan Testnet
+  PASS    mainnet-pool: HTTP 200, no Cloudflare :: status=200 len=7305
+  PASS    mainnet-pool: page shows exact address :: 0xA14e867C7B4539B776F88FEDA19cf011b88c793b
+  PASS    mainnet-pool: explorer/network label :: Polygon Mainnet
+  PASS    mainnet-pool: 0 POL balance :: POL Balance 0 POL POL Value $0.00 More Info Private Name Tags Add Trans
+  PASS    mainnet-pool: no transactions :: no matching entries
+  PASS    mainnet-pool: no verified contract / compiler :: no contract code
+  PASS    mainnet-pool: Transactions Sent = N/A :: N/A
+  INFO    mainnet-pool: title :: Address: 0xA14e867C...1b88c793b | PolygonScan
+  PASS    mainnet-usdt: HTTP 200, no Cloudflare :: status=200 len=41372
+  PASS    mainnet-usdt: page shows exact address :: 0xc2132D05D31c914a87C6611C10748AEb04B58e8F
+  PASS    mainnet-usdt: explorer/network label :: Polygon Mainnet
+  PASS    mainnet-usdt: USDT0 token contract :: USDT0 / Token Contract
+  PASS    mainnet-usdt: source code / proxy present :: verified source
+  PASS    mainnet-usdt: non-zero native POL balance :: 0.001014010001 POL
+  INFO    mainnet-usdt: title :: USDT0: USDT0 Token | Address: 0xc2132D05...b04B58e8F | PolygonScan
+  INFO    Token page via translate proxy :: /token/... returned 403; /address/... contract page used instead (same Polygonscan data, no API key)
+  PASS    QuickNode faucet: HTTP 200 direct :: status=200 title=Polygon Amoy Faucet - Free Testnet POL Tokens
+  PASS    QuickNode faucet: Polygon Amoy page :: Polygon Amoy Faucet - Free Testnet POL Tokens
+  PASS    QuickNode faucet: 3-step flow shown :: 3 steps
+  PASS    QuickNode faucet: chain/network preselected :: polygon / amoy
+  PASS    QuickNode faucet: Polygon option exists :: Polygon
+  PASS    QuickNode faucet: Amoy + Mumbai options exist :: Amoy / Mumbai
+  PASS    QuickNode faucet: wallet input placeholder :: 0x...
+  PASS    QuickNode faucet: Connect Wallet button present :: button present
+  PASS    QuickNode faucet: FAQ states chain ID 80002 :: 80002
+  PASS    QuickNode faucet: FAQ states base drip needs no account :: no account
+  PASS    QuickNode faucet: FAQ states small mainnet balance gate :: anti-abuse gate
+  PASS    QuickNode faucet: FAQ states 12h cooldown :: 12h
+  PASS    QuickNode faucet: authToken hidden field empty :: no login token
+  PASS    QuickNode faucet: zero-ETH address rejected :: Insufficient ETH mainnet balance
+  PASS    QuickNode faucet: Mumbai route rejected/redirected correctly :: https://faucet.quicknode.com/polygon/mumbai/bonus?wallet=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
+  PASS    QuickNode faucet: step 2 URL / Choose your amount :: https://faucet.quicknode.com/polygon/amoy/bonus?wallet=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045
+  PASS    QuickNode faucet: base drip amount 0.025 POL :: 0.025 POL
+  PASS    QuickNode faucet: optional 0.05 / 0.1 bonuses locked :: locked bonuses
+  PASS    QuickNode faucet: hidden chain/network/wallet preserved :: hidden fields
+  PASS    QuickNode faucet: invisible reCAPTCHA token auto-populated :: len=2553
+  PASS    QuickNode faucet: visitorId fingerprint present :: visitorId
+  PASS    QuickNode faucet: authToken still empty (no login needed) :: empty
+  PASS    QuickNode faucet: "Send to" button present :: Send to
+0xd8...5
+  BLOCKED QuickNode faucet: real 0.025 POL drip :: QuickNode returned "Please come back in 12 hours" (wallet / egress rate-limit cooldown); no tx hash produced
+  PASS    QuickNode faucet: cooldown/rate-limit response captured :: Please come back in 12 hours.
+  INFO    QuickNode faucet: formErrors response :: [{"_1":2},"data",{"_3":4,"_5":6,"_7":8},"formErrors",{"_9":10},"chain","polygon","network","amoy","send","Please come back in 12 hours."]
+
+  BLOCKED Real on-chain $20 USDT deposit / $13.80 payout :: Explorer/faucet UI cannot exercise the app ledger; needs deployed vault, test USDT contract, funded wallet and tx hashes
+  BLOCKED Admin console post-login operations :: owner 6-char passcode / master seed not supplied (see TEST_RESULTS_FULL.md)
+  BLOCKED Native Android runtime :: no emulator/device; APKs are structurally valid but not launched

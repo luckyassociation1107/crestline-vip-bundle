@@ -1,0 +1,858 @@
+[
+  {
+    "name": "invalid-address",
+    "wallet": "not-an-address",
+    "chain": "polygon",
+    "network": "amoy",
+    "initial": [
+      {
+        "id": "wallet",
+        "value": ""
+      },
+      {
+        "id": "chain",
+        "value": "polygon"
+      },
+      {
+        "id": "network",
+        "value": "amoy"
+      }
+    ],
+    "clicked": false,
+    "clickErr": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for getByRole('button', { name: 'Continue', exact: true })\n    - locator resolved t",
+    "beforeUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "afterUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "before": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, w",
+    "after": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\nContinue\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+    "inputs": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Connect Wallet"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "id": "wallet",
+        "name": "wallet",
+        "placeholder": "0x...",
+        "value": "not-an-address",
+        "text": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "chain",
+        "name": "chain",
+        "value": "polygon",
+        "text": "Chain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbit"
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "network",
+        "name": "network",
+        "value": "amoy",
+        "text": "Network...\nMumbai\nzkEVM Goerli\nAmoy"
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "id": "",
+        "name": "authToken",
+        "placeholder": "",
+        "value": "",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "",
+        "name": "_action",
+        "value": "step-one",
+        "text": "Continue"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_3_",
+        "name": "",
+        "value": "",
+        "text": "How do I get Polygon Amoy POL from the Quicknode faucet?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_5_",
+        "name": "",
+        "value": "",
+        "text": "How much POL can I get, and how often can I use the Polygon "
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_7_",
+        "name": "",
+        "value": "",
+        "text": "What is Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_9_",
+        "name": "",
+        "value": "",
+        "text": "What are the Polygon Amoy network details, including chain I"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_b_",
+        "name": "",
+        "value": "",
+        "text": "Why is my Polygon faucet request failing?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_d_",
+        "name": "",
+        "value": "",
+        "text": "What can I build on Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Cookie Preferences"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "hs-eu-close-button",
+        "name": "",
+        "value": "",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "hs-eu-cookie-settings-button",
+        "name": "",
+        "value": "",
+        "text": "Cookies settings"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "hs-eu-confirmation-button",
+        "name": "",
+        "value": "",
+        "text": "Accept"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "hs-eu-decline-button",
+        "name": "",
+        "value": "",
+        "text": "Decline"
+      }
+    ],
+    "frames": [
+      {
+        "name": "",
+        "url": "https://faucet.quicknode.com/polygon/amoy"
+      },
+      {
+        "name": "",
+        "url": "about:blank"
+      }
+    ],
+    "reqs": [
+      "GET https://faucet.quicknode.com/polygon/amoy",
+      "GET https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "GET https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "GET https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "GET https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "GET https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "GET https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "GET https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "GET https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "GET https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "GET https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "GET https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "GET https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "GET https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "GET https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "GET https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "GET https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "GET https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "GET https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "GET https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "GET https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "GET https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "GET https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "GET https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "GET https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "GET https://faucet.quicknode.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5d29d0cd94abd4f",
+      "GET https://faucet.quicknode.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/f8df4d4a0cd6/main.js?ray=a5d29d0cd94abd4f",
+      "GET https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "POST https://faucet.quicknode.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.5216044555118406:1795123234:kC89kLmGHKArxKBv4pvn5W1q11KbQfNP_94IWSVgE2I/a5d29d0cd94abd4f",
+      "GET https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy"
+    ],
+    "resps": [
+      "200 https://faucet.quicknode.com/polygon/amoy",
+      "200 https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "200 https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "200 https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "200 https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "200 https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "200 https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "200 https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "200 https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "200 https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "200 https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "200 https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "200 https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "200 https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "200 https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "200 https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "200 https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "200 https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "200 https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "200 https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "200 https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "200 https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "200 https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "200 https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "200 https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "302 https://faucet.quicknode.com/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5d29d0cd94abd4f",
+      "200 https://faucet.quicknode.com/cdn-cgi/challenge-platform/h/b/scripts/jsd/f8df4d4a0cd6/main.js?ray=a5d29d0cd94abd4f",
+      "200 https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "200 https://faucet.quicknode.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.5216044555118406:1795123234:kC89kLmGHKArxKBv4pvn5W1q11KbQfNP_94IWSVgE2I/a5d29d0cd94abd4f",
+      "200 https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy"
+    ],
+    "errs": []
+  },
+  {
+    "name": "zero-balance",
+    "wallet": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+    "chain": "polygon",
+    "network": "amoy",
+    "initial": [
+      {
+        "id": "wallet",
+        "value": ""
+      },
+      {
+        "id": "chain",
+        "value": "polygon"
+      },
+      {
+        "id": "network",
+        "value": "amoy"
+      }
+    ],
+    "clicked": true,
+    "clickErr": null,
+    "beforeUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "afterUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "before": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, w",
+    "after": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\nInsufficient ETH mainnet balance. Please note, you'll need a small mainnet balance on this wallet in order to use the faucet. This is to prevent abuse.\nContinue\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+    "inputs": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Connect Wallet"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "id": "wallet",
+        "name": "wallet",
+        "placeholder": "0x...",
+        "value": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+        "text": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "chain",
+        "name": "chain",
+        "value": "polygon",
+        "text": "Chain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbit"
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "network",
+        "name": "network",
+        "value": "amoy",
+        "text": "Network...\nMumbai\nzkEVM Goerli\nAmoy"
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "id": "",
+        "name": "authToken",
+        "placeholder": "",
+        "value": "",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "",
+        "name": "_action",
+        "value": "step-one",
+        "text": "Continue"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_3_",
+        "name": "",
+        "value": "",
+        "text": "How do I get Polygon Amoy POL from the Quicknode faucet?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_5_",
+        "name": "",
+        "value": "",
+        "text": "How much POL can I get, and how often can I use the Polygon "
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_7_",
+        "name": "",
+        "value": "",
+        "text": "What is Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_9_",
+        "name": "",
+        "value": "",
+        "text": "What are the Polygon Amoy network details, including chain I"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_b_",
+        "name": "",
+        "value": "",
+        "text": "Why is my Polygon faucet request failing?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_d_",
+        "name": "",
+        "value": "",
+        "text": "What can I build on Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Cookie Preferences"
+      }
+    ],
+    "frames": [
+      {
+        "name": "",
+        "url": "https://faucet.quicknode.com/polygon/amoy"
+      }
+    ],
+    "reqs": [
+      "GET https://faucet.quicknode.com/polygon/amoy",
+      "GET https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "GET https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "GET https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "GET https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "GET https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "GET https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "GET https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "GET https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "GET https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "GET https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "GET https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "GET https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "GET https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "GET https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "GET https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "GET https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "GET https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "GET https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "GET https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "GET https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "GET https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "GET https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "GET https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "GET https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "GET https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=21784639",
+      "GET https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "GET https://track.hubspot.com/__ptq.gif?k=1&sd=1440x1000&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=21784639&rcu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&pu=https%3A%2F%2Ffaucet.qu",
+      "GET https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&utk=eeb73f934",
+      "POST https://faucet.quicknode.com/cdn-cgi/rum?"
+    ],
+    "resps": [
+      "200 https://faucet.quicknode.com/polygon/amoy",
+      "200 https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "200 https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "200 https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "200 https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "200 https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "200 https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "200 https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "200 https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "200 https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "200 https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "200 https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "200 https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "200 https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "200 https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "200 https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "200 https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "200 https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "200 https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "200 https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "200 https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "200 https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "200 https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "200 https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "200 https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "200 https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "204 https://faucet.quicknode.com/cdn-cgi/rum?",
+      "200 https://track.hubspot.com/__ptq.gif?k=1&sd=1440x1000&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=21784639&rcu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&pu=https%3A%2F%2Ffaucet.qu",
+      "200 https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&utk=eeb73f934",
+      "200 https://faucet.quicknode.com/__manifest?paths=%2Fpolygon%2C%2Fpolygon%2Famoy&version=c04613c5"
+    ],
+    "errs": []
+  },
+  {
+    "name": "mainnet-funded",
+    "wallet": "0x71e29E128c5483bEB61fE87ADDc934B514Ca4476",
+    "chain": "polygon",
+    "network": "amoy",
+    "initial": [
+      {
+        "id": "wallet",
+        "value": ""
+      },
+      {
+        "id": "chain",
+        "value": "polygon"
+      },
+      {
+        "id": "network",
+        "value": "amoy"
+      }
+    ],
+    "clicked": true,
+    "clickErr": null,
+    "beforeUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "afterUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "before": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, w",
+    "after": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\nInsufficient ETH mainnet balance. Please note, you'll need a small mainnet balance on this wallet in order to use the faucet. This is to prevent abuse.\nContinue\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+    "inputs": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Connect Wallet"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "id": "wallet",
+        "name": "wallet",
+        "placeholder": "0x...",
+        "value": "0x71e29E128c5483bEB61fE87ADDc934B514Ca4476",
+        "text": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "chain",
+        "name": "chain",
+        "value": "polygon",
+        "text": "Chain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbit"
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "network",
+        "name": "network",
+        "value": "amoy",
+        "text": "Network...\nMumbai\nzkEVM Goerli\nAmoy"
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "id": "",
+        "name": "authToken",
+        "placeholder": "",
+        "value": "",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "",
+        "name": "_action",
+        "value": "step-one",
+        "text": "Continue"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_3_",
+        "name": "",
+        "value": "",
+        "text": "How do I get Polygon Amoy POL from the Quicknode faucet?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_5_",
+        "name": "",
+        "value": "",
+        "text": "How much POL can I get, and how often can I use the Polygon "
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_7_",
+        "name": "",
+        "value": "",
+        "text": "What is Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_9_",
+        "name": "",
+        "value": "",
+        "text": "What are the Polygon Amoy network details, including chain I"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_b_",
+        "name": "",
+        "value": "",
+        "text": "Why is my Polygon faucet request failing?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_d_",
+        "name": "",
+        "value": "",
+        "text": "What can I build on Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Cookie Preferences"
+      }
+    ],
+    "frames": [
+      {
+        "name": "",
+        "url": "https://faucet.quicknode.com/polygon/amoy"
+      }
+    ],
+    "reqs": [
+      "GET https://faucet.quicknode.com/polygon/amoy",
+      "GET https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "GET https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "GET https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "GET https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "GET https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "GET https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "GET https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "GET https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "GET https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "GET https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "GET https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "GET https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "GET https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "GET https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "GET https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "GET https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "GET https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "GET https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "GET https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "GET https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "GET https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "GET https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "GET https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "GET https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "GET https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=21784639",
+      "GET https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "GET https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&utk=eeb73f934",
+      "GET https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2730314&time=1795126973611&li_adsId=02c2be84-485b-4409-bfe0-178a2b62d77b&pageLoadId=1e7f80b6-06ca-4127-b32c-d220c6902213&url=http",
+      "GET https://track.hubspot.com/__ptq.gif?k=1&sd=1440x1000&cd=24-bit&cs=UTF-8&ln=en-us&bfp=51fb1a885ff9a7f0a4328fc000d2935d&v=1.1&a=21784639&rcu=https%3A%2F%2Ffaucet.quicknode.com%2Fpoly"
+    ],
+    "resps": [
+      "200 https://faucet.quicknode.com/polygon/amoy",
+      "200 https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "200 https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "200 https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "200 https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "200 https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "200 https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "200 https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "200 https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "200 https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "200 https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "200 https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "200 https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "200 https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "200 https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "200 https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "200 https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "200 https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "200 https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "200 https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "200 https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "200 https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "200 https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "200 https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "200 https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "200 https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=21784639",
+      "200 https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "200 https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2730314&time=1795126973611&li_adsId=02c2be84-485b-4409-bfe0-178a2b62d77b&pageLoadId=1e7f80b6-06ca-4127-b32c-d220c6902213&url=http",
+      "204 https://faucet.quicknode.com/cdn-cgi/rum?",
+      "303 https://auth.quicknode.com/authorize?client_id=MENnQZHj_xorqzQtMEMTCQ0cjgp-EjRyxWJPRMLJtNM&prompt=none&response_type=code&nonce=Q2jFEkmmqjts7fp1&scope=openid&redirect_uri=https%3A%"
+    ],
+    "errs": []
+  },
+  {
+    "name": "wrong-network",
+    "wallet": "0x71e29E128c5483bEB61fE87ADDc934B514Ca4476",
+    "chain": "polygon",
+    "network": "mumbai",
+    "initial": [
+      {
+        "id": "wallet",
+        "value": ""
+      },
+      {
+        "id": "chain",
+        "value": "polygon"
+      },
+      {
+        "id": "network",
+        "value": "amoy"
+      }
+    ],
+    "clicked": true,
+    "clickErr": null,
+    "beforeUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "afterUrl": "https://faucet.quicknode.com/polygon/mumbai",
+    "before": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, w",
+    "after": "// FAUCET\nPolygon\nMumbai Faucet\n\nQuicknode got tired of having to scrounge for Mumbai tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\nLow balance for this chain and network.\nInsufficient ETH mainnet balance. Please note, you'll need a small mainnet balance on this wallet in order to use the faucet. This is to prevent abuse.\nContinue\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+    "inputs": [
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Connect Wallet"
+      },
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "id": "wallet",
+        "name": "wallet",
+        "placeholder": "0x...",
+        "value": "0x71e29E128c5483bEB61fE87ADDc934B514Ca4476",
+        "text": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "chain",
+        "name": "chain",
+        "value": "polygon",
+        "text": "Chain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbit"
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "id": "network",
+        "name": "network",
+        "value": "mumbai",
+        "text": "Network...\nMumbai\nzkEVM Goerli\nAmoy"
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "id": "",
+        "name": "authToken",
+        "placeholder": "",
+        "value": "",
+        "text": ""
+      },
+      {
+        "tag": "BUTTON",
+        "type": "submit",
+        "id": "",
+        "name": "_action",
+        "value": "step-one",
+        "text": "Continue"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_3_",
+        "name": "",
+        "value": "",
+        "text": "How do I get Polygon Amoy POL from the Quicknode faucet?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_5_",
+        "name": "",
+        "value": "",
+        "text": "How much POL can I get, and how often can I use the Polygon "
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_7_",
+        "name": "",
+        "value": "",
+        "text": "What is Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_9_",
+        "name": "",
+        "value": "",
+        "text": "What are the Polygon Amoy network details, including chain I"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_b_",
+        "name": "",
+        "value": "",
+        "text": "Why is my Polygon faucet request failing?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "radix-_r_d_",
+        "name": "",
+        "value": "",
+        "text": "What can I build on Polygon Amoy?"
+      },
+      {
+        "tag": "BUTTON",
+        "type": "button",
+        "id": "",
+        "name": "",
+        "value": "",
+        "text": "Cookie Preferences"
+      }
+    ],
+    "frames": [
+      {
+        "name": "",
+        "url": "https://faucet.quicknode.com/polygon/mumbai"
+      }
+    ],
+    "reqs": [
+      "GET https://faucet.quicknode.com/polygon/amoy",
+      "GET https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "GET https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "GET https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "GET https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "GET https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "GET https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "GET https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "GET https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "GET https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "GET https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "GET https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "GET https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "GET https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "GET https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "GET https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "GET https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "GET https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "GET https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "GET https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "GET https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "GET https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "GET https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "GET https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "GET https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "GET https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=21784639",
+      "GET https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "GET https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2730314&time=1795126982433&li_adsId=02c2be84-485b-4409-bfe0-178a2b62d77b&pageLoadId=19b4326f-d897-4aaa-b486-045410657830&url=http",
+      "GET https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&utk=eeb73f934",
+      "GET https://track.hubspot.com/__ptq.gif?k=1&sd=1440x1000&cd=24-bit&cs=UTF-8&ln=en-us&bfp=51fb1a885ff9a7f0a4328fc000d2935d&v=1.1&a=21784639&rcu=https%3A%2F%2Ffaucet.quicknode.com%2Fpoly"
+    ],
+    "resps": [
+      "200 https://faucet.quicknode.com/polygon/amoy",
+      "200 https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "200 https://faucet.quicknode.com/assets/jsx-runtime-8YX4Yb9D.js",
+      "200 https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "200 https://faucet.quicknode.com/assets/components-Da-KCmT6.js",
+      "200 https://faucet.quicknode.com/assets/tailwind-PkK_GUvk.css",
+      "200 https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "200 https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "200 https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js",
+      "200 https://faucet.quicknode.com/assets/auth-DY0h4_aH.js",
+      "200 https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "200 https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+      "200 https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "200 https://faucet.quicknode.com/assets/entry.client-CrPhOr5z.js",
+      "200 https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+      "200 https://faucet.quicknode.com/assets/utils-De7E53Fk.js",
+      "200 https://faucet.quicknode.com/assets/check-BDJ1ffX_.js",
+      "200 https://faucet.quicknode.com/assets/index-BptHZVMb.js",
+      "200 https://faucet.quicknode.com/assets/layout-C-MgGz0Q.js",
+      "200 https://faucet.quicknode.com/assets/markdown-i65I97fW.js",
+      "200 https://faucet.quicknode.com/assets/root-DlAUjYVT.js",
+      "200 https://faucet.quicknode.com/assets/math-7LlaoIdS.js",
+      "200 https://faucet.quicknode.com/assets/information-D1wIG3lv.js",
+      "200 https://faucet.quicknode.com/assets/x-circle-cxVQhGw1.js",
+      "200 https://faucet.quicknode.com/assets/solana-DSG5oXTI.js",
+      "200 https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=21784639",
+      "200 https://faucet.quicknode.com/assets/connectors-Cdpcs0pM.js",
+      "200 https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2730314&time=1795126982433&li_adsId=02c2be84-485b-4409-bfe0-178a2b62d77b&pageLoadId=19b4326f-d897-4aaa-b486-045410657830&url=http",
+      "200 https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&utk=eeb73f934",
+      "204 https://faucet.quicknode.com/cdn-cgi/rum?"
+    ],
+    "errs": []
+  }
+]

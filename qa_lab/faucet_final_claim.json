@@ -1,0 +1,433 @@
+{
+  "success": null,
+  "all": [
+    {
+      "name": "binance-hot",
+      "wallet": "0x28C6c06298d514Db089934071355E5743bf21d60",
+      "step1Url": "https://faucet.quicknode.com/polygon/amoy/bonus?wallet=0x28C6c06298d514Db089934071355E5743bf21d60",
+      "step2": true,
+      "step1Text": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nChoose your amount\n\nSelect the amount of tokens you would like to receive.\nComplete the steps below to unlock additional rewards.\n\nAVAILABLE\n0.025\npol\n\nWe provide enough tokens for developers to get started building right away.\n\nSend to\n0x28...0\nLOCKED\n0.05\npol\n\nShare a post on X containing your wallet address and the Faucet URL to unlock 2x the tokens!\n\nUnlock\nLOCKED\n0.1\npol\n\nLog into your Quicknode account for a 2x bonus! Paid users of Quicknode automatically get a 2x bonus & priority in the queue for faster drips. Sign up today for as little as $49!\n\nUnlock\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+      "finalUrl": "https://faucet.quicknode.com/polygon/amoy/bonus?wallet=0x28C6c06298d514Db089934071355E5743bf21d60",
+      "finalText": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nChoose your amount\n\nSelect the amount of tokens you would like to receive.\nComplete the steps below to unlock additional rewards.\n\nAVAILABLE\n0.025\npol\n\nWe provide enough tokens for developers to get started building right away.\n\nSend to\n0x28...0\nLOCKED\n0.05\npol\n\nShare a post on X containing your wallet address and the Faucet URL to unlock 2x the tokens!\n\nUnlock\nLOCKED\n0.1\npol\n\nLog into your Quicknode account for a 2x bonus! Paid users of Quicknode automatically get a 2x bonus & priority in the queue for faster drips. Sign up today for as little as $49!\n\nUnlock\nPlease come back in 12 hours.\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+      "txHashes": [],
+      "ok": false,
+      "cooldown": true,
+      "calls": [
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/polygon/amoy",
+          "body": "<!DOCTYPE html><!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><script async=\"\" defer=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3\"></script><script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/21784639.js\"></script><title>Polygon Amoy Faucet - Free Testnet POL Tokens</title><meta name=\"description\" content=\"Easy to use Polygon Amoy Faucet. Claim your POL testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:image:src\" content=\"https://faucet.quicknode.com/images/og/polygon.jpg\"/><meta property=\"twitter:site\" content=\"quicknode\"/><meta property=\"twitter:card\" content=\"summary_large_image\"/><meta property=\"twitter:title\" content=\"Polygon Amoy Faucet - Free Testnet POL Tokens\"/><meta property=\"twitter:description\" content=\"Easy to use Polygon Amoy Faucet. Claim your POL testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:creator\" content=\"@quicknode\"/><meta property=\"twitter:image\" content=\"https://faucet.quicknode.com/images/og/polygon.jpg\"/><meta property=\"og:image\" cont"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+          "body": "/* cyrillic-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; } /* cyrillic */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } /* greek-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2'); unicode-range: U+1F00-1FFF; } /* greek */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2'); unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF; } /* vietnamese */ @font-face { font-famil"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+          "body": "/* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; } /* latin */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,700;1,400&display=swap",
+          "body": "/* cyrillic-ext */ @font-face { font-family: 'Inter'; font-style: italic; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dtRh5WFo-4.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; } /* cyrillic */ @font-face { font-family: 'Inter'; font-style: italic; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dtRjpWFo-4.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } /* greek-ext */ @font-face { font-family: 'Inter'; font-style: italic; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dtRhpWFo-4.woff2) format('woff2'); unicode-range: U+1F00-1FFF; } /* greek */ @font-face { font-family: 'Inter'; font-style: italic; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dtRiZWFo-4.woff2) format('woff2'); unicode-range: U+0370-0377, U+037A-037F, U+0384-03"
+        },
+        {
+          "status": 200,
+          "url": "https://track.hubspot.com/__ptq.gif?k=1&sd=1440x1000&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=21784639&rcu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&pu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&t=Polygon+A",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000@\b\u0004\u0000\u0001\u0004\u0004\u0000;"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/f8df4d4a0cd6/0.5216044555118406:1795123234:kC89kLmGHKArxKBv4pvn5W1q11KbQfNP_94IWSVgE2I/a5d2a3164bfcd571",
+          "body": ""
+        },
+        {
+          "status": 204,
+          "url": "https://faucet.quicknode.com/cdn-cgi/rum?",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&utk=6636bfdf5ebf614e42e1aef96f5aa5a1&__hstc=229567299",
+          "body": "{\"sortedAudienceConfigs\":[],\"requestedConfigs\":[],\"gates\":[]}"
+        },
+        {
+          "status": 204,
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DYE4XLEMH3&gtm=45je6bi0h2v9103032405za208zd9103032405xf1&_p=1795127192447&gcs=G100&gcd=13q3q3q3q5l1&npa=1&dma_cps=-&dma=0&_eu=AAAAAGAC&are=1&cid=1356338301.1795127193&",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://pagead2.googlesyndication.com/ccm/collect?rcb=19&frm=0&apvc=1&tid=AW-844696716&en=page_view&dl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&scrsrc=www.googletagmanager.com&rnd=284977782.1795127193&navt=n&n",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/__manifest?paths=%2Fpolygon%2C%2Fpolygon%2Famoy&version=c04613c5",
+          "body": "{\"root\":{\"id\":\"root\",\"path\":\"\",\"hasAction\":false,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":true,\"module\":\"/assets/root-DlAUjYVT.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/react-dom-CBg-C1gi.js\",\"/assets/errorBoundaries-BTv6T0zf.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/solana-DSG5oXTI.js\",\"/assets/createLucideIcon-C0Su_4I-.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/markdown-i65I97fW.js\",\"/assets/badge-cvJVi3Uv.js\",\"/assets/utils-De7E53Fk.js\"],\"css\":[]},\"routes/layout\":{\"id\":\"routes/layout\",\"parentId\":\"root\",\"hasAction\":false,\"hasLoader\":false,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":false,\"module\":\"/assets/layout-C-MgGz0Q.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/check-BDJ1ffX_.js\"],\"css\":[]},\"routes/index\":{\"id\":\"routes/index\",\"parentId\":\"routes/layout\",\"path\":\"*\",\"hasAction\":true,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/__manifest?paths=%2Fpolygon%2C%2Fpolygon%2Famoy&version=c04613c5",
+          "body": "{\"root\":{\"id\":\"root\",\"path\":\"\",\"hasAction\":false,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":true,\"module\":\"/assets/root-DlAUjYVT.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/react-dom-CBg-C1gi.js\",\"/assets/errorBoundaries-BTv6T0zf.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/solana-DSG5oXTI.js\",\"/assets/createLucideIcon-C0Su_4I-.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/markdown-i65I97fW.js\",\"/assets/badge-cvJVi3Uv.js\",\"/assets/utils-De7E53Fk.js\"],\"css\":[]},\"routes/layout\":{\"id\":\"routes/layout\",\"parentId\":\"root\",\"hasAction\":false,\"hasLoader\":false,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":false,\"module\":\"/assets/layout-C-MgGz0Q.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/check-BDJ1ffX_.js\"],\"css\":[]},\"routes/index\":{\"id\":\"routes/index\",\"parentId\":\"routes/layout\",\"path\":\"*\",\"hasAction\":true,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":"
+        },
+        {
+          "status": 303,
+          "url": "https://auth.quicknode.com/authorize?client_id=MENnQZHj_xorqzQtMEMTCQ0cjgp-EjRyxWJPRMLJtNM&prompt=none&response_type=code&nonce=oOaG0O0bWvfX64JK&scope=openid&redirect_uri=https%3A%2F%2Ffaucet.quicknode.com%2Fdrip",
+          "body": ""
+        },
+        {
+          "status": 303,
+          "url": "https://auth.quicknode.com/authorize?client_id=MENnQZHj_xorqzQtMEMTCQ0cjgp-EjRyxWJPRMLJtNM&prompt=none&response_type=code&nonce=iQCVQlCXXi4XJqjU&scope=openid&redirect_uri=https%3A%2F%2Ffaucet.quicknode.com%2Fdrip",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+          "body": "/* cyrillic-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; } /* cyrillic */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } /* greek-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2'); unicode-range: U+1F00-1FFF; } /* greek */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2'); unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF; } /* vietnamese */ @font-face { font-famil"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+          "body": "/* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; } /* latin */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F",
+          "body": "<!DOCTYPE html><!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><script async=\"\" defer=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3\"></script><script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/21784639.js\"></script><title>Multi-Chain Faucet - Free Testnet Tokens</title><meta name=\"description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:image:src\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"twitter:site\" content=\"quicknode\"/><meta property=\"twitter:card\" content=\"summary_large_image\"/><meta property=\"twitter:title\" content=\"Multi-Chain Faucet - Free Testnet Tokens\"/><meta property=\"twitter:description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:creator\" content=\"@quicknode\"/><meta property=\"twitter:image\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"og:image\" content=\"https://fauce"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+          "body": "/* cyrillic-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; } /* cyrillic */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } /* greek-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2'); unicode-range: U+1F00-1FFF; } /* greek */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2'); unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF; } /* vietnamese */ @font-face { font-famil"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+          "body": "/* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; } /* latin */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F",
+          "body": "<!DOCTYPE html><!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><script async=\"\" defer=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3\"></script><script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/21784639.js\"></script><title>Multi-Chain Faucet - Free Testnet Tokens</title><meta name=\"description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:image:src\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"twitter:site\" content=\"quicknode\"/><meta property=\"twitter:card\" content=\"summary_large_image\"/><meta property=\"twitter:title\" content=\"Multi-Chain Faucet - Free Testnet Tokens\"/><meta property=\"twitter:description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:creator\" content=\"@quicknode\"/><meta property=\"twitter:image\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"og:image\" content=\"https://fauce"
+        },
+        {
+          "status": 204,
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DYE4XLEMH3&gtm=45je6bi0h2v9103032405za200zd9103032405xf1&_p=1795127192447&gcs=G100&gcd=13q3q3q3q5l1&npa=1&dma_cps=-&dma=0&_eu=AEAAAGAC&ae=a&are=1&cid=1356338301.179512",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/rmkt/collect/844696716/?random=1795127195169&cv=11&fst=1795127195169&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844696716/?random=1795127195169&cv=11&fst=1795127195169&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf",
+          "body": "(function(){var s = {};(function(){var l=typeof Object.create==\"function\"?Object.create:function(a){function c(){}c.prototype=a;return new c},n=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a}; function p(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");}var q=p(this),r=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",t={},u={};function v(a,c,b){if(!b||a!=null){b=u[c];if(b==null)return a[c];b=a[b];return b!==void 0?b:a[c]}} function w(a,c,b){if(c)a:{var d=a.split(\".\");a=d.length===1;var e=d[0],f;!a&&e in t?f=t:f=q;for(e=0;e<d.length-1;e++){var g=d[e];if(!(g in f))break a;f=f[g]}d=d[d.length-1];b=r&&b===\"es6\"?f[d]:null;c=c(b);c!=null&&(a?n(t,d,{configurable:!0,writable:!0,value:c}):c!==b&&(u[d]===void 0&&(a=Math.random()*1E9>>>0,u[d]=r?q.Symbol(d):\"$jscp$\"+a+\"$\"+d),n(f,u[d],{configurable:!0,writable:!0,value:c})))}}function x(a){var c=0;return function(){return c<a.length?"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=1&auid=2025853747.1795127195&dt=Polygon%20Amoy%20Faucet%20-%20Free%20Testnet%20POL%20Tokens&tid=AW-844696716&en=consent_update&dl=https%3A%2F%2Ffaucet.quicknode.com%2F",
+          "body": ""
+        },
+        {
+          "status": 204,
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-DYE4XLEMH3&gtm=45je6bi0h2v9103032405za200zd9103032405xf1&_p=1795127192447&_gaz=1&gcs=G111&gcu=1&gcd=13r3r3r3r5l1&npa=0&dma=0&_eu=AAAAAGQC&are=1&cid=1356338301.1795127193&f",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/pagead/1p-user-list/844696716/?random=1795127195169&cv=11&fst=1795125600000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0001D\u0000;"
+        },
+        {
+          "status": 200,
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844696716/?random=1795127195251&cv=11&fst=1795127195251&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1",
+          "body": "(function(){var s = {};(function(){var l=typeof Object.create==\"function\"?Object.create:function(a){function c(){}c.prototype=a;return new c},n=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a}; function p(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");}var q=p(this),r=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",t={},u={};function v(a,c,b){if(!b||a!=null){b=u[c];if(b==null)return a[c];b=a[b];return b!==void 0?b:a[c]}} function w(a,c,b){if(c)a:{var d=a.split(\".\");a=d.length===1;var e=d[0],f;!a&&e in t?f=t:f=q;for(e=0;e<d.length-1;e++){var g=d[e];if(!(g in f))break a;f=f[g]}d=d[d.length-1];b=r&&b===\"es6\"?f[d]:null;c=c(b);c!=null&&(a?n(t,d,{configurable:!0,writable:!0,value:c}):c!==b&&(u[d]===void 0&&(a=Math.random()*1E9>>>0,u[d]=r?q.Symbol(d):\"$jscp$\"+a+\"$\"+d),n(f,u[d],{configurable:!0,writable:!0,value:c})))}}function x(a){var c=0;return function(){return c<a.length?"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/rmkt/collect/844696716/?random=1795127195251&cv=11&fst=1795127195251&fmt=8&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=0",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/pagead/1p-user-list/844696716/?random=1795127195251&cv=11&fst=1795125600000&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0001D\u0000;"
+        },
+        {
+          "status": 200,
+          "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=21784639",
+          "body": "{\"pixels\":{\"ADWORDS\":[{\"pixelId\":\"844696716\",\"limitedDataUseEnabled\":false,\"pixelInitializer\":\"844696716\"}],\"LINKEDIN\":[{\"pixelId\":\"2730314\",\"limitedDataUseEnabled\":false,\"pixelInitializer\":\"2730314\"}]},\"enhancedConversionEventSettings\":{}}"
+        },
+        {
+          "status": 200,
+          "url": "https://track.hubspot.com/__ptq.gif?k=28&sd=1440x1000&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=21784639&rcu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&pu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&t=Polygon+",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000@\b\u0004\u0000\u0001\u0004\u0004\u0000;"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/ccm/collect?rcb=19&frm=0&apvc=0&auid=2025853747.1795127195&dt=Polygon%20Amoy%20Faucet%20-%20Free%20Testnet%20POL%20Tokens&tid=AW-844696716&en=page_view&dl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolyg",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/rmkt/collect/844696716/?random=1795127195325&cv=11&fst=1795127195325&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844696716/?random=1795127195325&cv=11&fst=1795127195325&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf",
+          "body": "(function(){var s = {};(function(){var l=typeof Object.create==\"function\"?Object.create:function(a){function c(){}c.prototype=a;return new c},n=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a}; function p(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");}var q=p(this),r=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",t={},u={};function v(a,c,b){if(!b||a!=null){b=u[c];if(b==null)return a[c];b=a[b];return b!==void 0?b:a[c]}} function w(a,c,b){if(c)a:{var d=a.split(\".\");a=d.length===1;var e=d[0],f;!a&&e in t?f=t:f=q;for(e=0;e<d.length-1;e++){var g=d[e];if(!(g in f))break a;f=f[g]}d=d[d.length-1];b=r&&b===\"es6\"?f[d]:null;c=c(b);c!=null&&(a?n(t,d,{configurable:!0,writable:!0,value:c}):c!==b&&(u[d]===void 0&&(a=Math.random()*1E9>>>0,u[d]=r?q.Symbol(d):\"$jscp$\"+a+\"$\"+d),n(f,u[d],{configurable:!0,writable:!0,value:c})))}}function x(a){var c=0;return function(){return c<a.length?"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/pagead/1p-user-list/844696716/?random=1795127195325&cv=11&fst=1795125600000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0001D\u0000;"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/__manifest?paths=%2Fdrip&version=c04613c5",
+          "body": "{\"root\":{\"id\":\"root\",\"path\":\"\",\"hasAction\":false,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":true,\"module\":\"/assets/root-DlAUjYVT.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/react-dom-CBg-C1gi.js\",\"/assets/errorBoundaries-BTv6T0zf.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/solana-DSG5oXTI.js\",\"/assets/createLucideIcon-C0Su_4I-.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/markdown-i65I97fW.js\",\"/assets/badge-cvJVi3Uv.js\",\"/assets/utils-De7E53Fk.js\"],\"css\":[]},\"routes/layout\":{\"id\":\"routes/layout\",\"parentId\":\"root\",\"hasAction\":false,\"hasLoader\":false,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":false,\"module\":\"/assets/layout-C-MgGz0Q.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/check-BDJ1ffX_.js\"],\"css\":[]},\"routes/index\":{\"id\":\"routes/index\",\"parentId\":\"routes/layout\",\"path\":\"*\",\"hasAction\":true,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":"
+        },
+        {
+          "status": 302,
+          "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2730314&time=1795127195428&li_adsId=423f3bf9-42b3-401d-ad76-bf65aca1196f&pageLoadId=56898052-087c-4b38-a89b-7eece870e173&url=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon",
+          "body": ""
+        },
+        {
+          "status": 302,
+          "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2730314&time=1795127195428&li_adsId=423f3bf9-42b3-401d-ad76-bf65aca1196f&pageLoadId=56898052-087c-4b38-a89b-7eece870e173&url=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon",
+          "body": ""
+        },
+        {
+          "status": 302,
+          "url": "https://www.linkedin.com/px/li_sync?redirect=https%3A%2F%2Fpx.ads.linkedin.com%2Fcollect%3Fv%3D2%26fmt%3Djs%26pid%3D2730314%26time%3D1795127195428%26li_adsId%3D423f3bf9-42b3-401d-ad76-bf65aca1196f%26pageLoadId%3D56898052",
+          "body": ""
+        },
+        {
+          "status": 202,
+          "url": "https://faucet.quicknode.com/drip.data",
+          "body": "[{\"_1\":2,\"_3\":4,\"_5\":6,\"_7\":6,\"_8\":6},\"redirect\",\"/polygon/amoy\",\"status\",302,\"revalidate\",false,\"reload\",\"replace\"] "
+        }
+      ]
+    },
+    {
+      "name": "vitalik",
+      "wallet": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "step1Url": "https://faucet.quicknode.com/polygon/amoy/bonus?wallet=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "step2": true,
+      "step1Text": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nChoose your amount\n\nSelect the amount of tokens you would like to receive.\nComplete the steps below to unlock additional rewards.\n\nAVAILABLE\n0.025\npol\n\nWe provide enough tokens for developers to get started building right away.\n\nSend to\n0xd8...5\nLOCKED\n0.05\npol\n\nShare a post on X containing your wallet address and the Faucet URL to unlock 2x the tokens!\n\nUnlock\nLOCKED\n0.1\npol\n\nLog into your Quicknode account for a 2x bonus! Paid users of Quicknode automatically get a 2x bonus & priority in the queue for faster drips. Sign up today for as little as $49!\n\nUnlock\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+      "finalUrl": "https://faucet.quicknode.com/polygon/amoy/bonus?wallet=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "finalText": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nChoose your amount\n\nSelect the amount of tokens you would like to receive.\nComplete the steps below to unlock additional rewards.\n\nAVAILABLE\n0.025\npol\n\nWe provide enough tokens for developers to get started building right away.\n\nSend to\n0xd8...5\nLOCKED\n0.05\npol\n\nShare a post on X containing your wallet address and the Faucet URL to unlock 2x the tokens!\n\nUnlock\nLOCKED\n0.1\npol\n\nLog into your Quicknode account for a 2x bonus! Paid users of Quicknode automatically get a 2x bonus & priority in the queue for faster drips. Sign up today for as little as $49!\n\nUnlock\nPlease come back in 12 hours.\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences",
+      "txHashes": [],
+      "ok": false,
+      "cooldown": true,
+      "calls": [
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+          "body": "/* cyrillic-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; } /* cyrillic */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } /* greek-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2'); unicode-range: U+1F00-1FFF; } /* greek */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2'); unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF; } /* vietnamese */ @font-face { font-famil"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+          "body": "/* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; } /* latin */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/polygon/amoy",
+          "body": "<!DOCTYPE html><!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><script async=\"\" defer=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3\"></script><script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/21784639.js\"></script><title>Polygon Amoy Faucet - Free Testnet POL Tokens</title><meta name=\"description\" content=\"Easy to use Polygon Amoy Faucet. Claim your POL testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:image:src\" content=\"https://faucet.quicknode.com/images/og/polygon.jpg\"/><meta property=\"twitter:site\" content=\"quicknode\"/><meta property=\"twitter:card\" content=\"summary_large_image\"/><meta property=\"twitter:title\" content=\"Polygon Amoy Faucet - Free Testnet POL Tokens\"/><meta property=\"twitter:description\" content=\"Easy to use Polygon Amoy Faucet. Claim your POL testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:creator\" content=\"@quicknode\"/><meta property=\"twitter:image\" content=\"https://faucet.quicknode.com/images/og/polygon.jpg\"/><meta property=\"og:image\" cont"
+        },
+        {
+          "status": 200,
+          "url": "https://api.hubapi.com/hs-script-loader-public/v2/config/pixels-and-events/json?portalId=21784639",
+          "body": "{\"pixels\":{\"ADWORDS\":[{\"pixelId\":\"844696716\",\"limitedDataUseEnabled\":false,\"pixelInitializer\":\"844696716\"}],\"LINKEDIN\":[{\"pixelId\":\"2730314\",\"limitedDataUseEnabled\":false,\"pixelInitializer\":\"2730314\"}]},\"enhancedConversionEventSettings\":{}}"
+        },
+        {
+          "status": 200,
+          "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=2730314&time=1795127212425&li_adsId=423f3bf9-42b3-401d-ad76-bf65aca1196f&pageLoadId=ca2b6539-9270-4495-943d-bab5fae2387a&url=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=21784639&currentUrl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&utk=6636bfdf5ebf614e42e1aef96f5aa5a1&__hstc=229567299",
+          "body": "{\"sortedAudienceConfigs\":[],\"requestedConfigs\":[],\"gates\":[]}"
+        },
+        {
+          "status": 200,
+          "url": "https://track.hubspot.com/__ptq.gif?k=1&sd=1440x1000&cd=24-bit&cs=UTF-8&ln=en-us&v=1.1&a=21784639&rcu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&pu=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygon%2Famoy&t=Polygon+A",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000@\b\u0004\u0000\u0001\u0004\u0004\u0000;"
+        },
+        {
+          "status": 204,
+          "url": "https://faucet.quicknode.com/cdn-cgi/rum?",
+          "body": ""
+        },
+        {
+          "status": 204,
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-DYE4XLEMH3&gtm=45je6bi0h2v9103032405za208zd9103032405xf1&_p=1795127212003&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTQ1Zm&_eu=AAAAAGQC&are=1&cid=1356338301.1795127193&f",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/rmkt/collect/844696716/?random=1795127212192&cv=11&fst=1795127212192&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/__manifest?paths=%2Fpolygon%2C%2Fpolygon%2Famoy&version=c04613c5",
+          "body": "{\"root\":{\"id\":\"root\",\"path\":\"\",\"hasAction\":false,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":true,\"module\":\"/assets/root-DlAUjYVT.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/react-dom-CBg-C1gi.js\",\"/assets/errorBoundaries-BTv6T0zf.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/solana-DSG5oXTI.js\",\"/assets/createLucideIcon-C0Su_4I-.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/markdown-i65I97fW.js\",\"/assets/badge-cvJVi3Uv.js\",\"/assets/utils-De7E53Fk.js\"],\"css\":[]},\"routes/layout\":{\"id\":\"routes/layout\",\"parentId\":\"root\",\"hasAction\":false,\"hasLoader\":false,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":false,\"module\":\"/assets/layout-C-MgGz0Q.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/check-BDJ1ffX_.js\"],\"css\":[]},\"routes/index\":{\"id\":\"routes/index\",\"parentId\":\"routes/layout\",\"path\":\"*\",\"hasAction\":true,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":"
+        },
+        {
+          "status": 200,
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844696716/?random=1795127212192&cv=11&fst=1795127212192&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf",
+          "body": "(function(){var s = {};(function(){var l=typeof Object.create==\"function\"?Object.create:function(a){function c(){}c.prototype=a;return new c},n=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a}; function p(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");}var q=p(this),r=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",t={},u={};function v(a,c,b){if(!b||a!=null){b=u[c];if(b==null)return a[c];b=a[b];return b!==void 0?b:a[c]}} function w(a,c,b){if(c)a:{var d=a.split(\".\");a=d.length===1;var e=d[0],f;!a&&e in t?f=t:f=q;for(e=0;e<d.length-1;e++){var g=d[e];if(!(g in f))break a;f=f[g]}d=d[d.length-1];b=r&&b===\"es6\"?f[d]:null;c=c(b);c!=null&&(a?n(t,d,{configurable:!0,writable:!0,value:c}):c!==b&&(u[d]===void 0&&(a=Math.random()*1E9>>>0,u[d]=r?q.Symbol(d):\"$jscp$\"+a+\"$\"+d),n(f,u[d],{configurable:!0,writable:!0,value:c})))}}function x(a){var c=0;return function(){return c<a.length?"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/rmkt/collect/844696716/?random=1795127212372&cv=11&fst=1795127212372&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844696716/?random=1795127212372&cv=11&fst=1795127212372&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf",
+          "body": "(function(){var s = {};(function(){var l=typeof Object.create==\"function\"?Object.create:function(a){function c(){}c.prototype=a;return new c},n=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a}; function p(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");}var q=p(this),r=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",t={},u={};function v(a,c,b){if(!b||a!=null){b=u[c];if(b==null)return a[c];b=a[b];return b!==void 0?b:a[c]}} function w(a,c,b){if(c)a:{var d=a.split(\".\");a=d.length===1;var e=d[0],f;!a&&e in t?f=t:f=q;for(e=0;e<d.length-1;e++){var g=d[e];if(!(g in f))break a;f=f[g]}d=d[d.length-1];b=r&&b===\"es6\"?f[d]:null;c=c(b);c!=null&&(a?n(t,d,{configurable:!0,writable:!0,value:c}):c!==b&&(u[d]===void 0&&(a=Math.random()*1E9>>>0,u[d]=r?q.Symbol(d):\"$jscp$\"+a+\"$\"+d),n(f,u[d],{configurable:!0,writable:!0,value:c})))}}function x(a){var c=0;return function(){return c<a.length?"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=1&auid=2025853747.1795127195&dt=Polygon%20Amoy%20Faucet%20-%20Free%20Testnet%20POL%20Tokens&tid=AW-844696716&en=page_view&dl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygo",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/ccm/collect?rcb=8&frm=0&apvc=0&auid=2025853747.1795127195&dt=Polygon%20Amoy%20Faucet%20-%20Free%20Testnet%20POL%20Tokens&tid=AW-844696716&en=page_view&dl=https%3A%2F%2Ffaucet.quicknode.com%2Fpolygo",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/pagead/1p-user-list/844696716/?random=1795127212372&cv=11&fst=1795125600000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0001D\u0000;"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/pagead/1p-user-list/844696716/?random=1795127212192&cv=11&fst=1795125600000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6bi0h2v895521225za208zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0001D\u0000;"
+        },
+        {
+          "status": 303,
+          "url": "https://auth.quicknode.com/authorize?client_id=MENnQZHj_xorqzQtMEMTCQ0cjgp-EjRyxWJPRMLJtNM&prompt=none&response_type=code&nonce=kSGnYVUeJ1FxCSPv&scope=openid&redirect_uri=https%3A%2F%2Ffaucet.quicknode.com%2Fdrip",
+          "body": ""
+        },
+        {
+          "status": 303,
+          "url": "https://auth.quicknode.com/authorize?client_id=MENnQZHj_xorqzQtMEMTCQ0cjgp-EjRyxWJPRMLJtNM&prompt=none&response_type=code&nonce=PWhdTsYqJPRs9Kab&scope=openid&redirect_uri=https%3A%2F%2Ffaucet.quicknode.com%2Fdrip",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+          "body": "/* cyrillic-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; } /* cyrillic */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } /* greek-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2'); unicode-range: U+1F00-1FFF; } /* greek */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2'); unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF; } /* vietnamese */ @font-face { font-famil"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+          "body": "/* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; } /* latin */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F",
+          "body": "<!DOCTYPE html><!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><script async=\"\" defer=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3\"></script><script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/21784639.js\"></script><title>Multi-Chain Faucet - Free Testnet Tokens</title><meta name=\"description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:image:src\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"twitter:site\" content=\"quicknode\"/><meta property=\"twitter:card\" content=\"summary_large_image\"/><meta property=\"twitter:title\" content=\"Multi-Chain Faucet - Free Testnet Tokens\"/><meta property=\"twitter:description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:creator\" content=\"@quicknode\"/><meta property=\"twitter:image\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"og:image\" content=\"https://fauce"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono&display=swap",
+          "body": "/* cyrillic-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2) format('woff2'); unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; } /* cyrillic */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2) format('woff2'); unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; } /* greek-ext */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2) format('woff2'); unicode-range: U+1F00-1FFF; } /* greek */ @font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2) format('woff2'); unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF; } /* vietnamese */ @font-face { font-famil"
+        },
+        {
+          "status": 200,
+          "url": "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap",
+          "body": "/* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF; } /* latin */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 400; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K4.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; } /* latin-ext */ @font-face { font-family: 'DM Sans'; font-style: normal; font-weight: 500; font-display: swap; src: url(https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu6-K6h9Q.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9"
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F",
+          "body": "<!DOCTYPE html><!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><script async=\"\" defer=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3\"></script><script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/21784639.js\"></script><title>Multi-Chain Faucet - Free Testnet Tokens</title><meta name=\"description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:image:src\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"twitter:site\" content=\"quicknode\"/><meta property=\"twitter:card\" content=\"summary_large_image\"/><meta property=\"twitter:title\" content=\"Multi-Chain Faucet - Free Testnet Tokens\"/><meta property=\"twitter:description\" content=\"Easy to use Multi-Chain Faucet. Claim your testnet tokens for free - one drip per network every 12 hours.\"/><meta property=\"twitter:creator\" content=\"@quicknode\"/><meta property=\"twitter:image\" content=\"https://faucet.quicknode.com/images/og/og-image.jpg\"/><meta property=\"og:image\" content=\"https://fauce"
+        },
+        {
+          "status": 200,
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844696716/?random=1795127214795&cv=11&fst=1795127214795&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1",
+          "body": "(function(){var s = {};(function(){var l=typeof Object.create==\"function\"?Object.create:function(a){function c(){}c.prototype=a;return new c},n=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a}; function p(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");}var q=p(this),r=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",t={},u={};function v(a,c,b){if(!b||a!=null){b=u[c];if(b==null)return a[c];b=a[b];return b!==void 0?b:a[c]}} function w(a,c,b){if(c)a:{var d=a.split(\".\");a=d.length===1;var e=d[0],f;!a&&e in t?f=t:f=q;for(e=0;e<d.length-1;e++){var g=d[e];if(!(g in f))break a;f=f[g]}d=d[d.length-1];b=r&&b===\"es6\"?f[d]:null;c=c(b);c!=null&&(a?n(t,d,{configurable:!0,writable:!0,value:c}):c!==b&&(u[d]===void 0&&(a=Math.random()*1E9>>>0,u[d]=r?q.Symbol(d):\"$jscp$\"+a+\"$\"+d),n(f,u[d],{configurable:!0,writable:!0,value:c})))}}function x(a){var c=0;return function(){return c<a.length?"
+        },
+        {
+          "status": 204,
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-DYE4XLEMH3&gtm=45je6bi0h2v9103032405za200zd9103032405xf1&_p=1795127212003&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTQ1Zm&_eu=AEAAAGQC&ae=a&are=1&cid=1356338301.1795127",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/rmkt/collect/844696716/?random=1795127214795&cv=11&fst=1795127214795&fmt=8&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=0",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/__manifest?paths=%2Fdrip&version=c04613c5",
+          "body": "{\"root\":{\"id\":\"root\",\"path\":\"\",\"hasAction\":false,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":true,\"module\":\"/assets/root-DlAUjYVT.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/react-dom-CBg-C1gi.js\",\"/assets/errorBoundaries-BTv6T0zf.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/solana-DSG5oXTI.js\",\"/assets/createLucideIcon-C0Su_4I-.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/markdown-i65I97fW.js\",\"/assets/badge-cvJVi3Uv.js\",\"/assets/utils-De7E53Fk.js\"],\"css\":[]},\"routes/layout\":{\"id\":\"routes/layout\",\"parentId\":\"root\",\"hasAction\":false,\"hasLoader\":false,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":false,\"module\":\"/assets/layout-C-MgGz0Q.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/check-BDJ1ffX_.js\"],\"css\":[]},\"routes/index\":{\"id\":\"routes/index\",\"parentId\":\"routes/layout\",\"path\":\"*\",\"hasAction\":true,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/pagead/1p-user-list/844696716/?random=1795127214795&cv=11&fst=1795125600000&bg=ffffff&guid=ON&async=1&en=form_start&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0001D\u0000;"
+        },
+        {
+          "status": 202,
+          "url": "https://faucet.quicknode.com/drip.data",
+          "body": "[{\"_1\":2,\"_3\":4,\"_5\":6,\"_7\":6,\"_8\":6},\"redirect\",\"/polygon/amoy\",\"status\",302,\"revalidate\",false,\"reload\",\"replace\"] "
+        },
+        {
+          "status": 204,
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-DYE4XLEMH3&gtm=45je6bi0h2v9103032405za200zd9103032405xf1&_p=1795127212003&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTQ1Zm&_eu=AEEAAGQC&ae=a&are=1&cid=1356338301.1795127",
+          "body": ""
+        },
+        {
+          "status": 204,
+          "url": "https://analytics.google.com/g/collect?v=2&tid=G-DYE4XLEMH3&gtm=45je6bi0h2v9103032405za200zd9103032405xf1&_p=1795127212003&gcs=G111&gcd=13r3r3r3r5l1&npa=0&dma=0&gdid=dZTQ1Zm&_eu=AkEAAGQC&ae=a&are=1&cid=1356338301.1795127",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/844696716/?random=1795127215163&cv=11&fst=1795127215163&bg=ffffff&guid=ON&async=1&en=form_submit&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf",
+          "body": "(function(){var s = {};(function(){var l=typeof Object.create==\"function\"?Object.create:function(a){function c(){}c.prototype=a;return new c},n=typeof Object.defineProperties==\"function\"?Object.defineProperty:function(a,c,b){if(a==Array.prototype||a==Object.prototype)return a;a[c]=b.value;return a}; function p(a){a=[\"object\"==typeof globalThis&&globalThis,a,\"object\"==typeof window&&window,\"object\"==typeof self&&self,\"object\"==typeof global&&global];for(var c=0;c<a.length;++c){var b=a[c];if(b&&b.Math==Math)return b}throw Error(\"Cannot find global object\");}var q=p(this),r=typeof Symbol===\"function\"&&typeof Symbol(\"x\")===\"symbol\",t={},u={};function v(a,c,b){if(!b||a!=null){b=u[c];if(b==null)return a[c];b=a[b];return b!==void 0?b:a[c]}} function w(a,c,b){if(c)a:{var d=a.split(\".\");a=d.length===1;var e=d[0],f;!a&&e in t?f=t:f=q;for(e=0;e<d.length-1;e++){var g=d[e];if(!(g in f))break a;f=f[g]}d=d[d.length-1];b=r&&b===\"es6\"?f[d]:null;c=c(b);c!=null&&(a?n(t,d,{configurable:!0,writable:!0,value:c}):c!==b&&(u[d]===void 0&&(a=Math.random()*1E9>>>0,u[d]=r?q.Symbol(d):\"$jscp$\"+a+\"$\"+d),n(f,u[d],{configurable:!0,writable:!0,value:c})))}}function x(a){var c=0;return function(){return c<a.length?"
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/rmkt/collect/844696716/?random=1795127215163&cv=11&fst=1795127215163&fmt=8&bg=ffffff&guid=ON&async=1&en=form_submit&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma=",
+          "body": ""
+        },
+        {
+          "status": 200,
+          "url": "https://www.google.com/pagead/1p-user-list/844696716/?random=1795127215163&cv=11&fst=1795125600000&bg=ffffff&guid=ON&async=1&en=form_submit&gtm=45be6bi0h2v895521225za200zb9103032405zd9103032405xecxf1&gcd=13r3r3r3r5l1&dma",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000���!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000\u0000\u0002\u0001D\u0000;"
+        },
+        {
+          "status": 200,
+          "url": "https://track.hubspot.com/__ptc.gif?_hs_tag_name=BUTTON&_hs_element_id=&_hs_element_class=inline-flex+items-center+justify-center+gap-2+transition-all+duration-200+cursor-pointer+disabled%3Acursor-not-allowed+px-6+py-3+f",
+          "body": "GIF89a\u0001\u0000\u0001\u0000�\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000!�\u0004\u0001\u0000\u0000\u0000\u0000,\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000@\b\u0004\u0000\u0001\u0004\u0004\u0000;"
+        },
+        {
+          "status": 202,
+          "url": "https://faucet.quicknode.com/polygon/amoy.data",
+          "body": "[{\"_1\":2,\"_3\":4,\"_5\":6,\"_7\":6,\"_8\":6},\"redirect\",\"/polygon/amoy/bonus?wallet=0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045\",\"status\",302,\"revalidate\",false,\"reload\",\"replace\"] "
+        },
+        {
+          "status": 200,
+          "url": "https://faucet.quicknode.com/__manifest?paths=%2Fpolygon%2C%2Fpolygon%2Famoy%2C%2Fpolygon%2Famoy%2Fbonus&version=c04613c5",
+          "body": "{\"root\":{\"id\":\"root\",\"path\":\"\",\"hasAction\":false,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":true,\"module\":\"/assets/root-DlAUjYVT.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/react-dom-CBg-C1gi.js\",\"/assets/errorBoundaries-BTv6T0zf.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/solana-DSG5oXTI.js\",\"/assets/createLucideIcon-C0Su_4I-.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/markdown-i65I97fW.js\",\"/assets/badge-cvJVi3Uv.js\",\"/assets/utils-De7E53Fk.js\"],\"css\":[]},\"routes/layout\":{\"id\":\"routes/layout\",\"parentId\":\"root\",\"hasAction\":false,\"hasLoader\":false,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":false,\"hasDefaultExport\":true,\"hasErrorBoundary\":false,\"module\":\"/assets/layout-C-MgGz0Q.js\",\"imports\":[\"/assets/components-Da-KCmT6.js\",\"/assets/jsx-runtime-8YX4Yb9D.js\",\"/assets/utils-DMPTxCcP.js\",\"/assets/auth-DY0h4_aH.js\",\"/assets/check-BDJ1ffX_.js\"],\"css\":[]},\"routes/index\":{\"id\":\"routes/index\",\"parentId\":\"routes/layout\",\"path\":\"*\",\"hasAction\":true,\"hasLoader\":true,\"hasClientAction\":false,\"hasClientLoader\":false,\"hasClientMiddleware\":"
+        }
+      ]
+    }
+  ]
+}

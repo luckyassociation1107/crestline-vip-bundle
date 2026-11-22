@@ -1,0 +1,187 @@
+Amoy Testnet
+Light
+Dim
+Dark
+Auto (System)
+  
+Polygon Mainnet
+Amoy Testnet
+  
+Home
+Blockchain
+Transactions
+Pending Transactions
+Contract Internal Transactions
+Plasma Deposit Transactions
+AA Transactions
+EIP-7702 Authorizations Beta
+View Blocks
+Forked Blocks (Reorgs)
+Top Accounts
+Verified Contracts
+Tokens
+View ERC-20 Transfers
+NFTs
+Latest Transfers
+Latest Mints
+API
+Multichain API
+API Pricing
+API Documentation
+More
+Converters
+Unit Converter
+Base64 Converter
+Block & Date Converter
+UTF-8 Converter
+Method ID Converter
+API
+API Documentation
+Verify Contract
+Contract Diff Checker
+Similar Contract Search
+Vyper Online Compiler
+Bytecode to Opcode
+Broadcast Transaction
+Tools & Services
+CSV Export
+Input Data Decoder
+Input Data Encoder Beta
+Account Balance Checker
+Token Supply Checker
+Token Standard Checker
+Explorers
+Polygon Mainnet
+Amoy Testnet
+Site Settings
+Appearance
+Light
+Dim
+Dark
+Auto (System)
+Polygon PoS Chain Amoy Testnet Explorer
+All Filters
+Addresses
+Tokens
+Search 
+Transactions
+98.05 M (2.6 TPS)
+Base Fee
+4,899 wei
+Latest Block
+53303991
+Latest Blocks
+Block 53303991
+4 secs ago
+Validated By 0x6dc2dD54...eD722280c
+1 txn in 1 sec0.0919 POL
+0.0919 POL
+Block 53303990
+5 secs ago
+Validated By 0x6dc2dD54...eD722280c
+3 txns in 1 sec0.18191 POL
+0.18191 POL
+Block 53303989
+6 secs ago
+Validated By 0x6dc2dD54...eD722280c
+9 txns in 1 sec0.07808 POL
+0.07808 POL
+Block 53303988
+7 secs ago
+Validated By 0x6dc2dD54...eD722280c
+4 txns in 1 sec0.28225 POL
+0.28225 POL
+Block 53303987
+8 secs ago
+Validated By 0x6dc2dD54...eD722280c
+0 txn in 1 sec0 POL
+0 POL
+Block 53303986
+9 secs ago
+Validated By 0x6dc2dD54...eD722280c
+2 txns in 1 sec0.01474 POL
+0.01474 POL
+View all blocks
+Latest Transactions
+TX#0x393b7a86d0b24280699a6d969989e6bc3cccd72c11c4b3a009398feb37f53d21
+4 secs ago
+From 0x98879907...D63089038
+To 0xe7a24BcB...b28bf04Be0 POL
+0 POL
+TX#0x29994d21f1459dc784e3addd760d8a2e2bcd2669a7b82c36fcd552caf167be0c
+5 secs ago
+From 0x58562da9...e834c28B8
+To 0xFfb6FEBB...56244c0d70 POL
+0 POL
+TX# 0xa3730b8445a57792d08128d19063ad666906947b9b8313ab7c4d535c63f19299
+5 secs ago
+From 0xAf51d514...14dDFFC31
+To 0xe7a24BcB...b28bf04Be0 POL
+0 POL
+TX#0x274b045868665c316d1f64cdb78ed85ce148e8210da701eb773fa1ae0300e402
+5 secs ago
+From 0x9BfA8cBc...a45906E61
+To 0xe7a24BcB...b28bf04Be0 POL
+0 POL
+TX#0xcb0b3e58c61dc9a5baaf55c7e02a86063e994a319dbcb8cfececa8ede1a6a4e5
+6 secs ago
+From 0xdD90D8Ea...b5e638039
+To 0xe3333700...05F6c00Aa0 POL
+0 POL
+TX#0x84bc017dfa58c302d9e163a98643bc7c1052f47c12cc7f1d3d2f9e6255e5ce7d
+6 secs ago
+From 0x8bAf3039...c479Ba9BD
+To 0xe3333700...05F6c00Aa0 POL
+0 POL
+View all transactions
+Custom Card
+
+Customize this card by selecting one of the options below.
+
+ADVANCED FILTER
+ Saved Filters
+PRESET
+ Latest Blocks
+ Latest Transactions
+ Hot Contracts
+Close Save changes
+Choose Advanced Filter
+Advanced Filter List
+Close Save changes
+×
+Before You Copy
+
+ Don't show this for 30 days
+Understand, Copy Address
+Transaction Private Note
+Transaction Hash 
+Private Note Description 
+
+Please DO NOT store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.
+
+View All Transactions Private Notes
+Cancel Save changes
+My Address - Private Name Tag or Note
+
+My Name Tag:
+
+Private Name Tags (up to 35 characters) can be used for easy identification of addresses
+
+Private Note:
+
+A private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.
+View all Private Name Tags
+Close Save Changes
+   Powered by Polygon PoS Chain
+Back to Top
+ Add Polygon Amoy Network
+
+PolygonScan © 2026 (POLY-AMOY-A) | ⛏ Built by Team Etherscan
+
+Terms & Privacy | Network Status |
+
+Donations: 0x71c765...d8976f
+
+This website uses cookies to improve your experience. By continuing to use this website, you agree to its Terms and Privacy Policy.
+
+Got it!

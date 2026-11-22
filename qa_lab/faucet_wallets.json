@@ -1,0 +1,151 @@
+{
+  "wallets": [
+    {
+      "createdAt": "2026-11-21T12:08:28.542Z",
+      "address": "0xdDdcc73Cf6F2aC3f42611A6836dd550A7F215dfF",
+      "mnemonic": "[REDACTED_BY_MERGE]",
+      "privateKey": "[REDACTED_BY_MERGE]"
+    },
+    {
+      "createdAt": "2026-11-21T12:08:28.555Z",
+      "address": "0x821547Ea885F8F8e0cE571d29c7992C3ba31562A",
+      "mnemonic": "[REDACTED_BY_MERGE]",
+      "privateKey": "[REDACTED_BY_MERGE]"
+    },
+    {
+      "createdAt": "2026-11-21T12:08:28.568Z",
+      "address": "0x92351C51F5ABEBB10DB826575043b9c4194445e3",
+      "mnemonic": "[REDACTED_BY_MERGE]",
+      "privateKey": "[REDACTED_BY_MERGE]"
+    }
+  ],
+  "dayChains": [
+    {
+      "uid": "UID-G2BBMVCRRX",
+      "createdAt": "2026-11-21T12:08:28.823Z",
+      "masterMnemonic": "average palace digital broken december captain rival erase expose box truly identify",
+      "days": [
+        {
+          "day": 1,
+          "address": "0x0DD309CA48BcD1586415d06948A7184Fe87f4f39"
+        },
+        {
+          "day": 2,
+          "address": "0xa14B92807cbFE83786C16dFA15B1c95d607F3F94"
+        },
+        {
+          "day": 3,
+          "address": "0x3B7530831790748aF6008D5369B08B9De19CFeB9"
+        },
+        {
+          "day": 4,
+          "address": "0x0921462B7bdf196Cc172320E701D987D86d5573b"
+        },
+        {
+          "day": 5,
+          "address": "0xf083e7C2f7eaDe9D337cAf7203f4Eb20663B9D32"
+        },
+        {
+          "day": 6,
+          "address": "0x520e21c4CcD1B791AB94ac1e09e7AF9E70a1d95f"
+        },
+        {
+          "day": 7,
+          "address": "0xb4F7AE782db96E0Fe67C83fC2f99C596956d9c16"
+        },
+        {
+          "day": 8,
+          "address": "0x1630481AfB7E6816926c7b48316419B362022105"
+        },
+        {
+          "day": 9,
+          "address": "0x7Ee61ecA42954301D14c1F02D393A8e83C57147C"
+        },
+        {
+          "day": 10,
+          "address": "0xaf3298478bc0Da1cf06b3c52B32d9e6bfbf13596"
+        },
+        {
+          "day": 11,
+          "address": "0x10c52f4400A6e863dDF8c062110834AE2D794Ac9"
+        },
+        {
+          "day": 12,
+          "address": "0xFDc0df97980be9F273877c3Ce1B00fD5Da777B6a"
+        },
+        {
+          "day": 13,
+          "address": "0x57A275D555Bde30Bc2f304b8729EfcE813D7F244"
+        },
+        {
+          "day": 14,
+          "address": "0x8A4A5Bead27cC0c7d1E9BfE87fD4a7BFbEcb06d6"
+        },
+        {
+          "day": 15,
+          "address": "0x2aF9e7f8fCB39d362811Dc8f862a3263b21ad6FC"
+        },
+        {
+          "day": 16,
+          "address": "0xd310eE43ba3A63a4a4D3e4cC0b57a495d55E4b74"
+        },
+        {
+          "day": 17,
+          "address": "0x8b60D189aEB77F1A2385C166A8113a8B1D7Cf7de"
+        },
+        {
+          "day": 18,
+          "address": "0x788246D4AfaA02528027B6eF8A636C7C062Ad059"
+        },
+        {
+          "day": 19,
+          "address": "0x275EAFCe357a45C0E4B293dDD9034926d51EB179"
+        },
+        {
+          "day": 20,
+          "address": "0xdb0c95B795B8C2f47bc93D20cC46663aa30a90A0"
+        },
+        {
+          "day": 21,
+          "address": "0x9133f9aDCafE4417EF9F1DEeF0BCf89d4830Ef29"
+        },
+        {
+          "day": 22,
+          "address": "0xa708F7c0801a0CEfe773AD283838D9303E01dd92"
+        },
+        {
+          "day": 23,
+          "address": "0x04d45392912d27DB9775E2A8Da2c0D704227a1B2"
+        },
+        {
+          "day": 24,
+          "address": "0x02DC7a10c1Ea2AbF42e055D909FbfF209AA428a6"
+        },
+        {
+          "day": 25,
+          "address": "0xc82379AAf0f878703C284Dd76EeFdA8789ff8DdC"
+        },
+        {
+          "day": 26,
+          "address": "0x87074A5f935C240A582A73896FE148F20913b171"
+        },
+        {
+          "day": 27,
+          "address": "0x715C34952F6125CdFBD2558a29eF8629EcDb38C1"
+        },
+        {
+          "day": 28,
+          "address": "0x940f85b7ef4967c61874FD9b7045734427a972c5"
+        },
+        {
+          "day": 29,
+          "address": "0x38c7c42b170c8465310D8113Af4af0Ecdd96E6ED"
+        },
+        {
+          "day": 30,
+          "address": "0x6Ce8C5Fe172EEAFb0df9c3D0D112114989600e43"
+        }
+      ]
+    }
+  ]
+}

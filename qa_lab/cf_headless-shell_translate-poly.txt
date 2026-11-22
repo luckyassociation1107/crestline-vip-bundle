@@ -1,0 +1,387 @@
+POL Price: $0.0798 (-0.71%)
+Gas: 263.293 Web
+ /
+Light
+Dim
+Dark
+Auto (System)
+  
+Polygon Mainnet
+Amoy Testnet
+  
+Sign In 
+Home
+Blockchain
+Transactions
+Pending Transactions
+Contract Internal Transactions
+Cross-Chain Transactions
+Plasma Deposit Transactions
+AA Transactions
+EIP-7702 Authorizations Beta
+View Blocks
+Forked Blocks (Reorgs)
+Top Accounts
+Verified Contracts
+Tokens
+Top Tokens (ERC-20)
+Token Transfers (ERC-20)
+Token Flow VisualizerBeta
+NFTs
+Top Mints
+Latest Trades
+Latest Transfers
+Latest Mints
+Resources
+Charts & Stats
+Directory
+API
+Multichain API
+API Pricing
+API Documentation
+More
+Developer Tools
+Input Data Encoder Beta
+Input Data Decoder
+Unit Converter
+Download Data (CSV Export)
+Account Balance Checker
+Broadcast Transaction
+Bytecode to Opcode
+Smart Contract Tools
+Code Reader
+Verify Contract
+Similar Contract Search
+Contract Diff Checker
+Vyper Online Compiler
+Explore
+Gas Tracker
+Node Tracker
+Label Cloud
+Domain Name Lookup
+Services
+Token Approvals
+Verified Signature
+Input Data Messages (IDM)
+Advanced Filter
+Explorers
+Polygon Mainnet
+Amoy Testnet
+Site Settings
+Appearance
+Light
+Dim
+Dark
+Auto (System)
+|
+Sign In
+Address
+0xA14e867C7B4539B776F88FEDA19cf011b88c793b
+Buy
+Sponsored
+ MetaMask
+First time buying crypto? Try Now.
+
+Buy, sell, swap, and trade thousands of tokens.
+
+Play
+Sponsored
+ BC.GAME
+Next-gen Crypto Casino, Claim a 1080% Deposit Bonus and 140% Rakeback. Claim Now!
+
+Free Spin win up to 5 BTC & Play to Win $10,000
+
+Gaming
+Sponsored
+ BC.GAME
+The Best Crypto Casino, 2000+ Slots, 200+ Token. Claim 1000,000 Matic
+
+Daily free Spin 50000 Matic ,760% Deposit Bonus, 20%Rakeback, And Get 1000000 Matic free bonus on BC.Game
+
+ Сoins.game
+Everyday giveaways up to 100 000 MATIC, Lucky Spins. Spin now!
+
+Deposit BONUS 300% and Cashbacks. without verification!
+
+ Cybet.com
+360% Bonus, Fast Crypto Payouts, The Best Daily VIP Rewards Claim Bonus Now!
+
+3000+ slots,30% cashback rewards, crypto Gaming&Sports, 100K exclusive daily promos.
+
+Sponsored:  Etherscan - Sponsored Ads Slots Available! Book your slot here!
+ 
+API
+Token Approvals Beta
+Check Previous Balance
+Update Name Tag or Label
+Report/Flag Address
+Overview
+POL Balance
+0 POL
+POL Value
+$0.00
+More Info
+Private Name Tags
+Add
+Transactions Sent
+Latest: N/A First: N/A
+Funded By
+N/A
+Multichain Info
+$0 (Multichain Portfolio)
+No addresses found
+Ad 
+Transactions
+Token Transfers (ERC-20)
+Other Transactions
+Analytics
+Assets
+Cards New
+	Transaction Hash	
+	
+Block
+	
+	
+From
+		
+To
+	
+	
+
+
+There are no matching entries
+
+Please try again later
+
+Parent Transaction Hash	Block		From		To	
+View All Internal Transactions
+Cross Chain Transactions
+Cross-Chain Transactions
+Loading...
+Loading
+Custom ABI tools are out of date or failed to load. Reload this page once and try again.
+API
+Contract Name
+0 POL
+Compiler Version
+0
+Optimization Enabled
+0 POL
+Other Settings
+-NA-
+License
+-NA-
+Custom Contract ABI
+
+Block		Transaction	Gas Used	Reward
+view all blocks produced
+
+Block		Uncle Number	Difficulty	Gas Used	Reward
+View All Uncles
+Loading...
+Loading
+Loading...
+Loading
+Loading...
+Loading
+
+Validator Index	Block		Amount
+View All Withdrawals
+
+Transaction Hash	Block		Value	Eth2 PubKey	Valid
+View All Deposits
+Multichain Portfolio
+DeFi Positions
+Tokens
+NFTs
+ 0xA14e867C7B4539B776F88FEDA19cf011b88c793b
+Net Worth in USD
+$0.00
+Net Worth in POL
+ 0
+Multichain Portfolio | 28 Chains
+Display all chains •
+Last updated: less than 1 sec ago
+Ethereum (0)
+0 (0%)
+BNB Chain (0)
+0 (0%)
+Arbitrum One (0)
+0 (0%)
+Optimism (0)
+0 (0%)
+Base (0)
+0 (0%)
+BTTC (0)
+0 (0%)
+Celo (0)
+0 (0%)
+Linea (0)
+0 (0%)
+Avax C-Chain (0)
+0 (0%)
+Fraxtal (0)
+0 (0%)
+Mantle (0)
+0 (0%)
+Taiko (0)
+0 (0%)
+World (0)
+0 (0%)
+XDC (0)
+0 (0%)
+Unichain (0)
+0 (0%)
+Berachain (0)
+0 (0%)
+MemeCore (0)
+0 (0%)
+Sonic (0)
+0 (0%)
+Abstract (0)
+0 (0%)
+HyperEVM (0)
+0 (0%)
+Katana (0)
+0 (0%)
+Sei (0)
+0 (0%)
+Monad (0)
+0 (0%)
+Plasma (0)
+0 (0%)
+Stable (0)
+0 (0%)
+MegaEth (0)
+0 (0%)
+RobinHood (0)
+0 (0%)
+Arc (0)
+0 (0%)
+Show 28 more chains Hide 28 chains
+Tokens
+Chain	Token	Portfolio %	Price	Amount	Value
+DeFi
+0 Protocols
+Loading...
+Loading
+Chain	Protocol	Positions	Portfolio %	Value
+
+There are no matching entries
+DeFi
+0 Protocols
+Loading...
+Loading
+Protocol	Positions	Portfolio %	Value
+
+There are no matching entries
+Loading...
+Loading
+Loading...
+Loading
+Loading...
+Loading
+
+A wallet address is a publicly available address that allows its owner to receive funds from another party. To access the funds in an address, you must have its private key. Learn more about addresses in our Knowledge Base.
+
+Address QR Code
+My Address - Private Name Tag or Note
+
+My Name Tag:
+
+Character limit:
+Private Name Tags (up to 35 characters) can be used for easy identification of addresses
+
+Private Note:
+
+Character limit:
+A private note (up to 500 characters) can be attached to this address.
+Please DO NOT store any passwords or private keys here.
+View all Private Name Tags
+Close Save Changes
+👋
+Before You Continue...
+📝
+Connecting your wallet enables signing messages to verify ownership or signing messages to interact with smart contracts.
+⚠️
+This is provided as is, without guarantees or warranties of any kind.
+💸
+All interactions are at your own risk. polygonscan is not responsible for any losses or damages resulting from use of this feature.
+🧠
+Please ensure you understand what you're doing before continuing.
+🔗
+Learn more about connecting your wallet on polygonscan.
+Understand and Continue
+Connect a Wallet
+Rabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets
+No wallet found
+Connect a Wallet
+Rabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets
+No wallet found
+Connect a Wallet
+Rabby Wallet  MetaMask  WalletConnect (Reown)  Other Wallets
+No wallet found
+Add Custom ABI
+Address 
+Custom ABI tools are out of date or failed to load. Reload this page once and try again.
+Custom ABI Magic Fill Find Similar
+Apply Custom ABI to enable custom read/write functions for the current session. Save to also enable them for future sessions.
+
+Sign in to save this ABI to your account.
+
+Cancel Apply Custom ABI
+×
+Before You Copy
+
+ Don't show this for 30 days
+Understand, Copy Address
+Transaction Private Note
+Transaction Hash 
+Private Note Description 
+
+Please DO NOT store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.
+
+View All Transactions Private Notes
+Cancel Save changes
+My Address - Private Name Tag or Note
+
+My Name Tag:
+
+Private Name Tags (up to 35 characters) can be used for easy identification of addresses
+
+Private Note:
+
+A private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.
+View all Private Name Tags
+Close Save Changes
+(Twitter)
+Back to Top
+   Powered by Polygon PoS Chain
+
+PolygonScan is a Block Explorer and Analytics Platform for Polygon PoS Chain.
+
+ Add Polygon Network
+Company
+Brand Assets
+Contact Us
+Terms & Privacy
+Bug Bounty
+Community
+API Documentation
+Knowledge Base
+Network Status
+What is a Block Explorer?
+Products & Services
+Advertise
+Explorer as a Service (EaaS)
+Multichain API
+Priority Support
+Blockscan
+
+PolygonScan © 2026 (POLY-A1) | ⛏ Built by Team Etherscan
+
+Donations: 0x71c765...d8976f
+
+This website uses cookies to improve your experience. By continuing to use this website, you agree to its Terms and Privacy Policy.
+
+Got it!

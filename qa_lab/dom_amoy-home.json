@@ -1,0 +1,327 @@
+{
+  "url": "https://amoy-polygonscan-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en",
+  "status": 200,
+  "title": "TESTNET Polygon PoS Chain Amoy (POL) Blockchain Explorer",
+  "text": "Amoy Testnet\nLight\nDim\nDark\nAuto (System)\n  \nPolygon Mainnet\nAmoy Testnet\n  \nHome\nBlockchain\nTransactions\nPending Transactions\nContract Internal Transactions\nPlasma Deposit Transactions\nAA Transactions\nEIP-7702 Authorizations Beta\nView Blocks\nForked Blocks (Reorgs)\nTop Accounts\nVerified Contracts\nTokens\nView ERC-20 Transfers\nNFTs\nLatest Transfers\nLatest Mints\nAPI\nMultichain API\nAPI Pricing\nAPI Documentation\nMore\nConverters\nUnit Converter\nBase64 Converter\nBlock & Date Converter\nUTF-8 Converter\nMethod ID Converter\nAPI\nAPI Documentation\nVerify Contract\nContract Diff Checker\nSimilar Contract Search\nVyper Online Compiler\nBytecode to Opcode\nBroadcast Transaction\nTools & Services\nCSV Export\nInput Data Decoder\nInput Data Encoder Beta\nAccount Balance Checker\nToken Supply Checker\nToken Standard Checker\nExplorers\nPolygon Mainnet\nAmoy Testnet\nSite Settings\nAppearance\nLight\nDim\nDark\nAuto (System)\nPolygon PoS Chain Amoy Testnet Explorer\nAll Filters\nAddresses\nTokens\nSearch \nTransactions\n98.06 M (3.1 TPS)\nBase Fee\n18,487 wei\nLatest Block\n53304107\nLatest Blocks\nBlock53304107\n3 secs ago\nValidated By 0x6dc2dD54...eD722280c\n5 txns in 1 sec0.06241 POL\n0.06241 POL\nBlock53304106\n4 secs ago\nValidated By 0x6dc2dD54...eD722280c\n2 txns in 1 sec0.00246 POL\n0.00246 POL\nBlock53304105\n5 secs ago\nValidated By 0x6dc2dD54...eD722280c\n3 txns in 1 sec0.10278 POL\n0.10278 POL\nBlock53304104\n6 secs ago\nValidated By 0x6dc2dD54...eD722280c\n2 txns in 1 sec0.06066 POL\n0.06066 POL\nBlock53304103\n7 secs ago\nValidated By 0x6dc2dD54...eD722280c\n1 txn in 1 sec0.00075 POL\n0.00075 POL\nBlock53304102\n8 secs ago\nValidated By 0x6dc2dD54...eD722280c\n2 txns in 1 sec0.05008 POL\n0.05008 POL\nView all blocks\nLatest Transactions\nTX#0x023b004cc79ce7ceeff2f154fcd14af365678a156260b4bfa46f1462b7e53e56\n3 secs ago\nFrom 0xe7d1B266...618F02ba7\nTo 0xA506Be11...DABACB83C0.2 POL\n0.2 POL\nTX#0x3e3c147e590e1b6e9df9ee995c808e0649db6be530c870da0ac9559e04b1694d\n3 secs ago\nFrom 0x1522E0De...a4A88abBB\nTo 0xd15D967D...8406Ddf670 POL\n0 POL\nTX#0x6f82382ebffbc00140aa6add2a73dbba740908ef4be77e02fad97000613957d4\n3 secs ago\nFrom 0x9fA93d09...9E40C9BD0\nTo 0xe3333700...05F6c00Aa0 POL\n0 POL\nTX#0x78e5f4c22f996ba06d3d378cd9ffadcf66ab72e00318e1bf146652487477af5d\n3 secs ago\nFrom 0x58C88177...0e014C73c\nTo 0xe7a24BcB...b28bf04Be0 POL\n0 POL\nTX#0xa5cee6451c1f0463ca89978f935e05b11d7a401dbc38ad229fef8edb0382087b\n3 secs ago\nFrom 0xbc1Be4cC...1E32C6A2C\nTo 0x4C316de7...8DEAC0F0a1 POL\n1 POL\nTX#0xd202af6acf75c799e7c840a276e08c45575b1befd8db9a672342d0af0d311f01\n4 secs ago\nFrom 0xb321E35f...E1b685b79\nTo 0x6fe572B0...243B7233c0 POL\n0 POL\nView all transactions\nCustom Card\n\nCustomize this card by selecting one of the options below.\n\nADVANCED FILTER\n Saved Filters\nPRESET\n Latest Blocks\n Latest Transactions\n Hot Contracts\nClose Save changes\nChoose Advanced Filter\nAdvanced Filter List\nClose Save changes\n×\nBefore You Copy\n\n Don't show this for 30 days\nUnderstand, Copy Address\nTransaction Private Note\nTransaction Hash \nPrivate Note Description \n\nPlease DO NOT store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.\n\nView All Transactions Private Notes\nCancel Save changes\nMy Address - Private Name Tag or Note\n\nMy Name Tag:\n\nPrivate Name Tags (up to 35 characters) can be used for easy identification of addresses\n\nPrivate Note:\n\nA private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.\nView all Private Name Tags\nClose Save Changes\n   Powered by Polygon PoS Chain\nBack to Top\n Add Polygon Amoy Network\n\nPolygonScan © 2026 (POLY-AMOY-A) | ⛏ Built by Team Etherscan\n\nTerms & Privacy | Network Status |\n\nDonations: 0x71c765...d8976f\n\nThis website uses cookies to improve your experience. By continuing to use this website, you agree to its Terms and Privacy Policy.\n\nGot it!",
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnAgeText",
+      "name": "hdnAgeText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Age"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnDateTimeText",
+      "name": "hdnDateTimeText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Date Time (UTC)"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnAgeTitle",
+      "name": "hdnAgeTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "Click to show Age Format"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnDateTimeTitle",
+      "name": "hdnDateTimeTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "Click to show Datetime Format"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnTxnText",
+      "name": "hdnTxnText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Txn Fee"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnGasPriceText",
+      "name": "hdnGasPriceText",
+      "placeholder": "",
+      "aria": "",
+      "value": "Gas Price"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnTxnFeeTitle",
+      "name": "hdnTxnFeeTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "(Gas Price * Gas Used by Txns) in POL"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnGasPriceTitle",
+      "name": "hdnGasPriceTitle",
+      "placeholder": "",
+      "aria": "",
+      "value": "Gas Price in Gwei"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSiteName",
+      "name": "hdnSiteName",
+      "placeholder": "",
+      "aria": "",
+      "value": "polygonscan"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSiteEmptyToken",
+      "name": "hdnSiteEmptyToken",
+      "placeholder": "",
+      "aria": "",
+      "value": "/assets/poly/images/svg/empty-token.svg?v=26.11.2.1"
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSiteShortUrl",
+      "name": "hdnSiteShortUrl",
+      "placeholder": "",
+      "aria": "",
+      "value": "amoy.polygonscan.com"
+    },
+    {
+      "tag": "SELECT",
+      "type": "select-one",
+      "id": "",
+      "name": "f",
+      "aria": "Default select example",
+      "value": "0"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "search-panel",
+      "name": "q",
+      "placeholder": "Search by Address / Txn Hash / Block / Token",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSearchText",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnSearchLabel",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "hdnIsTestNet",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": "True"
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "checkAdvancedFilter",
+      "name": "checkCustomOption",
+      "placeholder": "",
+      "aria": "",
+      "value": "AdvancedFilters"
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "checkPresets1",
+      "name": "checkCustomOption",
+      "placeholder": "",
+      "aria": "",
+      "value": "LatestBlocks"
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "checkPresets2",
+      "name": "checkCustomOption",
+      "placeholder": "",
+      "aria": "",
+      "value": "LatestTransactions"
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "id": "checkPresets3",
+      "name": "checkCustomOption",
+      "placeholder": "",
+      "aria": "",
+      "value": "HotContracts"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "txtSearchSavedFilters",
+      "name": "",
+      "placeholder": "Search saved filters",
+      "aria": "Search",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "id": "popupDontShowAgain",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "saveTxnNoteHash",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "editTxnNote",
+      "name": "text",
+      "placeholder": "Short description..",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "hidden",
+      "id": "txtAddress",
+      "name": "txtAddress",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "txtPrivateNameTagMain",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "id": "txtPrivateNoteAreaMain",
+      "name": "",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "goog-gt-votingInputSrcLang",
+      "name": "sl",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "goog-gt-votingInputTrgLang",
+      "name": "tl",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "id": "goog-gt-votingInputSrcText",
+      "name": "query",
+      "placeholder": "",
+      "aria": "",
+      "value": ""
+    }
+  ],
+  "selects": [
+    {
+      "id": "",
+      "name": "f",
+      "options": [
+        {
+          "value": "0",
+          "text": "All Filters"
+        },
+        {
+          "value": "1",
+          "text": "Addresses"
+        },
+        {
+          "value": "2",
+          "text": "Tokens"
+        }
+      ]
+    }
+  ],
+  "buttons": [
+    "Light",
+    "Dim",
+    "Dark",
+    "Auto (System)",
+    "Blockchain",
+    "Tokens",
+    "NFTs",
+    "API",
+    "More",
+    "Explorers",
+    "Site Settings",
+    "Appearance",
+    "Light",
+    "Dim",
+    "Dark",
+    "Auto (System)",
+    "Close",
+    "Save changes",
+    "Close",
+    "Save changes",
+    "×",
+    "Understand, Copy Address",
+    "Cancel",
+    "Save changes",
+    "Close",
+    "Save Changes",
+    "Add Polygon Amoy Network",
+    "Got it!"
+  ]
+}

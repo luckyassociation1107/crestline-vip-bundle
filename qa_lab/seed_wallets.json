@@ -1,0 +1,30 @@
+[
+  {
+    "app": "1-testnet-user",
+    "user": "main",
+    "address": "0xD81b0A51f404cF98335f644EFBa3b5C10243e954",
+    "mnemonic": "[REDACTED_BY_MERGE]",
+    "derivationPath": "m/44'/60'/0'/0/0"
+  },
+  {
+    "app": "1-testnet-user",
+    "user": "referral",
+    "address": "0x4E7940d9D0Ae8e86E0b02bE5E111E9ed048Cf2C6",
+    "mnemonic": "[REDACTED_BY_MERGE]",
+    "derivationPath": "m/44'/60'/0'/0/0"
+  },
+  {
+    "app": "3-mainnet-user",
+    "user": "main",
+    "address": "0x8b530624b6fa7646F3898362126D96fe4714B305",
+    "mnemonic": "[REDACTED_BY_MERGE]",
+    "derivationPath": "m/44'/60'/0'/0/0"
+  },
+  {
+    "app": "3-mainnet-user",
+    "user": "referral",
+    "address": "0x46A8b894B3A6Ea19908FB0Fddd59fB65a8259EF1",
+    "mnemonic": "[REDACTED_BY_MERGE]",
+    "derivationPath": "m/44'/60'/0'/0/0"
+  }
+]

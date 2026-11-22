@@ -1,0 +1,30 @@
+127.0.0.1 - - [19/Nov/2026 22:10:57] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:57] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:57] "GET /assets/index-D8DkQUNS.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:58] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:58] "GET /assets/index-CH__K5KW.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:58] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:58] "GET /assets/index-D627spdH.js HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:59] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [19/Nov/2026 22:10:59] "GET /assets/index-DG9_RbOV.js HTTP/1.1" 200 -
+
+========================================================================
+VERIFY: 131/131 checks passed, 0 failed
+========================================================================
+
+Passed checks (sample):
+  PASS  [1-testnet-user] project dir exists
+  PASS  [1-testnet-user] namespace + applicationId
+  PASS  [1-testnet-user] compileSdk 35 / minSdk 26 / Java 17
+  PASS  [1-testnet-user] gradle.properties has AndroidX flag
+  PASS  [1-testnet-user] AndroidManifest.xml well-formed
+  PASS  [1-testnet-user] INTERNET + POST_NOTIFICATIONS
+  PASS  [1-testnet-user] cleartext disabled
+  PASS  [1-testnet-user] networkSecurityConfig set
+  PASS  [1-testnet-user] crestline://sync deep link
+  PASS  [1-testnet-user] network_security_config.xml well-formed
+  PASS  [1-testnet-user] Amoy RPC domains pinned
+  PASS  [1-testnet-user] testnet build excludes mainnet RPC

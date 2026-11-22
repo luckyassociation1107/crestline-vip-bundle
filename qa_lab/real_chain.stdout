@@ -1,0 +1,149 @@
+{
+  "note": "read-only public RPC queries; no keys, no funds, no transactions",
+  "checks": [
+    {
+      "label": "amoy eth_chainId",
+      "value": "0x13882",
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "amoy eth_blockNumber",
+      "value": "0x32d58bf",
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "amoy latest block timestamp",
+      "value": "0x6aff73cf",
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "polygon eth_chainId",
+      "value": "0x89",
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "polygon eth_blockNumber",
+      "value": "0x5d1780c",
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "polygon latest block timestamp",
+      "value": "0x6aff73cf",
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "amoy_pool eth_getCode",
+      "value": {
+        "length": 2,
+        "isContract": false
+      },
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "amoy_pool native balance",
+      "value": 0.0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "amoy_registry eth_getCode",
+      "value": {
+        "length": 2,
+        "isContract": false
+      },
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "amoy_registry native balance",
+      "value": 0.0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "mainnet_pool eth_getCode",
+      "value": {
+        "length": 2,
+        "isContract": false
+      },
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "mainnet_pool native balance",
+      "value": 0.0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "polygon_USDT eth_getCode",
+      "value": {
+        "length": 5900,
+        "isContract": true
+      },
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "polygon_USDT native balance",
+      "value": 0.001014010001,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "USDT balanceOf(mainnet pool)",
+      "value": 0.0,
+      "error": null,
+      "note": "6 decimals"
+    },
+    {
+      "label": "USDT Transfers -> pool blocks 97603838..97613837",
+      "value": 0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "USDT Transfers -> pool blocks 97593838..97603837",
+      "value": 0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "USDT Transfers -> pool blocks 97583838..97593837",
+      "value": 0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "USDT Transfers -> pool blocks 97573838..97583837",
+      "value": 0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "USDT Transfers -> pool blocks 97563838..97573837",
+      "value": 0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "USDT Transfers -> pool total (last 50k blocks)",
+      "value": 0,
+      "error": null,
+      "note": ""
+    },
+    {
+      "label": "rpc-amoy.polygon.technology DNS",
+      "value": "UNRESOLVED",
+      "error": "[Errno -5] No address associated with hostname",
+      "note": ""
+    }
+  ]
+}

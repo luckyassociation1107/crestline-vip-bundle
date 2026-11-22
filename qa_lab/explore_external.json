@@ -1,0 +1,436 @@
+[
+  {
+    "name": "polygonscan-home",
+    "url": "https://polygonscan.com/",
+    "finalUrl": "https://polygonscan.com/",
+    "status": 403,
+    "title": "Just a moment...",
+    "err": null,
+    "textLen": 263,
+    "text": "polygonscan.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5d2939ac814c6cf\nPerformance and Security by Cloudflare\nPrivacy",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "cf-turnstile-response",
+        "id": "cf-chl-widget-mrqm1_response",
+        "placeholder": "",
+        "aria": ""
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Cloudflare",
+        "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=l"
+      },
+      {
+        "text": "Privacy",
+        "href": "https://www.cloudflare.com/privacypolicy/"
+      }
+    ],
+    "responses": [
+      "307 https://polygonscan.com/",
+      "403 https://polygonscan.com/",
+      "200 https://polygonscan.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5d2939ac814c6cf",
+      "200 https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js?onload=_134b2a8eacda042f9712269e&render=explicit",
+      "200 https://polygonscan.com/cdn-cgi/challenge-platform/h/b/fo/738383495:1795123227:EG0-DwAwNZEuMoGeIu4WSn2_QdtGSWt8iTL7qieTYBI/a5d2939",
+      "200 blob:https://polygonscan.com/3773beb4-fa4f-4ab3-8161-1b574e458483",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/mrqm1/0x4AAAAAAAAjq6WYeRDKmebM/light/fbE/new/",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/475288027:1795123229:bFrfSwEP8T7rXddbOLGfBFEZhS4wgai58yE4pj7yf"
+    ],
+    "consoleErrors": [
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha"
+    ]
+  },
+  {
+    "name": "amoy-home",
+    "url": "https://amoy.polygonscan.com/",
+    "finalUrl": "https://amoy.polygonscan.com/",
+    "status": 403,
+    "title": "Just a moment...",
+    "err": null,
+    "textLen": 268,
+    "text": "amoy.polygonscan.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5d293be3abdad76\nPerformance and Security by Cloudflare\nPrivacy",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "cf-turnstile-response",
+        "id": "cf-chl-widget-zx7t0_response",
+        "placeholder": "",
+        "aria": ""
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Cloudflare",
+        "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=l"
+      },
+      {
+        "text": "Privacy",
+        "href": "https://www.cloudflare.com/privacypolicy/"
+      }
+    ],
+    "responses": [
+      "307 https://amoy.polygonscan.com/",
+      "403 https://amoy.polygonscan.com/",
+      "200 https://amoy.polygonscan.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5d293be3abdad76",
+      "200 https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js?onload=_0741fdbcb78e4fef8432fee0&render=explicit",
+      "200 blob:https://amoy.polygonscan.com/99079ff6-a29d-4958-b75c-97274d3fc285",
+      "200 https://amoy.polygonscan.com/cdn-cgi/challenge-platform/h/b/fo/738383495:1795123227:EG0-DwAwNZEuMoGeIu4WSn2_QdtGSWt8iTL7qieTYBI/a5",
+      "200 blob:https://amoy.polygonscan.com/1045b437-94b9-445d-a0e8-6481e80fcb5d",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/zx7t0/0x4AAAAAAAAjq6WYeRDKmebM/light/fbE/new/"
+    ],
+    "consoleErrors": [
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the document's Content Security Policy.",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%o font-size:0;color:transparent {}"
+    ]
+  },
+  {
+    "name": "amoy-pool",
+    "url": "https://amoy.polygonscan.com/address/0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+    "finalUrl": "https://amoy.polygonscan.com/address/0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+    "status": 403,
+    "title": "Just a moment...",
+    "err": null,
+    "textLen": 268,
+    "text": "amoy.polygonscan.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5d293e058d3ad76\nPerformance and Security by Cloudflare\nPrivacy",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "cf-turnstile-response",
+        "id": "cf-chl-widget-ptrgb_response",
+        "placeholder": "",
+        "aria": ""
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Cloudflare",
+        "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=l"
+      },
+      {
+        "text": "Privacy",
+        "href": "https://www.cloudflare.com/privacypolicy/"
+      }
+    ],
+    "responses": [
+      "403 https://amoy.polygonscan.com/address/0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "200 https://amoy.polygonscan.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5d293e058d3ad76",
+      "200 https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js?onload=_766f41bf5c9ec2a6999569a5&render=explicit",
+      "200 https://amoy.polygonscan.com/cdn-cgi/challenge-platform/h/b/fo/738383495:1795123227:EG0-DwAwNZEuMoGeIu4WSn2_QdtGSWt8iTL7qieTYBI/a5",
+      "200 blob:https://amoy.polygonscan.com/d18c79c0-7666-455c-9ab3-828f9cc4e992",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/ptrgb/0x4AAAAAAAAjq6WYeRDKmebM/light/fbE/new/",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/475288027:1795123229:bFrfSwEP8T7rXddbOLGfBFEZhS4wgai58yE4pj7yf",
+      "200 blob:https://challenges.cloudflare.com/18d32fd0-6d22-4523-81d6-1714dc79795b"
+    ],
+    "consoleErrors": [
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the document's Content Security Policy.",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%o font-size:0;color:transparent {}"
+    ]
+  },
+  {
+    "name": "amoy-registry",
+    "url": "https://amoy.polygonscan.com/address/0x9be43bC43b1b3e47f9507696101938EB830cbae8",
+    "finalUrl": "https://amoy.polygonscan.com/address/0x9be43bC43b1b3e47f9507696101938EB830cbae8",
+    "status": 403,
+    "title": "Just a moment...",
+    "err": null,
+    "textLen": 268,
+    "text": "amoy.polygonscan.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5d294018efbad76\nPerformance and Security by Cloudflare\nPrivacy",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "cf-turnstile-response",
+        "id": "cf-chl-widget-1k30a_response",
+        "placeholder": "",
+        "aria": ""
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Cloudflare",
+        "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=l"
+      },
+      {
+        "text": "Privacy",
+        "href": "https://www.cloudflare.com/privacypolicy/"
+      }
+    ],
+    "responses": [
+      "403 https://amoy.polygonscan.com/address/0x9be43bC43b1b3e47f9507696101938EB830cbae8",
+      "200 https://amoy.polygonscan.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5d294018efbad76",
+      "200 https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js?onload=_f15c5ba907ce822b4ba3b4e1&render=explicit",
+      "200 https://amoy.polygonscan.com/cdn-cgi/challenge-platform/h/b/fo/738383495:1795123227:EG0-DwAwNZEuMoGeIu4WSn2_QdtGSWt8iTL7qieTYBI/a5",
+      "200 blob:https://amoy.polygonscan.com/ebd2e07f-0bdb-48ea-aa86-75479fad372a",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/1k30a/0x4AAAAAAAAjq6WYeRDKmebM/light/fbE/new/",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/475288027:1795123229:bFrfSwEP8T7rXddbOLGfBFEZhS4wgai58yE4pj7yf",
+      "200 blob:https://challenges.cloudflare.com/4134c860-bdde-473c-9767-6167ee444ee1"
+    ],
+    "consoleErrors": [
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha"
+    ]
+  },
+  {
+    "name": "polygon-usdt",
+    "url": "https://polygonscan.com/token/0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "finalUrl": "https://polygonscan.com/token/0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "status": 403,
+    "title": "Just a moment...",
+    "err": null,
+    "textLen": 263,
+    "text": "polygonscan.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5d294223ceead76\nPerformance and Security by Cloudflare\nPrivacy",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "cf-turnstile-response",
+        "id": "cf-chl-widget-ppm5t_response",
+        "placeholder": "",
+        "aria": ""
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Cloudflare",
+        "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=j"
+      },
+      {
+        "text": "Privacy",
+        "href": "https://www.cloudflare.com/privacypolicy/"
+      }
+    ],
+    "responses": [
+      "403 https://polygonscan.com/token/0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "200 https://polygonscan.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5d294223ceead76",
+      "200 https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js?onload=_8cd17296a834b41514de2303&render=explicit",
+      "200 https://polygonscan.com/cdn-cgi/challenge-platform/h/b/fo/738383495:1795123227:EG0-DwAwNZEuMoGeIu4WSn2_QdtGSWt8iTL7qieTYBI/a5d2942",
+      "200 blob:https://polygonscan.com/54b134e0-af18-4c83-a88d-b0185f556069",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/ppm5t/0x4AAAAAAADnOjc0PNeA8qVm/light/fbE/new/",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/475288027:1795123229:bFrfSwEP8T7rXddbOLGfBFEZhS4wgai58yE4pj7yf",
+      "200 blob:https://challenges.cloudflare.com/a714533c-ca77-4d8a-aa7a-2593649722da"
+    ],
+    "consoleErrors": [
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha"
+    ]
+  },
+  {
+    "name": "polygon-pool",
+    "url": "https://polygonscan.com/address/0xA14e867C7B4539B776F88FEDA19cf011b88c793b",
+    "finalUrl": "https://polygonscan.com/address/0xA14e867C7B4539B776F88FEDA19cf011b88c793b",
+    "status": 403,
+    "title": "Just a moment...",
+    "err": null,
+    "textLen": 263,
+    "text": "polygonscan.com\nPerforming security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\nRay ID: a5d29442ea95ad76\nPerformance and Security by Cloudflare\nPrivacy",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "cf-turnstile-response",
+        "id": "cf-chl-widget-nfksm_response",
+        "placeholder": "",
+        "aria": ""
+      }
+    ],
+    "buttons": [],
+    "links": [
+      {
+        "text": "Cloudflare",
+        "href": "https://www.cloudflare.com/?utm_source=challenge&utm_campaign=l"
+      },
+      {
+        "text": "Privacy",
+        "href": "https://www.cloudflare.com/privacypolicy/"
+      }
+    ],
+    "responses": [
+      "403 https://polygonscan.com/address/0xA14e867C7B4539B776F88FEDA19cf011b88c793b",
+      "200 https://polygonscan.com/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=a5d29442ea95ad76",
+      "200 https://challenges.cloudflare.com/turnstile/v0/b/f8df4d4a0cd6/api.js?onload=_f2b6a3c5d8844950a6fff7d6&render=explicit",
+      "200 https://polygonscan.com/cdn-cgi/challenge-platform/h/b/fo/738383495:1795123227:EG0-DwAwNZEuMoGeIu4WSn2_QdtGSWt8iTL7qieTYBI/a5d2944",
+      "200 blob:https://polygonscan.com/1dcd978c-305e-4eb4-b6c5-c34ee40a9b70",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/f/av0/rch/nfksm/0x4AAAAAAAAjq6WYeRDKmebM/light/fbE/new/",
+      "200 https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/fo/475288027:1795123229:bFrfSwEP8T7rXddbOLGfBFEZhS4wgai58yE4pj7yf",
+      "200 blob:https://challenges.cloudflare.com/987d8636-544f-486c-abf0-d1f2e4ed7a47"
+    ],
+    "consoleErrors": [
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: Failed to load resource: the server responded with a status of 403 ()",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%d font-size:0;color:transparent NaN",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: %c%o font-size:0;color:transparent {}",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha",
+      "console: Refused to connect to 'data:,' because it violates the following Content Security Policy directive: \"connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.cha"
+    ]
+  },
+  {
+    "name": "quicknode-faucet",
+    "url": "https://faucet.quicknode.com/polygon/amoy",
+    "finalUrl": "https://faucet.quicknode.com/polygon/amoy",
+    "status": 200,
+    "title": "Polygon Amoy Faucet - Free Testnet POL Tokens",
+    "err": null,
+    "textLen": 5054,
+    "text": "// FAUCET\nPolygon\nAmoy Faucet\n\nQuicknode got tired of having to scrounge for Amoy tokens, so we created this Multi-Chain Faucet for all of the networks we support.\n\n1\nConnect your wallet\n2\nChoose your amount\n3\nReceive your tokens\nDrop in your wallet details\n\nConnect your wallet! We support Coinbase Wallet, MetaMask, Uniswap Wallet, and Phantom wallet.\n\nWallet Address\nConnect Wallet\nSelect your chain and network\nChain...\nEthereum\nPolygon\nBinance Smart Chain\nOptimism\nArbitrum\nAvalanche\nSolana\nBase\nBlast\nzkSync\nBerachain\nMorph\nCyber\nMantle\nStory\nMonad\nUnichain\nInk\nPlasma\nHyperliquid\nSei\nRobinhood\nElysium\nNetwork...\nMumbai\nzkEVM Goerli\nAmoy\nContinue\n// KEEP EXPLORING\nTutorials, docs and more\n\nWe do way more than provide a faucet! Explore our documentation and guides that help you build faster for almost any chain on your Web3 project.\n\n// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Contract)\n\nIn this guide, we will learn more about the Polygon chain and how to deploy a smart contract on Polygon.\n\nVIEW GUIDE\n// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n\nIn this guide, you'll learn how to mint an NFT on Polygon with Ethers.js and gain a fundamental understanding of how to interact with other smart contracts on the blockchain.\n\nVIEW GUIDE\n// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Polygon\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract on the Polygon Mumbai testnet (DeFi)\n\nLearn how to create a telegram bot that sends messages about NFT transfers on the Polygon blockchain using QuickAlerts.\n\nVIEW GUIDE\n// FAQ\nPolygon Amoy Faucet FAQ\nHow do I get Polygon Amoy POL from the Quicknode faucet?\nSelect Polygon and the Amoy network on this page, enter your wallet address or connect a wallet, then complete the verification to receive POL on Polygon Amoy. The base drip is free and requires no Quicknode account or post on X. We do require a small mainnet balance on the wallet you are using to claim. This is to prevent abuse and spam. Optional bonuses increase the amount but are never required.\nHow much POL can I get, and how often can I use the Polygon faucet?\nYou can claim POL once every 12 hours per network, and the exact base amount for Polygon Amoy is shown on the next step, once you have entered a wallet address. Sharing a post on X that contains your wallet address and this faucet URL doubles the drip, and Quicknode customers on a paid plan double it again, up to four times the base amount plus priority in the queue for faster delivery. The 12 hour cooldown is per wallet address per network, so you can still claim on a different network in the meantime.\nWhat is Polygon Amoy?\nAmoy is the current Polygon PoS test network, and it replaced Mumbai when Mumbai was retired in April 2024. Its gas token is POL rather than MATIC, following the token migration. Amoy anchors to Ethereum Sepolia, whereas Mumbai anchored to Goerli, which is why Mumbai died alongside it.\nWhat are the Polygon Amoy network details, including chain ID and RPC URL?\nPolygon Amoy uses chain ID 80002, and you can view your transactions on PolygonScan. To add the network to MetaMask or another wallet, enter that chain ID together with an RPC URL and the explorer URL, or connect your wallet on this page and approve the network switch when prompted. For a dedicated endpoint without shared rate limits, create a free Polygon RPC endpoint on Quicknode.\nWhy is my Polygon faucet request failing?\nThe most common cause is the 12 hour cooldown, which applies per wallet address per network, so a repeat request inside that window is rejected. Other frequent causes are a failed bot check, an address that is not a valid Polygon address, having the wrong network selected, or the Polygon Amoy faucet wallet running low on funds. Smart contract wallets and multisig addresses can also fail where a standard address succeeds. Mumbai is retired, so anything targeting Mumbai will fail and should move to Amoy. Polygon zkEVM and its testnets were shut down entirely in July 2026, so there is no Polygon zkEVM testnet to claim on any more. If it keeps failing, reach out on X or Discord.\nWhat can I build on Polygon Amoy?\nAmoy suits high-throughput, low-fee application testing such as NFT mints, payments and gaming loops, where mainnet Polygon gas economics matter. It is also the network to use when testing a bridge between Ethereum Sepolia and Polygon. For a worked example, see How to Deploy a Smart Contract on Polygon.\n©️ 2022 - 2026Quicknode.Cookie Preferences\n\nThis website stores cookies on your computer to collect information about how you interact with our website to improve and customize your browsing experience. To learn more, see our Privacy Policy.\n\nIf you decline, your information won’t be tracked when you visit this website. A single cookie will be used in your browser to remember your preferen",
+    "inputs": [
+      {
+        "tag": "INPUT",
+        "type": "text",
+        "name": "wallet",
+        "id": "wallet",
+        "placeholder": "0x...",
+        "aria": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "chain",
+        "id": "chain",
+        "placeholder": "",
+        "aria": ""
+      },
+      {
+        "tag": "SELECT",
+        "type": "select-one",
+        "name": "network",
+        "id": "network",
+        "placeholder": "",
+        "aria": ""
+      },
+      {
+        "tag": "INPUT",
+        "type": "hidden",
+        "name": "authToken",
+        "id": "",
+        "placeholder": "",
+        "aria": ""
+      }
+    ],
+    "buttons": [
+      "Connect Wallet",
+      "Continue",
+      "How do I get Polygon Amoy POL from the Quicknode faucet?",
+      "How much POL can I get, and how often can I use the Polygon faucet?",
+      "What is Polygon Amoy?",
+      "What are the Polygon Amoy network details, including chain ID and RPC URL?",
+      "Why is my Polygon faucet request failing?",
+      "What can I build on Polygon Amoy?",
+      "Cookie Preferences",
+      "Cookies settings",
+      "Accept",
+      "Decline"
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://faucet.quicknode.com/drip"
+      },
+      {
+        "text": "// GUIDE\nHow to Deploy a Smart Contract on Polygon (Smart Co",
+        "href": "https://www.quicknode.com/guides/other-chains/polygon/how-to-deploy-a-smart-contract-on-maticpolygon"
+      },
+      {
+        "text": "// GUIDE\nHow to Mint an NFT on Polygon with Ethers.js (NFT)\n",
+        "href": "https://www.quicknode.com/guides/other-chains/polygon/how-to-mint-an-nft-on-polygon-with-ethersjs"
+      },
+      {
+        "text": "// GUIDE\nHow to Create a Telegram Bot with QuickAlerts on Po",
+        "href": "https://www.quicknode.com/guides/quicknode-products/quickalerts/nft-telegram-bot"
+      },
+      {
+        "text": "// GUIDE\n(Video) How to Make a Flash Loan Aave V3 contract o",
+        "href": "https://www.quicknode.com/guides/defi/lending-protocols/how-to-make-a-flash-loan-using-aave"
+      },
+      {
+        "text": "PolygonScan",
+        "href": "https://amoy.polygonscan.com/"
+      },
+      {
+        "text": "free Polygon RPC endpoint on Quicknode",
+        "href": "https://www.quicknode.com/chains/matic"
+      },
+      {
+        "text": "X",
+        "href": "https://x.com/quicknode"
+      },
+      {
+        "text": "Discord",
+        "href": "https://discord.gg/DkdgEqE"
+      },
+      {
+        "text": "How to Deploy a Smart Contract on Polygon",
+        "href": "https://www.quicknode.com/guides/other-chains/polygon/how-to-deploy-a-smart-contract-on-maticpolygon"
+      },
+      {
+        "text": "Quicknode.",
+        "href": "https://www.quicknode.com/?utm_source=faucet&utm_medium=site&utm_content=footer"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.quicknode.com/privacy"
+      }
+    ],
+    "responses": [
+      "200 https://faucet.quicknode.com/polygon/amoy",
+      "200 https://faucet.quicknode.com/assets/errorBoundaries-BTv6T0zf.js",
+      "200 https://faucet.quicknode.com/assets/react-dom-CBg-C1gi.js",
+      "200 https://faucet.quicknode.com/assets/styles-DjNXsENK.css",
+      "200 https://faucet.quicknode.com/assets/index-DR00Q9RG.css",
+      "200 https://faucet.quicknode.com/assets/utils-DMPTxCcP.js",
+      "200 https://faucet.quicknode.com/assets/badge-cvJVi3Uv.js",
+      "200 https://faucet.quicknode.com/assets/createLucideIcon-C0Su_4I-.js"
+    ],
+    "consoleErrors": [
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b",
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b",
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b",
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b",
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b",
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b",
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b",
+      "console: Blocked script execution in 'https://faucet.quicknode.com/drip?error=login_required&error_description=End-User+authentication+is+required&iss=https%3A%2F%2Fauth.quicknode.com%2F' b"
+    ]
+  }
+]

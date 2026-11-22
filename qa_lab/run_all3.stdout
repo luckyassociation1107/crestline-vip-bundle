@@ -1,0 +1,32 @@
+
+[1m== Checking Playwright npm package ==[0m
+playwright 1.65.1
+
+[1m== Checking Chromium browser ==[0m
+Chromium launch OK
+
+[1m== Running 1/4 browser_flow_test.mjs (mocked RPC UI flows) ==[0m
+  -> OK (log: qa/logs/browser_flow.log)
+
+[1m== Running 2/4 full_flow_test.mjs (exhaustive state machine) ==[0m
+  -> OK (log: qa/logs/full_flow.log)
+FULL FLOW: PASS 108 · FAIL 0 · BLOCKED 6 · INFO 2
+
+[1m== Running 3/4 real_rpc_boot_test.mjs (REAL chain boot+signup, no mocks) ==[0m
+  -> OK (log: qa/logs/real_rpc.log)
+REAL-RPC BOOT: PASS 18 · FAIL 0 · BLOCKED 1
+
+[1m== Running 4/4 playwright_external_test.mjs (live explorer+faucet) ==[0m
+  -> OK (log: qa/logs/external.log)
+PLAYWRIGHT EXTERNAL: PASS 65 · FAIL 0 · BLOCKED 5 · INFO 10
+  BLOCKED Admin console post-login operations :: owner 6-char passcode / master seed not supplied (see TEST_RESULTS_FULL.md)
+
+[1m== Combined scoreboard ==[0m
+  suite                      PASS  FAIL  BLOCKED  INFO
+  browser_flow_test            24     0        2     0
+  full_flow_test              108     0        6     2
+  real_rpc_boot_test           18     0        1     0
+  playwright_external_test     65     0        5    10
+  TOTAL                       215     0       14    12
+
+  ✅ ZERO FAILURES — blocked items need real credentials/funds/devices, see reports.

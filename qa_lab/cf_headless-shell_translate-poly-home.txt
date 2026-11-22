@@ -1,0 +1,237 @@
+POL Price: $0.0798 (-0.71%)
+Gas: 273.241 Web
+Light
+Dim
+Dark
+Auto (System)
+  
+Polygon Mainnet
+Amoy Testnet
+  
+Sign In 
+Home
+Blockchain
+Transactions
+Pending Transactions
+Contract Internal Transactions
+Cross-Chain Transactions
+Plasma Deposit Transactions
+AA Transactions
+EIP-7702 Authorizations Beta
+View Blocks
+Forked Blocks (Reorgs)
+Top Accounts
+Verified Contracts
+Tokens
+Top Tokens (ERC-20)
+Token Transfers (ERC-20)
+Token Flow VisualizerBeta
+NFTs
+Top Mints
+Latest Trades
+Latest Transfers
+Latest Mints
+Resources
+Charts & Stats
+Directory
+API
+Multichain API
+API Pricing
+API Documentation
+More
+Developer Tools
+Input Data Encoder Beta
+Input Data Decoder
+Unit Converter
+Download Data (CSV Export)
+Account Balance Checker
+Broadcast Transaction
+Bytecode to Opcode
+Smart Contract Tools
+Code Reader
+Verify Contract
+Similar Contract Search
+Contract Diff Checker
+Vyper Online Compiler
+Explore
+Gas Tracker
+Node Tracker
+Label Cloud
+Domain Name Lookup
+Services
+Token Approvals
+Verified Signature
+Input Data Messages (IDM)
+Advanced Filter
+Explorers
+Polygon Mainnet
+Amoy Testnet
+Site Settings
+Appearance
+Light
+Dim
+Dark
+Auto (System)
+|
+Sign In
+Polygon PoS Chain Explorer
+All Filters
+Addresses
+Tokens
+Name Tags
+Domain Names
+Labels
+Websites
+Search 
+
+Polygonscan - Sponsored slots available. Book your slot here!
+
+Advertisement Advertisement Advertisement
+POL Price
+$0.0798 @ 0.000001 BTC (-0.71%)
+POL Market Cap on Polygon
+$850,423,998.00 (10,652,537,142 POL)
+Transactions
+8,385.75 M (35.9 TPS)
+Med Gas Price
+273.241 Web (< $0.00001)
+Latest Block
+97614173 (1.50s)
+POLYGON POS CHAIN Transaction History in 14 days
+Advertisement Advertisement Advertisement
+Latest Blocks
+Customize
+Block 97614173
+5 secs ago
+Validated By 0x233d596e...c6b086cb7
+80 txns in 2 secs10.2554 POL
+10.2554 POL
+Block97614172
+7 secs ago
+Validated By 0x233d596e...c6b086cb7
+67 txns in 1 sec9.50371 POL
+9.50371 POL
+Block97614171
+8 secs ago
+Validated By 0x233d596e...c6b086cb7
+47 txns in 2 secs5.08708 POL
+5.08708 POL
+Block97614170
+10 secs ago
+Validated By 0x233d596e...c6b086cb7
+33 txns in 1 sec3.96805 POL
+3.96805 POL
+Block97614169
+11 secs ago
+Validated By 0x233d596e...c6b086cb7
+55 txns in 2 secs6.8904 POL
+6.8904 POL
+Block97614168
+13 secs ago
+Validated By 0x233d596e...c6b086cb7
+59 txns in 1 sec6.87085 POL
+6.87085 POL
+View all blocks
+Latest Transactions
+Customize
+TX#0x70d9ca1776070f1b3eb8c050b1cf8b5a519fd092bdff4b1a7bb55236a06b0cfe
+5 secs ago
+From 0x22A06FB6...EF1a2727A
+To 0xc079C3F3...A3373b8940.01846 POL
+0.01846 POL
+TX#0x457422830fecb96994aec6a27c630919cfb7002d5b9615e7a211d8cc8bd642a2
+5 secs ago
+From 0xd5F0c77E...AFa29DBb4
+To Wild Goat Coin: Old WGC Token0 POL
+0 POL
+TX#0xec8465d9a13ecb7e106b563d811819001770167d2c1180430cdf530cdc407cb7
+5 secs ago
+From 0xb4b919DD...FC9b1DA00
+To 0xC37184B6...1c6A0aB390 POL
+0 POL
+TX#0x6da0139181185b57e1cf056e8a58bb9b8caec32eb0225783238c805a195374a0
+5 secs ago
+From 0x3F28094a...4D6aaE4C0
+To 0x8cA97F41...820a245040 POL
+0 POL
+TX#0x392db440cca4fc7d32069a2d49d14deb0025c1f206a3182e402b7a896cc10fc5
+5 secs ago
+From 0x30A8e805...c4B6ff7FC
+To Polymarket: pUSD Token0 POL
+0 POL
+TX#0x9492c203cec045f3bc96752e512713d50286b7e6eb2dd937588ce64b47a7c51a
+5 secs ago
+From 0xb8C5238d...83b389B58
+To Polymarket: pUSD Token0 POL
+0 POL
+View all transactions
+Custom Card
+
+Customize this card by selecting one of the options below.
+
+ADVANCED FILTER
+ Saved Filters
+PRESET
+ Latest Blocks
+ Latest Transactions
+ Hot Contracts
+ Top Guzzlers
+Close Save changes
+Choose Advanced Filter
+Advanced Filter List
+Close Save changes
+×
+Before You Copy
+
+ Don't show this for 30 days
+Understand, Copy Address
+Transaction Private Note
+Transaction Hash 
+Private Note Description 
+
+Please DO NOT store any passwords or private keys here. A private note (up to 100 characters) can be saved and is useful for transaction tracking.
+
+View All Transactions Private Notes
+Cancel Save changes
+My Address - Private Name Tag or Note
+
+My Name Tag:
+
+Private Name Tags (up to 35 characters) can be used for easy identification of addresses
+
+Private Note:
+
+A private note (up to 500 characters) can be attached to this address. Please DO NOT store any passwords or private keys here.
+View all Private Name Tags
+Close Save Changes
+(Twitter)
+Back to Top
+   Powered by Polygon PoS Chain
+
+PolygonScan is a Block Explorer and Analytics Platform for Polygon PoS Chain.
+
+ Add Polygon Network
+Company
+Brand Assets
+Contact Us
+Terms & Privacy
+Bug Bounty
+Community
+API Documentation
+Knowledge Base
+Network Status
+What is a Block Explorer?
+Products & Services
+Advertise
+Explorer as a Service (EaaS)
+Multichain API
+Priority Support
+Blockscan
+
+PolygonScan © 2026 (POLY-C1) | ⛏ Built by Team Etherscan
+
+Donations: 0x71c765...d8976f
+
+This website uses cookies to improve your experience. By continuing to use this website, you agree to its Terms and Privacy Policy.
+
+Got it!
