@@ -13,7 +13,7 @@
     {
       "name": "[1-testnet-user] shipped USDT_ADDRESS default",
       "status": "INFO",
-      "detail": "(EMPTY — deposit verification impossible out of the box)"
+      "detail": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582"
     },
     {
       "name": "[1-testnet-user] register rejects short username",
@@ -33,7 +33,7 @@
     {
       "name": "[1-testnet-user] SIGNUP succeeds",
       "status": "PASS",
-      "detail": "UID-9RB61QJPQF / token=true"
+      "detail": "UID-RA1P35SZ2E / token=true"
     },
     {
       "name": "[1-testnet-user] signup emits .crestline / TC1 recovery payload",
@@ -46,14 +46,14 @@
       "detail": "Username already taken."
     },
     {
-      "name": "[1-testnet-user] portfolio: zero balance, 13.80 net payout policy",
+      "name": "[1-testnet-user] portfolio: new referral payout policy (0 refs → $10 · $9.20 net)",
       "status": "PASS",
-      "detail": "net=13.8 fee=1.2 canWithdraw=false"
+      "detail": "net=9.2 fee=0.8 canWithdraw=false"
     },
     {
-      "name": "[1-testnet-user] withdrawal blocked by referral gate",
+      "name": "[1-testnet-user] withdrawal blocked before day-14 window",
       "status": "PASS",
-      "detail": "1 Valid Referral required to unlock 1st payout ($15.00 gross · $13.80 net)."
+      "detail": "Next payout window in 14 day(s) (every 14 days)."
     },
     {
       "name": "[1-testnet-user] LOGOUT clears session",
@@ -73,7 +73,7 @@
     {
       "name": "[1-testnet-user] LOGIN succeeds",
       "status": "PASS",
-      "detail": "uid=UID-9RB61QJPQF dailyLoginCount=undefined"
+      "detail": "uid=UID-RA1P35SZ2E dailyLoginCount=undefined"
     },
     {
       "name": "[1-testnet-user] LOGIN rejects wrong PIN",
@@ -93,7 +93,7 @@
     {
       "name": "[1-testnet-user] BUCKET_LOCK reserves $140 slot",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795252179005-mzp1\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-9RB61QJPQF\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795252179005,\"expiresAtM"
+      "detail": "{\"id\":\"blk-1795326312019-ehs2\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-RA1P35SZ2E\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795326312019,\"expiresAtM"
     },
     {
       "name": "[1-testnet-user] NEW VALID DEPOSIT recognized ($20)",
@@ -128,12 +128,12 @@
     {
       "name": "[1-testnet-user] BUCKET_RELEASE resolves lock",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795252179253-ym4c\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-9RB61QJPQF\",\"amount\":20,\"status\":\"FAILED\",\"r"
+      "detail": "{\"id\":\"blk-1795326312267-64hw\",\"bucketId\":1,\"bucketAddress\":\"0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8\",\"uid\":\"UID-RA1P35SZ2E\",\"amount\":20,\"status\":\"FAILED\",\"r"
     },
     {
       "name": "[1-testnet-user] second account (referral target) registered",
       "status": "PASS",
-      "detail": "UID-PVFHDAYZPA"
+      "detail": "UID-Q08G517633"
     },
     {
       "name": "[1-testnet-user] 1-wallet-1-person enforced",
@@ -161,19 +161,19 @@
       "detail": "Already claimed today (+$1.00)."
     },
     {
-      "name": "[1-testnet-user] 15 more daily check-ins across simulated days",
+      "name": "[1-testnet-user] 20 more daily check-ins across simulated days",
       "status": "PASS",
-      "detail": "successful=15/15"
+      "detail": "successful=20/20"
     },
     {
       "name": "[1-testnet-user] join/check-in history recorded",
       "status": "PASS",
-      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795252179439,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
+      "detail": "{\"balance\":41,\"daysClaimed\":21,\"startedAtMs\":1795326312424,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
     },
     {
       "name": "[1-testnet-user] REFERRAL JOIN with referrer UID",
       "status": "PASS",
-      "detail": "uid=UID-BN669NAC8D referrer=UID-9RB61QJPQF"
+      "detail": "uid=UID-ED2G90Q23B referrer=UID-RA1P35SZ2E"
     },
     {
       "name": "[1-testnet-user] referred user can deposit",
@@ -191,14 +191,14 @@
       "detail": "refs=1 canWithdraw=true reason="
     },
     {
-      "name": "[1-testnet-user] $13.80 WITHDRAWAL permission granted",
+      "name": "[1-testnet-user] $20 deposit-back WITHDRAWAL granted (1 ref · $18.40 net)",
       "status": "PASS",
-      "detail": "net=13.8 reason="
+      "detail": "net=18.4 reason="
     },
     {
       "name": "[1-testnet-user] withdraw rejects wrong amount",
       "status": "PASS",
-      "detail": "Each monthly withdrawal payout is fixed at $15.00 USDT gross ($13.80 net after 8% fee)."
+      "detail": "Payout amount must be $20.00 — 0 refs: $10 lifetime · 1st ref: $20 deposit-back · +$4 per extra ref."
     },
     {
       "name": "[1-testnet-user] withdraw rejects wrong destination wallet",
@@ -211,19 +211,19 @@
       "detail": "Incorrect 6-digit Security PIN (4 attempts before cooldown)."
     },
     {
-      "name": "[1-testnet-user] 1st CLAIM / $15 gross → $13.80 net withdrawal",
+      "name": "[1-testnet-user] 1st PAYOUT / $20 deposit-back → $18.40 net withdrawal",
       "status": "PASS",
       "detail": "keys=user,governanceNotice,announcements,vipConfig,summary,activeMembership,membershipHistory,withdrawalPolicy,referralStats,securityStatus,transactions,vipTier"
     },
     {
-      "name": "[1-testnet-user] withdrawal state: balance -$15, payout #1",
+      "name": "[1-testnet-user] withdrawal state: balance -$20, payout #1",
       "status": "PASS",
-      "detail": "{\"bal\":21,\"cnt\":1,\"sess\":15,\"total\":13.8}"
+      "detail": "{\"bal\":21,\"cnt\":1,\"sess\":20,\"total\":18.4}"
     },
     {
       "name": "[1-testnet-user] 2nd payout blocked within 14-day window",
       "status": "PASS",
-      "detail": "1 more Valid Referral (2 total) required to unlock 2nd payout ($15.00 gross · $13.80 net)."
+      "detail": "Next payout window in 14 day(s) (every 14 days)."
     },
     {
       "name": "[1-testnet-user] JS errors",
@@ -233,7 +233,7 @@
     {
       "name": "[1-testnet-user] UI signup shows UID + TC1 backup code",
       "status": "PASS",
-      "detail": "uid=UID-S44QF9T2AY tc1len=553"
+      "detail": "uid=UID-3YYERAFANY tc1len=553"
     },
     {
       "name": "[1-testnet-user] .crestline recovery file exported",
@@ -243,7 +243,7 @@
     {
       "name": "[1-testnet-user] .crestline file is valid E2EE recovery JSON",
       "status": "PASS",
-      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-S44QF9T2AY\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
+      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-3YYERAFANY\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
     },
     {
       "name": "[1-testnet-user] Recover screen offers file + TC1 import",
@@ -303,7 +303,7 @@
     {
       "name": "[3-mainnet-user] SIGNUP succeeds",
       "status": "PASS",
-      "detail": "UID-RXJMY12JJS / token=true"
+      "detail": "UID-51N8FFT39Q / token=true"
     },
     {
       "name": "[3-mainnet-user] signup emits .crestline / TC1 recovery payload",
@@ -316,14 +316,14 @@
       "detail": "Username already taken."
     },
     {
-      "name": "[3-mainnet-user] portfolio: zero balance, 13.80 net payout policy",
+      "name": "[3-mainnet-user] portfolio: new referral payout policy (0 refs → $10 · $9.20 net)",
       "status": "PASS",
-      "detail": "net=13.8 fee=1.2 canWithdraw=false"
+      "detail": "net=9.2 fee=0.8 canWithdraw=false"
     },
     {
-      "name": "[3-mainnet-user] withdrawal blocked by referral gate",
+      "name": "[3-mainnet-user] withdrawal blocked before day-14 window",
       "status": "PASS",
-      "detail": "1 Valid Referral required to unlock 1st payout ($15.00 gross · $13.80 net)."
+      "detail": "Next payout window in 14 day(s) (every 14 days)."
     },
     {
       "name": "[3-mainnet-user] LOGOUT clears session",
@@ -343,7 +343,7 @@
     {
       "name": "[3-mainnet-user] LOGIN succeeds",
       "status": "PASS",
-      "detail": "uid=UID-RXJMY12JJS dailyLoginCount=undefined"
+      "detail": "uid=UID-51N8FFT39Q dailyLoginCount=undefined"
     },
     {
       "name": "[3-mainnet-user] LOGIN rejects wrong PIN",
@@ -363,7 +363,7 @@
     {
       "name": "[3-mainnet-user] BUCKET_LOCK reserves $140 slot",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795252200349-vs1y\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-RXJMY12JJS\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795252200349,\"expiresAtM"
+      "detail": "{\"id\":\"blk-1795326337119-tp8m\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-51N8FFT39Q\",\"amount\":20,\"status\":\"RESERVED\",\"reservedAtMs\":1795326337119,\"expiresAtM"
     },
     {
       "name": "[3-mainnet-user] NEW VALID DEPOSIT recognized ($20)",
@@ -398,12 +398,12 @@
     {
       "name": "[3-mainnet-user] BUCKET_RELEASE resolves lock",
       "status": "PASS",
-      "detail": "{\"id\":\"blk-1795252200583-vdih\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-RXJMY12JJS\",\"amount\":20,\"status\":\"FAILED\",\"r"
+      "detail": "{\"id\":\"blk-1795326337377-yjzh\",\"bucketId\":1,\"bucketAddress\":\"0xA14e867C7B4539B776F88FEDA19cf011b88c793b\",\"uid\":\"UID-51N8FFT39Q\",\"amount\":20,\"status\":\"FAILED\",\"r"
     },
     {
       "name": "[3-mainnet-user] second account (referral target) registered",
       "status": "PASS",
-      "detail": "UID-J42K515ENB"
+      "detail": "UID-2044KWD0M4"
     },
     {
       "name": "[3-mainnet-user] 1-wallet-1-person enforced",
@@ -431,19 +431,19 @@
       "detail": "Already claimed today (+$1.00)."
     },
     {
-      "name": "[3-mainnet-user] 15 more daily check-ins across simulated days",
+      "name": "[3-mainnet-user] 20 more daily check-ins across simulated days",
       "status": "PASS",
-      "detail": "successful=15/15"
+      "detail": "successful=20/20"
     },
     {
       "name": "[3-mainnet-user] join/check-in history recorded",
       "status": "PASS",
-      "detail": "{\"balance\":36,\"daysClaimed\":16,\"startedAtMs\":1795252200776,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
+      "detail": "{\"balance\":41,\"daysClaimed\":21,\"startedAtMs\":1795326337562,\"history\":0,\"txTypes\":[\"DAILY_LOGIN\",\"DEPOSIT\",\"VIP_PURCHASE\",\"DAILY_CLAIM\"]}"
     },
     {
       "name": "[3-mainnet-user] REFERRAL JOIN with referrer UID",
       "status": "PASS",
-      "detail": "uid=UID-STEP1E5FHP referrer=UID-RXJMY12JJS"
+      "detail": "uid=UID-61F21R3RH8 referrer=UID-51N8FFT39Q"
     },
     {
       "name": "[3-mainnet-user] referred user can deposit",
@@ -461,14 +461,14 @@
       "detail": "refs=1 canWithdraw=true reason="
     },
     {
-      "name": "[3-mainnet-user] $13.80 WITHDRAWAL permission granted",
+      "name": "[3-mainnet-user] $20 deposit-back WITHDRAWAL granted (1 ref · $18.40 net)",
       "status": "PASS",
-      "detail": "net=13.8 reason="
+      "detail": "net=18.4 reason="
     },
     {
       "name": "[3-mainnet-user] withdraw rejects wrong amount",
       "status": "PASS",
-      "detail": "Each monthly withdrawal payout is fixed at $15.00 USDT gross ($13.80 net after 8% fee)."
+      "detail": "Payout amount must be $20.00 — 0 refs: $10 lifetime · 1st ref: $20 deposit-back · +$4 per extra ref."
     },
     {
       "name": "[3-mainnet-user] withdraw rejects wrong destination wallet",
@@ -481,19 +481,19 @@
       "detail": "Incorrect 6-digit Security PIN (4 attempts before cooldown)."
     },
     {
-      "name": "[3-mainnet-user] 1st CLAIM / $15 gross → $13.80 net withdrawal",
+      "name": "[3-mainnet-user] 1st PAYOUT / $20 deposit-back → $18.40 net withdrawal",
       "status": "PASS",
       "detail": "keys=user,governanceNotice,announcements,vipConfig,summary,activeMembership,membershipHistory,withdrawalPolicy,referralStats,securityStatus,transactions,vipTier"
     },
     {
-      "name": "[3-mainnet-user] withdrawal state: balance -$15, payout #1",
+      "name": "[3-mainnet-user] withdrawal state: balance -$20, payout #1",
       "status": "PASS",
-      "detail": "{\"bal\":21,\"cnt\":1,\"sess\":15,\"total\":13.8}"
+      "detail": "{\"bal\":21,\"cnt\":1,\"sess\":20,\"total\":18.4}"
     },
     {
       "name": "[3-mainnet-user] 2nd payout blocked within 14-day window",
       "status": "PASS",
-      "detail": "1 more Valid Referral (2 total) required to unlock 2nd payout ($15.00 gross · $13.80 net)."
+      "detail": "Next payout window in 14 day(s) (every 14 days)."
     },
     {
       "name": "[3-mainnet-user] JS errors",
@@ -503,7 +503,7 @@
     {
       "name": "[3-mainnet-user] UI signup shows UID + TC1 backup code",
       "status": "PASS",
-      "detail": "uid=UID-MANFD3TMJY tc1len=553"
+      "detail": "uid=UID-51JTDFB223 tc1len=553"
     },
     {
       "name": "[3-mainnet-user] .crestline recovery file exported",
@@ -513,7 +513,7 @@
     {
       "name": "[3-mainnet-user] .crestline file is valid E2EE recovery JSON",
       "status": "PASS",
-      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-MANFD3TMJY\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
+      "detail": "{\"format\":\"CRESTLINE-VIP-RECOVERY-V2\",\"alg\":\"PBKDF2-SHA256-250K+AES-256-GCM\",\"uid\":\"UID-51JTDFB223\",\"username\":\"import_qa\",\"cipher\":true,\"salt\":true,\"iv\":true}"
     },
     {
       "name": "[3-mainnet-user] Recover screen offers file + TC1 import",
@@ -548,17 +548,17 @@
     {
       "name": "[1-testnet-user DEFAULT-CONFIG] USDT_ADDRESS as shipped",
       "status": "PASS",
-      "detail": "USDT_ADDRESS=(EMPTY)"
+      "detail": "USDT_ADDRESS=0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582"
     },
     {
       "name": "[1-testnet-user DEFAULT-CONFIG] signup works",
       "status": "PASS",
-      "detail": "UID-ZE0WHJ46RB"
+      "detail": "UID-YZCCACQ36B"
     },
     {
-      "name": "[1-testnet-user DEFAULT-CONFIG] deposit verification FAILS out of the box",
+      "name": "[1-testnet-user DEFAULT-CONFIG] deposit works with shipped USDT contract",
       "status": "PASS",
-      "detail": "USDT token contract address is not configured for this network."
+      "detail": "tx=0xabababababababababababababababababababababababababababababababab"
     },
     {
       "name": "[3-mainnet-user DEFAULT-CONFIG] USDT_ADDRESS as shipped",
@@ -568,7 +568,7 @@
     {
       "name": "[3-mainnet-user DEFAULT-CONFIG] signup works",
       "status": "PASS",
-      "detail": "UID-V24Y72XH5H"
+      "detail": "UID-VZ65MAFSM6"
     },
     {
       "name": "[3-mainnet-user DEFAULT-CONFIG] deposit works with shipped USDT contract",

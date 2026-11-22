@@ -202,7 +202,7 @@ try {
 
     // -------- DAILY LOGINS: 14 simulated days, each day leaves its own ledger entry
     const daily = [];
-    for (let d = 0; d <= 14; d++) {
+    for (let d = 0; d <= 20; d++) {
       state.offsetMs = d * 86400000;
       await page.evaluate(ms => { window.__timeOffsetMs = ms; }, state.offsetMs);
       await call(page, '/api/auth/login', { username: U1, password: 'SeedMain26!', pin: '482910' }); // fresh daily login
@@ -211,7 +211,7 @@ try {
       daily.push({ day: d + 1, claimed: rr.ok, ledgerId: entry?.id || null, status: entry?.status || null });
     }
     const allClaimed = daily.every(x => x.claimed), uniqueIds = new Set(daily.map(x => x.ledgerId)).size === daily.length;
-    ok(`${tag} DAILY LOGIN + check-in for 15 consecutive days`, allClaimed, `claimed=${daily.filter(x => x.claimed).length}/15`);
+    ok(`${tag} DAILY LOGIN + check-in for 21 consecutive days`, allClaimed, `claimed=${daily.filter(x => x.claimed).length}/21`);
     ok(`${tag} every day has its OWN ledger entry id`, uniqueIds && daily.every(x => /^tx-/.test(x.ledgerId || '')), `${daily.length} unique ids e.g. ${daily[0].ledgerId}`);
     const dbl = await call(page, '/api/vip/claim', {});
     ok(`${tag} same-day double claim rejected`, !dbl.ok && /Already claimed today/i.test(dbl.err || ''), dbl.err);
@@ -229,12 +229,12 @@ try {
     await call(page, '/api/auth/login', { username: U1, password: 'SeedMain26!', pin: '482910' });
     await inspect(page, () => { const u = window.__CRESTLINE.store().users['seed_main_qa']; u.activeMembership.startedAtMs = Date.now() - 16 * 86400000; u.activeMembership.startedAtChainMs = 0; });
     const pf = await call(page, '/api/portfolio', null, 'GET');
-    ok(`${tag} withdrawal ELIGIBLE (day 14+, 1 referral): $15 gross → $13.80 net`, pf.ok && pf.v?.withdrawalPolicy?.canWithdrawNow === true && pf.v?.withdrawalPolicy?.netPayoutUsdt === 13.8, pf.ok ? `refs=${pf.v.withdrawalPolicy?.sessionReferralsCount} can=${pf.v.withdrawalPolicy?.canWithdrawNow}` : pf.err);
-    const bad = await call(page, '/api/wallet/withdraw', { amount: 15, address: w2.address, pin: '482910' });
+    ok(`${tag} withdrawal ELIGIBLE (day 14+, 1 ref): $20 deposit-back → $18.40 net`, pf.ok && pf.v?.withdrawalPolicy?.canWithdrawNow === true && pf.v?.withdrawalPolicy?.payoutAmountUsdt === 20 && pf.v?.withdrawalPolicy?.netPayoutUsdt === 18.4, pf.ok ? `refs=${pf.v.withdrawalPolicy?.sessionReferralsCount} can=${pf.v.withdrawalPolicy?.canWithdrawNow}` : pf.err);
+    const bad = await call(page, '/api/wallet/withdraw', { amount: 20, address: w2.address, pin: '482910' });
     ok(`${tag} withdrawal to a DIFFERENT wallet still rejected (Same-Wallet rule)`, !bad.ok, bad.ok ? 'ACCEPTED — BUG' : bad.err);
 
     // -------- AUTO-APPROVE withdrawal (no manual admin step)
-    const wd = await call(page, '/api/wallet/withdraw', { amount: 15, address: w1.address, pin: '482910' });
+    const wd = await call(page, '/api/wallet/withdraw', { amount: 20, address: w1.address, pin: '482910' });
     const wled = await inspect(page, () => { const T = window.__CRESTLINE.store().transactions.filter(x => x.type === 'WITHDRAWAL'); const e = T[T.length - 1]; return e ? { id: e.id, status: e.status, txHash: e.txHash || '', amount: e.amount, grossAmount: e.grossAmount } : null; });
     ok(`${tag} withdrawal request accepted to the user's OWN seed wallet`, wd.ok, wd.ok ? JSON.stringify(wled) : wd.err);
     ok(`${tag} AUTO-APPROVED in ledger (id + immediate status, no admin action)`, !!wled && /^tx-/.test(wled.id) && /APPROVED|COMPLETED|PROCESSING|PAID/i.test(wled.status || ''), JSON.stringify(wled || {}));

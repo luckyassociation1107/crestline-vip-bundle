@@ -1,0 +1,88 @@
+{
+  "counts": {
+    "PASS": 9,
+    "FAIL": 4,
+    "BLOCKED": 1
+  },
+  "results": [
+    {
+      "name": "MAIN registers (login works)",
+      "status": "PASS",
+      "detail": "UID-4WEDEHSK8X"
+    },
+    {
+      "name": "MAIN $20 deposit verified against REAL chain",
+      "status": "FAIL",
+      "detail": "No unspent $20.00 USDT Transfer found on-chain from 0x1FCb...Cde7 to Pool 0x08EE...6Db8."
+    },
+    {
+      "name": "ledger holds ORIGINAL on-chain txHash (verify it yourself on polygonscan)",
+      "status": "FAIL",
+      "detail": "https://amoy.polygonscan.com/tx/undefined"
+    },
+    {
+      "name": "MAIN VIP pass activated",
+      "status": "FAIL",
+      "detail": "Need $20.00 USDT wallet balance first."
+    },
+    {
+      "name": "MAIN daily check-in (day 0, real chain clock)",
+      "status": "FAIL",
+      "detail": "Activate your $20 VIP Pass first."
+    },
+    {
+      "name": "REFERRAL #1 joins via invite (referrer UID linked)",
+      "status": "PASS",
+      "detail": "uid=UID-Q1SP93VSHY referrer=UID-4WEDEHSK8X"
+    },
+    {
+      "name": "REFERRAL #2 joins via invite (referrer UID linked)",
+      "status": "PASS",
+      "detail": "uid=UID-WRSED49WYA referrer=UID-4WEDEHSK8X"
+    },
+    {
+      "name": "REAL 1-wallet-1-UID lock: referral cannot reuse main user's sender",
+      "status": "PASS",
+      "detail": "This USDT wallet address is already locked to another UID (1 Wallet = 1 Person)."
+    },
+    {
+      "name": "referral REAL deposits",
+      "status": "BLOCKED",
+      "detail": "each referral needs their OWN funded wallet (POL gas + USDC) to send a real transfer — wallets ready in vault; fund via faucets, then rerun"
+    },
+    {
+      "name": "referral COUNT tracked (0 valid until referrals deposit+VIP)",
+      "status": "PASS",
+      "detail": "refs=0"
+    },
+    {
+      "name": "withdrawal eligibility engine runs on REAL chain clock (correctly blocked: day<14 window)",
+      "status": "PASS",
+      "detail": "Next payout window in 14 day(s) (every 14 days)."
+    },
+    {
+      "name": "NEW payout policy live: 0 refs → $10 ($9.20 net · 8% fee)",
+      "status": "PASS",
+      "detail": "amount=10 net=9.2 fee=0.8"
+    },
+    {
+      "name": "REAL RPC used throughout (publicnode hits)",
+      "status": "PASS",
+      "detail": "116 JSON-RPC calls to publicnode"
+    },
+    {
+      "name": "zero uncaught JS errors",
+      "status": "PASS",
+      "detail": "none"
+    }
+  ],
+  "proofs": {
+    "realRpc": "https://polygon-amoy-bor-rpc.publicnode.com",
+    "txHashes": [],
+    "uids": {
+      "main": "UID-4WEDEHSK8X",
+      "ref1": "UID-Q1SP93VSHY",
+      "ref2": "UID-WRSED49WYA"
+    }
+  }
+}

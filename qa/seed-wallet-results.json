@@ -7,22 +7,22 @@
     {
       "name": "[1-testnet-user] dedicated seed wallets generated (BIP-39, 12 words, unique per user)",
       "status": "PASS",
-      "detail": "main=0x85cDe8fba366B24189C4A9133e398371c1fb2e05 | referral=0x43519590b474B38227b0CB9f476215dD651EA805 | mnemonics saved outside repo"
+      "detail": "main=0xD81b0A51f404cF98335f644EFBa3b5C10243e954 | referral=0x4E7940d9D0Ae8e86E0b02bE5E111E9ed048Cf2C6 | mnemonics saved outside repo"
     },
     {
       "name": "[1-testnet-user] register main user",
       "status": "PASS",
-      "detail": "UID-KAZAZWDHPY"
+      "detail": "UID-ZJMYW99TZQ"
     },
     {
       "name": "[1-testnet-user] $20 deposit verified from the user's own seed wallet",
       "status": "PASS",
-      "detail": "sender=0x85cDe8fba366B24189C4A9133e398371c1fb2e05"
+      "detail": "sender=0xD81b0A51f404cF98335f644EFBa3b5C10243e954"
     },
     {
       "name": "[1-testnet-user] ledger DEPOSIT entry carries ORIGINAL txHash + id",
       "status": "PASS",
-      "detail": "{\"id\":\"tx-1795260901863-sk7g\",\"txHash\":\"0x3835636465386662613336366232343138396334613931333365333938333731\",\"status\":\"COMPLETED\"}"
+      "detail": "{\"id\":\"tx-1795326276021-q2is\",\"txHash\":\"0x6438316230613531663430346366393833333566363434656662613362356331\",\"status\":\"COMPLETED\"}"
     },
     {
       "name": "[1-testnet-user] VIP pass activated",
@@ -30,14 +30,14 @@
       "detail": "ACTIVE"
     },
     {
-      "name": "[1-testnet-user] DAILY LOGIN + check-in for 15 consecutive days",
+      "name": "[1-testnet-user] DAILY LOGIN + check-in for 21 consecutive days",
       "status": "PASS",
-      "detail": "claimed=15/15"
+      "detail": "claimed=21/21"
     },
     {
       "name": "[1-testnet-user] every day has its OWN ledger entry id",
       "status": "PASS",
-      "detail": "15 unique ids e.g. tx-1795260901937-claim"
+      "detail": "21 unique ids e.g. tx-1795326276093-claim"
     },
     {
       "name": "[1-testnet-user] same-day double claim rejected",
@@ -47,12 +47,12 @@
     {
       "name": "[1-testnet-user] referral user joins with referrer UID",
       "status": "PASS",
-      "detail": "uid=UID-ZARYATE2NF referrer=UID-KAZAZWDHPY"
+      "detail": "uid=UID-B8970ZX283 referrer=UID-ZJMYW99TZQ"
     },
     {
       "name": "[1-testnet-user] referral deposits from their OWN seed wallet (distinct txHash)",
       "status": "PASS",
-      "detail": "tx=0x3433353139353930…"
+      "detail": "tx=0x3465373934306439…"
     },
     {
       "name": "[1-testnet-user] referral activates VIP (counts as valid referral)",
@@ -60,24 +60,24 @@
       "detail": "ACTIVE"
     },
     {
-      "name": "[1-testnet-user] withdrawal ELIGIBLE (day 14+, 1 referral): $15 gross → $13.80 net",
+      "name": "[1-testnet-user] withdrawal ELIGIBLE (day 14+, 1 ref): $20 deposit-back → $18.40 net",
       "status": "PASS",
       "detail": "refs=1 can=true"
     },
     {
       "name": "[1-testnet-user] withdrawal to a DIFFERENT wallet still rejected (Same-Wallet rule)",
       "status": "PASS",
-      "detail": "Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0x85cD...2e05)."
+      "detail": "Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0xD81b...e954)."
     },
     {
       "name": "[1-testnet-user] withdrawal request accepted to the user's OWN seed wallet",
       "status": "PASS",
-      "detail": "{\"id\":\"tx-1796470511024-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":13.8,\"grossAmount\":15}"
+      "detail": "{\"id\":\"tx-1797054289103-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":18.4,\"grossAmount\":20}"
     },
     {
       "name": "[1-testnet-user] AUTO-APPROVED in ledger (id + immediate status, no admin action)",
       "status": "PASS",
-      "detail": "{\"id\":\"tx-1796470511024-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":13.8,\"grossAmount\":15}"
+      "detail": "{\"id\":\"tx-1797054289103-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":18.4,\"grossAmount\":20}"
     },
     {
       "name": "[1-testnet-user] wallet/account NOT frozen after full lifecycle",
@@ -92,96 +92,132 @@
     {
       "name": "[1-testnet-user] daily ledger table",
       "status": "INFO",
-      "detail": "[{\"day\":1,\"claimed\":true,\"ledgerId\":\"tx-1795260901937-claim\",\"status\":\"COMPLETED\"},{\"day\":2,\"claimed\":true,\"ledgerId\":\"tx-1795347302542-claim\",\"status\":\"COMPLETED\"},{\"day\":3,\"claimed\":true,\"ledgerId\":\"tx-1795433703161-claim\",\"status\":\"COMPLETED\"},{\"day\":4,\"claimed\":true,\"ledgerId\":\"tx-1795520103760-claim\",\"status\":\"COM",
+      "detail": "[{\"day\":1,\"claimed\":true,\"ledgerId\":\"tx-1795326276093-claim\",\"status\":\"COMPLETED\"},{\"day\":2,\"claimed\":true,\"ledgerId\":\"tx-1795412676721-claim\",\"status\":\"COMPLETED\"},{\"day\":3,\"claimed\":true,\"ledgerId\":\"tx-1795499077348-claim\",\"status\":\"COMPLETED\"},{\"day\":4,\"claimed\":true,\"ledgerId\":\"tx-1795585477958-claim\",\"status\":\"COM",
       "dailyLedger": [
         {
           "day": 1,
           "claimed": true,
-          "ledgerId": "tx-1795260901937-claim",
+          "ledgerId": "tx-1795326276093-claim",
           "status": "COMPLETED"
         },
         {
           "day": 2,
           "claimed": true,
-          "ledgerId": "tx-1795347302542-claim",
+          "ledgerId": "tx-1795412676721-claim",
           "status": "COMPLETED"
         },
         {
           "day": 3,
           "claimed": true,
-          "ledgerId": "tx-1795433703161-claim",
+          "ledgerId": "tx-1795499077348-claim",
           "status": "COMPLETED"
         },
         {
           "day": 4,
           "claimed": true,
-          "ledgerId": "tx-1795520103760-claim",
+          "ledgerId": "tx-1795585477958-claim",
           "status": "COMPLETED"
         },
         {
           "day": 5,
           "claimed": true,
-          "ledgerId": "tx-1795606504368-claim",
+          "ledgerId": "tx-1795671878566-claim",
           "status": "COMPLETED"
         },
         {
           "day": 6,
           "claimed": true,
-          "ledgerId": "tx-1795692905005-claim",
+          "ledgerId": "tx-1795758279202-claim",
           "status": "COMPLETED"
         },
         {
           "day": 7,
           "claimed": true,
-          "ledgerId": "tx-1795779305679-claim",
+          "ledgerId": "tx-1795844679827-claim",
           "status": "COMPLETED"
         },
         {
           "day": 8,
           "claimed": true,
-          "ledgerId": "tx-1795865706317-claim",
+          "ledgerId": "tx-1795931080414-claim",
           "status": "COMPLETED"
         },
         {
           "day": 9,
           "claimed": true,
-          "ledgerId": "tx-1795952106958-claim",
+          "ledgerId": "tx-1796017481013-claim",
           "status": "COMPLETED"
         },
         {
           "day": 10,
           "claimed": true,
-          "ledgerId": "tx-1796038507587-claim",
+          "ledgerId": "tx-1796103881602-claim",
           "status": "COMPLETED"
         },
         {
           "day": 11,
           "claimed": true,
-          "ledgerId": "tx-1796124908226-claim",
+          "ledgerId": "tx-1796190282216-claim",
           "status": "COMPLETED"
         },
         {
           "day": 12,
           "claimed": true,
-          "ledgerId": "tx-1796211308841-claim",
+          "ledgerId": "tx-1796276682852-claim",
           "status": "COMPLETED"
         },
         {
           "day": 13,
           "claimed": true,
-          "ledgerId": "tx-1796297709457-claim",
+          "ledgerId": "tx-1796363083456-claim",
           "status": "COMPLETED"
         },
         {
           "day": 14,
           "claimed": true,
-          "ledgerId": "tx-1796384110099-claim",
+          "ledgerId": "tx-1796449484098-claim",
           "status": "COMPLETED"
         },
         {
           "day": 15,
           "claimed": true,
-          "ledgerId": "tx-1796470510707-claim",
+          "ledgerId": "tx-1796535884762-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 16,
+          "claimed": true,
+          "ledgerId": "tx-1796622285426-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 17,
+          "claimed": true,
+          "ledgerId": "tx-1796708686111-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 18,
+          "claimed": true,
+          "ledgerId": "tx-1796795086758-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 19,
+          "claimed": true,
+          "ledgerId": "tx-1796881487400-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 20,
+          "claimed": true,
+          "ledgerId": "tx-1796967888095-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 21,
+          "claimed": true,
+          "ledgerId": "tx-1797054288772-claim",
           "status": "COMPLETED"
         }
       ]
@@ -189,22 +225,22 @@
     {
       "name": "[3-mainnet-user] dedicated seed wallets generated (BIP-39, 12 words, unique per user)",
       "status": "PASS",
-      "detail": "main=0xf22BBF677C511ed6D9F50bB580b6Dae464356d46 | referral=0x4D5Add9568A1d4Be24c1A8AeDb0eC6f2c724B428 | mnemonics saved outside repo"
+      "detail": "main=0x8b530624b6fa7646F3898362126D96fe4714B305 | referral=0x46A8b894B3A6Ea19908FB0Fddd59fB65a8259EF1 | mnemonics saved outside repo"
     },
     {
       "name": "[3-mainnet-user] register main user",
       "status": "PASS",
-      "detail": "UID-GWZ6AEHKQV"
+      "detail": "UID-YHVX2ZWCCD"
     },
     {
       "name": "[3-mainnet-user] $20 deposit verified from the user's own seed wallet",
       "status": "PASS",
-      "detail": "sender=0xf22BBF677C511ed6D9F50bB580b6Dae464356d46"
+      "detail": "sender=0x8b530624b6fa7646F3898362126D96fe4714B305"
     },
     {
       "name": "[3-mainnet-user] ledger DEPOSIT entry carries ORIGINAL txHash + id",
       "status": "PASS",
-      "detail": "{\"id\":\"tx-1795260911999-jc29\",\"txHash\":\"0x6632326262663637376335313165643664396635306262353830623664616534\",\"status\":\"COMPLETED\"}"
+      "detail": "{\"id\":\"tx-1795326290111-4j8j\",\"txHash\":\"0x3862353330363234623666613736343666333839383336323132366439366665\",\"status\":\"COMPLETED\"}"
     },
     {
       "name": "[3-mainnet-user] VIP pass activated",
@@ -212,14 +248,14 @@
       "detail": "ACTIVE"
     },
     {
-      "name": "[3-mainnet-user] DAILY LOGIN + check-in for 15 consecutive days",
+      "name": "[3-mainnet-user] DAILY LOGIN + check-in for 21 consecutive days",
       "status": "PASS",
-      "detail": "claimed=15/15"
+      "detail": "claimed=21/21"
     },
     {
       "name": "[3-mainnet-user] every day has its OWN ledger entry id",
       "status": "PASS",
-      "detail": "15 unique ids e.g. tx-1795260912116-claim"
+      "detail": "21 unique ids e.g. tx-1795326290223-claim"
     },
     {
       "name": "[3-mainnet-user] same-day double claim rejected",
@@ -229,12 +265,12 @@
     {
       "name": "[3-mainnet-user] referral user joins with referrer UID",
       "status": "PASS",
-      "detail": "uid=UID-CR9GRRFJ4M referrer=UID-GWZ6AEHKQV"
+      "detail": "uid=UID-ET79Q8S215 referrer=UID-YHVX2ZWCCD"
     },
     {
       "name": "[3-mainnet-user] referral deposits from their OWN seed wallet (distinct txHash)",
       "status": "PASS",
-      "detail": "tx=0x3464356164643935…"
+      "detail": "tx=0x3436613862383934…"
     },
     {
       "name": "[3-mainnet-user] referral activates VIP (counts as valid referral)",
@@ -242,24 +278,24 @@
       "detail": "ACTIVE"
     },
     {
-      "name": "[3-mainnet-user] withdrawal ELIGIBLE (day 14+, 1 referral): $15 gross → $13.80 net",
+      "name": "[3-mainnet-user] withdrawal ELIGIBLE (day 14+, 1 ref): $20 deposit-back → $18.40 net",
       "status": "PASS",
       "detail": "refs=1 can=true"
     },
     {
       "name": "[3-mainnet-user] withdrawal to a DIFFERENT wallet still rejected (Same-Wallet rule)",
       "status": "PASS",
-      "detail": "Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0xf22B...6d46)."
+      "detail": "Strict Same-Wallet Policy: Deposit, Recovery & Withdrawal Wallet MUST be identical (0x8b53...B305)."
     },
     {
       "name": "[3-mainnet-user] withdrawal request accepted to the user's OWN seed wallet",
       "status": "PASS",
-      "detail": "{\"id\":\"tx-1796470521359-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":13.8,\"grossAmount\":15}"
+      "detail": "{\"id\":\"tx-1797054303688-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":18.4,\"grossAmount\":20}"
     },
     {
       "name": "[3-mainnet-user] AUTO-APPROVED in ledger (id + immediate status, no admin action)",
       "status": "PASS",
-      "detail": "{\"id\":\"tx-1796470521359-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":13.8,\"grossAmount\":15}"
+      "detail": "{\"id\":\"tx-1797054303688-wd\",\"status\":\"COMPLETED\",\"txHash\":\"\",\"amount\":18.4,\"grossAmount\":20}"
     },
     {
       "name": "[3-mainnet-user] wallet/account NOT frozen after full lifecycle",
@@ -274,96 +310,132 @@
     {
       "name": "[3-mainnet-user] daily ledger table",
       "status": "INFO",
-      "detail": "[{\"day\":1,\"claimed\":true,\"ledgerId\":\"tx-1795260912116-claim\",\"status\":\"COMPLETED\"},{\"day\":2,\"claimed\":true,\"ledgerId\":\"tx-1795347312784-claim\",\"status\":\"COMPLETED\"},{\"day\":3,\"claimed\":true,\"ledgerId\":\"tx-1795433713460-claim\",\"status\":\"COMPLETED\"},{\"day\":4,\"claimed\":true,\"ledgerId\":\"tx-1795520114080-claim\",\"status\":\"COM",
+      "detail": "[{\"day\":1,\"claimed\":true,\"ledgerId\":\"tx-1795326290223-claim\",\"status\":\"COMPLETED\"},{\"day\":2,\"claimed\":true,\"ledgerId\":\"tx-1795412690869-claim\",\"status\":\"COMPLETED\"},{\"day\":3,\"claimed\":true,\"ledgerId\":\"tx-1795499091517-claim\",\"status\":\"COMPLETED\"},{\"day\":4,\"claimed\":true,\"ledgerId\":\"tx-1795585492141-claim\",\"status\":\"COM",
       "dailyLedger": [
         {
           "day": 1,
           "claimed": true,
-          "ledgerId": "tx-1795260912116-claim",
+          "ledgerId": "tx-1795326290223-claim",
           "status": "COMPLETED"
         },
         {
           "day": 2,
           "claimed": true,
-          "ledgerId": "tx-1795347312784-claim",
+          "ledgerId": "tx-1795412690869-claim",
           "status": "COMPLETED"
         },
         {
           "day": 3,
           "claimed": true,
-          "ledgerId": "tx-1795433713460-claim",
+          "ledgerId": "tx-1795499091517-claim",
           "status": "COMPLETED"
         },
         {
           "day": 4,
           "claimed": true,
-          "ledgerId": "tx-1795520114080-claim",
+          "ledgerId": "tx-1795585492141-claim",
           "status": "COMPLETED"
         },
         {
           "day": 5,
           "claimed": true,
-          "ledgerId": "tx-1795606514710-claim",
+          "ledgerId": "tx-1795671892760-claim",
           "status": "COMPLETED"
         },
         {
           "day": 6,
           "claimed": true,
-          "ledgerId": "tx-1795692915312-claim",
+          "ledgerId": "tx-1795758293399-claim",
           "status": "COMPLETED"
         },
         {
           "day": 7,
           "claimed": true,
-          "ledgerId": "tx-1795779315941-claim",
+          "ledgerId": "tx-1795844694029-claim",
           "status": "COMPLETED"
         },
         {
           "day": 8,
           "claimed": true,
-          "ledgerId": "tx-1795865716560-claim",
+          "ledgerId": "tx-1795931094671-claim",
           "status": "COMPLETED"
         },
         {
           "day": 9,
           "claimed": true,
-          "ledgerId": "tx-1795952117184-claim",
+          "ledgerId": "tx-1796017495328-claim",
           "status": "COMPLETED"
         },
         {
           "day": 10,
           "claimed": true,
-          "ledgerId": "tx-1796038517805-claim",
+          "ledgerId": "tx-1796103895992-claim",
           "status": "COMPLETED"
         },
         {
           "day": 11,
           "claimed": true,
-          "ledgerId": "tx-1796124918489-claim",
+          "ledgerId": "tx-1796190296599-claim",
           "status": "COMPLETED"
         },
         {
           "day": 12,
           "claimed": true,
-          "ledgerId": "tx-1796211319128-claim",
+          "ledgerId": "tx-1796276697214-claim",
           "status": "COMPLETED"
         },
         {
           "day": 13,
           "claimed": true,
-          "ledgerId": "tx-1796297719794-claim",
+          "ledgerId": "tx-1796363097843-claim",
           "status": "COMPLETED"
         },
         {
           "day": 14,
           "claimed": true,
-          "ledgerId": "tx-1796384120426-claim",
+          "ledgerId": "tx-1796449498451-claim",
           "status": "COMPLETED"
         },
         {
           "day": 15,
           "claimed": true,
-          "ledgerId": "tx-1796470521021-claim",
+          "ledgerId": "tx-1796535899102-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 16,
+          "claimed": true,
+          "ledgerId": "tx-1796622299765-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 17,
+          "claimed": true,
+          "ledgerId": "tx-1796708700469-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 18,
+          "claimed": true,
+          "ledgerId": "tx-1796795101147-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 19,
+          "claimed": true,
+          "ledgerId": "tx-1796881501864-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 20,
+          "claimed": true,
+          "ledgerId": "tx-1796967902579-claim",
+          "status": "COMPLETED"
+        },
+        {
+          "day": 21,
+          "claimed": true,
+          "ledgerId": "tx-1797054303282-claim",
           "status": "COMPLETED"
         }
       ]

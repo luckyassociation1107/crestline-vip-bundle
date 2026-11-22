@@ -12,7 +12,7 @@
     {
       "name": "live Amoy chain sync",
       "status": "PASS",
-      "detail": "Live #53432662 (106ms)"
+      "detail": "Live #53442604 (103ms)"
     },
     {
       "name": "overview KPIs render",
@@ -32,12 +32,12 @@
     {
       "name": "AUTO BUCKET CREATION (Generate Bucket)",
       "status": "PASS",
-      "detail": "locks counter 1 -> 2"
+      "detail": "new bucket address 0xdbdaaf33086763346a18a46523a080deabf106eb"
     },
     {
       "name": "new bucket queued with distinct address + $140 cap",
       "status": "PASS",
-      "detail": ""
+      "detail": "0xdbdaaf33086763346a18a46523a080deabf106eb"
     },
     {
       "name": "one-time private-key custody prompt",
@@ -67,7 +67,7 @@
     {
       "name": "tab \"Notices\" renders",
       "status": "PASS",
-      "detail": "len=1172"
+      "detail": "len=978"
     },
     {
       "name": "tab \"Settings\" renders",
@@ -77,7 +77,7 @@
     {
       "name": "tab \"Overview\" renders",
       "status": "PASS",
-      "detail": "len=4194"
+      "detail": "len=4195"
     },
     {
       "name": "re-lock returns to passcode gate",

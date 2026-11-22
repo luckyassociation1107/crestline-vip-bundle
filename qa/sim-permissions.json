@@ -1,0 +1,13 @@
+{
+  "users": {
+    "UID-G2BBMVCRRX": {
+      "referrerUid": "",
+      "allow30DaySim": true,
+      "canWithdraw": true,
+      "banned": false,
+      "frozen": false,
+      "stoppedForDay": ""
+    }
+  },
+  "note": "Admin grants per-user simulation & withdrawal access here (or via Chain Lab). Keys: uid."
+}

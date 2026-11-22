@@ -26,7 +26,7 @@ const pad32 = a => '0x' + '0'.repeat(24) + a.slice(2).toLowerCase();
 const hex = n => '0x' + Math.floor(n).toString(16);
 
 const TARGETS = [
-  { id: '1-testnet-user', port: 4191, chain: '0x13882', pool: '0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8', usdtDefault: '' },
+  { id: '1-testnet-user', port: 4191, chain: '0x13882', pool: '0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8', usdtDefault: '0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582' },
   { id: '3-mainnet-user', port: 4193, chain: '0x89',    pool: '0xA14e867C7B4539B776F88FEDA19cf011b88c793b', usdtDefault: '0xc2132D05D31c914a87C6611C10748AEb04B58e8F' },
 ];
 
@@ -189,8 +189,8 @@ try {
     ok(`${tag} duplicate username rejected`, !r.ok && /already taken/i.test(r.err), r.err);
 
     r = await call(page, '/api/portfolio', null, 'GET');
-    ok(`${tag} portfolio: zero balance, 13.80 net payout policy`, r.ok && r.v?.withdrawalPolicy?.netPayoutUsdt === 13.8 && r.v?.withdrawalPolicy?.feeUsdt === 1.2, r.ok ? `net=${r.v.withdrawalPolicy.netPayoutUsdt} fee=${r.v.withdrawalPolicy.feeUsdt} canWithdraw=${r.v.withdrawalPolicy.canWithdrawNow}` : r.err);
-    ok(`${tag} withdrawal blocked by referral gate`, r.ok && r.v?.withdrawalPolicy?.canWithdrawNow === false && /Referral/.test(r.v?.withdrawalPolicy?.withdrawBlockReason || ''), r.v?.withdrawalPolicy?.withdrawBlockReason);
+    ok(`${tag} portfolio: new referral payout policy (0 refs → $10 · $9.20 net)`, r.ok && r.v?.withdrawalPolicy?.netPayoutUsdt === 9.2 && r.v?.withdrawalPolicy?.feeUsdt === 0.8, r.ok ? `net=${r.v.withdrawalPolicy.netPayoutUsdt} fee=${r.v.withdrawalPolicy.feeUsdt} canWithdraw=${r.v.withdrawalPolicy.canWithdrawNow}` : r.err);
+    ok(`${tag} withdrawal blocked before day-14 window`, r.ok && r.v?.withdrawalPolicy?.canWithdrawNow === false && /payout window/i.test(r.v?.withdrawalPolicy?.withdrawBlockReason || ''), r.v?.withdrawalPolicy?.withdrawBlockReason);
 
     r = await call(page, '/api/auth/logout', {});
     ok(`${tag} LOGOUT clears session`, r.ok && (await inspect(page, () => window.__CRESTLINE.session() === null)), r.ok ? 'session cleared' : r.err);
@@ -257,19 +257,19 @@ try {
 
     // simulate 15 days of check-ins by advancing device + chain clocks
     let claims = 0;
-    for (let d = 1; d <= 15; d++) {
+    for (let d = 1; d <= 20; d++) {
       state.offsetMs = d * 86400000;
       await page.evaluate(ms => { window.__timeOffsetMs = ms; }, state.offsetMs);
       const rr = await call(page, '/api/vip/claim', {});
       if (rr.ok) claims++;
     }
-    ok(`${tag} 15 more daily check-ins across simulated days`, claims === 15, `successful=${claims}/15`);
+    ok(`${tag} 20 more daily check-ins across simulated days`, claims === 20, `successful=${claims}/20`);
     const st = await inspect(page, () => {
       const S = window.__CRESTLINE.store(); const u = S.users['alice_qa'];
       return { balance: u.walletBalance, daysClaimed: u.activeMembership?.daysClaimed, startedAtMs: u.activeMembership?.startedAtMs,
                history: (u.membershipHistory || []).length, txTypes: [...new Set(S.transactions.map(x => x.type))] };
     });
-    ok(`${tag} join/check-in history recorded`, st.daysClaimed >= 16 && st.txTypes.includes('DAILY_CLAIM') && st.txTypes.includes('VIP_PURCHASE'), JSON.stringify(st).slice(0, 260));
+    ok(`${tag} join/check-in history recorded`, st.daysClaimed >= 21 && st.txTypes.includes('DAILY_CLAIM') && st.txTypes.includes('VIP_PURCHASE'), JSON.stringify(st).slice(0, 260));
 
     // ---------------------------------------------------------- referral validity
     // bob must activate VIP to count as a valid referral for alice
@@ -287,22 +287,22 @@ try {
     await inspect(page, () => { const u = window.__CRESTLINE.store().users['alice_qa']; u.activeMembership.startedAtMs = Date.now() - 16 * 86400000; u.activeMembership.startedAtChainMs = 0; });
     let pf = await call(page, '/api/portfolio', null, 'GET');
     ok(`${tag} referral gate counts VIP-activated referrals`, pf.ok && (pf.v?.withdrawalPolicy?.sessionReferralsCount || 0) >= 1, pf.ok ? `refs=${pf.v.withdrawalPolicy?.sessionReferralsCount} canWithdraw=${pf.v.withdrawalPolicy?.canWithdrawNow} reason=${pf.v.withdrawalPolicy?.withdrawBlockReason}` : pf.err);
-    ok(`${tag} $13.80 WITHDRAWAL permission granted`, pf.ok && pf.v?.withdrawalPolicy?.canWithdrawNow === true, pf.ok ? `net=${pf.v.withdrawalPolicy?.netPayoutUsdt} reason=${pf.v.withdrawalPolicy?.withdrawBlockReason}` : pf.err);
+    ok(`${tag} $20 deposit-back WITHDRAWAL granted (1 ref · $18.40 net)`, pf.ok && pf.v?.withdrawalPolicy?.canWithdrawNow === true && pf.v?.withdrawalPolicy?.payoutAmountUsdt === 20, pf.ok ? `net=${pf.v.withdrawalPolicy?.netPayoutUsdt} reason=${pf.v.withdrawalPolicy?.withdrawBlockReason}` : pf.err);
 
     // ---------------------------------------------------------- withdrawal
     for (const [label, body, expectOk, pattern] of [
-      ['wrong amount', { amount: 14, address: SENDER, pin: '482910' }, false, /fixed at \$15/],
-      ['wrong destination wallet', { amount: 15, address: SENDER2, pin: '482910' }, false, /Same-Wallet/i],
-      ['wrong PIN', { amount: 15, address: SENDER, pin: '111111' }, false, /PIN/i],
+      ['wrong amount', { amount: 14, address: SENDER, pin: '482910' }, false, /Payout amount must be/],
+      ['wrong destination wallet', { amount: 20, address: SENDER2, pin: '482910' }, false, /Same-Wallet/i],
+      ['wrong PIN', { amount: 20, address: SENDER, pin: '111111' }, false, /PIN/i],
     ]) {
       const rr = await call(page, '/api/wallet/withdraw', body);
       ok(`${tag} withdraw rejects ${label}`, (rr.ok === expectOk) && (!pattern.test(rr.err || '') ? false : true), rr.ok ? 'ACCEPTED — BUG' : rr.err);
     }
-    let wd = await call(page, '/api/wallet/withdraw', { amount: 15, address: SENDER, pin: '482910' });
-    ok(`${tag} 1st CLAIM / $15 gross → $13.80 net withdrawal`, wd.ok, wd.ok ? `keys=${Object.keys(wd.v).slice(0, 12).join(',')}` : wd.err);
+    let wd = await call(page, '/api/wallet/withdraw', { amount: 20, address: SENDER, pin: '482910' });
+    ok(`${tag} 1st PAYOUT / $20 deposit-back → $18.40 net withdrawal`, wd.ok, wd.ok ? `keys=${Object.keys(wd.v).slice(0, 12).join(',')}` : wd.err);
     const after = await inspect(page, () => { const u = window.__CRESTLINE.store().users['alice_qa']; return { bal: u.walletBalance, cnt: u.sessionWithdrawalsCount, sess: u.sessionWithdrawnUsdt, total: u.totalWithdrawnUsdt }; });
-    ok(`${tag} withdrawal state: balance -$15, payout #1`, after.cnt === 1 && after.sess === 15 && Math.abs(after.bal - (st.balance - 15)) < 0.01, JSON.stringify(after));
-    let wd2 = await call(page, '/api/wallet/withdraw', { amount: 15, address: SENDER, pin: '482910' });
+    ok(`${tag} withdrawal state: balance -$20, payout #1`, after.cnt === 1 && after.sess === 20 && Math.abs(after.bal - (st.balance - 20)) < 0.01, JSON.stringify(after));
+    let wd2 = await call(page, '/api/wallet/withdraw', { amount: 4, address: SENDER, pin: '482910' });
     ok(`${tag} 2nd payout blocked within 14-day window`, !wd2.ok, wd2.ok ? 'ACCEPTED — BUG' : wd2.err);
 
     add(`${tag} JS errors`, errs.length === 0 ? 'PASS' : 'FAIL', errs.slice(0, 3).join(' | ') || 'none');

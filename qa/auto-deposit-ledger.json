@@ -88,6 +88,41 @@
         "buckets": "1 -> 2",
         "newBucket": "0xc3f308af3ca5ff5311c4f1bd3533057c64798a06"
       }
+    },
+    {
+      "at": "2026-11-21T12:37:18.959Z",
+      "bucket": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "faucetSkipped": "cooldown: next claim in 2 min",
+      "sender": "0x1fcb25fb286d9fa084c09988b64b40571446cde7",
+      "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+      "uid": "UID-W9EZZZ5EY6",
+      "username": "auto_mwqe7uhl",
+      "credited": false,
+      "vipActivated": false,
+      "ledgerHasFullTxHash": false,
+      "ledgerUiShowsHash": false,
+      "bucketRotation": {
+        "needed": false,
+        "detail": "pool $20/140 — next deposit fits"
+      }
+    },
+    {
+      "at": "2026-11-21T12:42:12.955Z",
+      "bucket": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+      "txHash": "0x29e04641a5a44df80031f1037340a659758ebdfff454fd637c484712a2c4c285",
+      "block": 53442218,
+      "sender": "0x1fcb25fb286d9fa084c09988b64b40571446cde7",
+      "amount": 20,
+      "uid": "UID-654AY5W9E1",
+      "username": "auto_mwqeeuc9",
+      "credited": true,
+      "vipActivated": true,
+      "ledgerHasFullTxHash": true,
+      "ledgerUiShowsHash": true,
+      "bucketRotation": {
+        "needed": false,
+        "detail": "pool $40/140 — next deposit fits"
+      }
     }
   ]
 }

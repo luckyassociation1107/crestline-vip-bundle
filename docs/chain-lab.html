@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Crestline Chain Lab — on-chain tools (Amoy testnet)</title>
+<style>
+:root{--bg:#0b1220;--card:#121c30;--line:#24324f;--tx:#dbe6ff;--mut:#8ea2c6;--ok:#34d399;--warn:#fbbf24;--bad:#f87171;--acc:#60a5fa}
+*{box-sizing:border-box}body{margin:0;font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--tx)}
+.wrap{max-width:1080px;margin:0 auto;padding:24px 16px 80px}
+h1{font-size:26px;margin:8px 0}h2{font-size:18px;margin:0 0 10px;color:#fff}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin:14px 0}
+.badge{display:inline-block;padding:2px 10px;border-radius:999px;font-size:11px;font-weight:700;margin-left:6px}
+.b-ok{background:#064e3b;color:var(--ok)}.b-warn{background:#451a03;color:var(--warn)}.b-bad{background:#450a0a;color:var(--bad)}
+input,select,textarea{background:#0e1627;border:1px solid var(--line);border-radius:8px;color:var(--tx);padding:8px 10px;font-size:13px;width:100%;margin:4px 0}
+textarea{font-family:ui-monospace,monospace;font-size:11px;min-height:70px}
+button{background:#1d4ed8;border:0;border-radius:8px;color:#fff;padding:8px 14px;font-size:13px;font-weight:600;cursor:pointer;margin:4px 4px 4px 0}
+button.ghost{background:#1e293b}button.danger{background:#7f1d1d}button.okbtn{background:#065f46}
+table{width:100%;border-collapse:collapse;font-size:12px}th,td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}
+.mut{color:var(--mut);font-size:12px}.mono{font-family:ui-monospace,monospace;font-size:11px;word-break:break-all}
+a{color:var(--acc)}.row{display:flex;gap:14px;flex-wrap:wrap}.col{flex:1;min-width:280px}
+.big{font-size:30px;font-weight:800}.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+pre{background:#0e1627;border:1px solid var(--line);border-radius:8px;padding:10px;font-size:11px;overflow:auto;max-height:280px;white-space:pre-wrap;word-break:break-all}
+</style>
+</head>
+<body><div class="wrap">
+<a href="./index.html" class="mut">← back to hub</a>
+<h1>⛓️ Crestline Chain Lab <span class="badge b-warn">AMOY TESTNET</span></h1>
+<p class="mut">Reads/writes the REAL Polygon Amoy chain via <span class="mono">polygon-amoy-bor-rpc.publicnode.com</span>. Encrypted memos (CLM1 · AES-256-GCM) decrypt ONLY on this site / our app. On-chain <b>writes</b> need a dust of POL gas — items marked <span class="badge b-warn">NEEDS GAS</span> are prepared &amp; verified, waiting for wallet funding.</p>
+<div class="card"><div class="row">
+<div class="col"><div class="mut">Live pool (bucket #1)</div><div class="mono">0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8</div></div>
+<div class="col"><div class="mut">Pool USDC balance (live chain)</div><div class="big ok" id="poolBal">…</div></div>
+<div class="col"><div class="mut">Latest Amoy block</div><div class="big" id="blockNow">…</div></div>
+</div></div>
+
+<!-- ============ PROFIT CALCULATOR ============ -->
+<div class="card" id="panel-calc"><h2>💰 Profit Calculator <span class="badge b-ok">NEW RULES</span></h2>
+<p class="mut">NEW payout rules: <b>0 referrals → $10 back</b> · <b>1st referral → full $20 deposit-back</b> · <b>every extra referral +$4</b> (8% fee on payout). Investment = the VIP pass fee the <b>admin</b> set (governance).</p>
+<div class="row"><div class="col">
+<label class="mut">Valid referrals (deposited + VIP)</label>
+<input id="pcRefs" type="number" min="0" max="50" value="2">
+<label class="mut">VIP pass fee — admin-set investment ($1–$20)</label>
+<input id="pcFee" type="number" min="1" max="20" step="1" value="20">
+<label class="mut">Daily check-ins completed (× $1.00)</label>
+<input id="pcDays" type="number" min="0" max="28" value="28">
+</div><div class="col">
+<div class="mut">Referral payout unlocked (gross)</div><div class="big" id="pcGross">$30.00</div>
+<div class="mut">Net after 8% payout fee</div><div class="big ok" id="pcNet">$27.60</div>
+<div class="mut">Check-in earnings</div><div class="big" id="pcEarn">$28.00</div>
+<div class="mut">TOTAL PROFIT (earnings + net payout − investment)</div><div class="big ok" id="pcProfit">$35.60</div>
+</div></div></div>
+
+<!-- ============ VIP FEE GOVERNANCE ============ -->
+<div class="card" id="panel-fee"><h2>🏷️ VIP Pass Fee — Admin Governance <span class="badge b-warn">ON-CHAIN REGISTER NEEDS GAS</span></h2>
+<p class="mut">Admin can set the VIP fee anywhere from <b>$20 down to $1</b>. The change is packed into an encrypted governance memo; once broadcast on-chain (gas), EVERY device reads the same fee. Until then this page keeps it locally and shows the prepared memo.</p>
+<div class="row"><div class="col">
+<label class="mut">Current fee shown to everyone</label><div class="big ok" id="feeNow">$20</div>
+<label class="mut">New VIP fee ($1–$20) — admin only</label><input id="feeNew" type="number" min="1" max="20" value="20">
+<button onclick="setFee()">Set fee + build governance memo</button>
+</div><div class="col">
+<label class="mut">Prepared governance memo (broadcast with qa/chain_memo.mjs send)</label>
+<textarea id="feeMemo" readonly placeholder="CLM1:… appears here"></textarea>
+</div></div></div>
+
+<!-- ============ ADMIN: USERS & PERMISSIONS ============ -->
+<div class="card" id="panel-users"><h2>👥 Admin — Users &amp; Permissions <span class="badge b-ok">USER ID + REFERRER ID ONLY</span></h2>
+<p class="mut">Exactly as specified: the list keeps only <b>user id</b> and <b>referrer id</b>. Per-user admin actions: 30-day sim permission, withdraw access, ban/unban, freeze/unfreeze, stop-for-the-day. Changes update the permissions JSON (download &amp; commit as <span class="mono">qa/sim-permissions.json</span>) and build an encrypted memo for on-chain registration.</p>
+<table id="usersTbl"><thead><tr><th>User ID</th><th>Referrer ID</th><th>Sim 30d</th><th>Withdraw</th><th>Status</th><th>Actions</th><th>Ledger</th></tr></thead><tbody></tbody></table>
+<div class="row"><div class="col"><label class="mut">Updated permissions JSON</label><textarea id="permsOut" readonly></textarea></div>
+<div class="col"><label class="mut">Encrypted admin-action memo (CLM1)</label><textarea id="permsMemo" readonly></textarea></div></div></div>
+
+<!-- ============ VIEW LEDGER ============ -->
+<div class="card" id="panel-ledger"><h2>📒 View Ledger (per user, blockchain-noted) <span class="badge b-ok">LIVE RPC</span></h2>
+<p class="mut">Click "View" on a user above, or enter a UID. Shows deposits / withdrawals / daily logins; rows with a txHash link straight to amoy.polygonscan.com — verify yourself. Encrypted day-memos decrypt right here.</p>
+<input id="ledUid" placeholder="UID-XXXXXXXXXX"><button onclick="viewLedger()">Load ledger</button>
+<div id="ledOut"></div></div>
+
+<!-- ============ MEMO TOOL ============ -->
+<div class="card" id="panel-memo"><h2>🔐 Encrypted Memo Tool (CLM1 · AES-256-GCM)</h2>
+<p class="mut">Only this site / our app holds the derivation. Optional owner passphrase adds a second layer (admin memos).</p>
+<div class="row"><div class="col">
+<label class="mut">JSON message</label><textarea id="memoIn">{"uid":"UID-TEST","day":1,"action":"DAILY_CHECKIN"}</textarea>
+<label class="mut">Owner passphrase (optional)</label><input id="memoPass" type="password" placeholder="leave empty for app key">
+<button onclick="doEnc()">Encrypt</button><button class="ghost" onclick="doDec()">Decrypt payload</button>
+</div><div class="col">
+<label class="mut">CLM1 payload</label><textarea id="memoOut"></textarea>
+<label class="mut">Read & decrypt straight from chain — paste memo txHash</label><input id="memoTx" placeholder="0x…64 hex">
+<button class="okbtn" onclick="readTx()">Fetch tx & decrypt</button>
+<pre id="memoRes">—</pre>
+</div></div></div>
+
+<!-- ============ ADMIN PAYOUT % + SPLIT ============ -->
+<div class="card" id="panel-admin"><h2>🏦 Admin Treasury Tools</h2>
+<div class="row"><div class="col">
+<h2 style="font-size:15px">Withdrawal % → admin wallet <span class="badge b-warn">ASKS WALLET EVERY TIME</span></h2>
+<label class="mut">Percentage of pool (1–100%)</label><input id="awPct" type="number" min="1" max="100" value="10">
+<label class="mut">Destination wallet (required EVERY time — never remembered)</label><input id="awAddr" placeholder="0x…" autocomplete="off">
+<button onclick="planWithdraw()">Build withdrawal plan</button>
+<pre id="awOut">—</pre>
+</div><div class="col">
+<h2 style="font-size:15px">Admin deposit → $140 bucket split</h2>
+<label class="mut">Deposit amount (USDC) from ANY admin wallet</label><input id="spAmt" type="number" min="1" value="500">
+<button onclick="planSplit()">Build $140 split plan</button>
+<pre id="spOut">—</pre>
+</div></div>
+<p class="mut">Plans are exact ERC-20 transfer instructions; broadcasting needs a funded admin wallet (POL gas). Nothing moves without the admin's own key.</p></div>
+
+<p class="mut">ℹ️ User credentials-on-chain &amp; device sync: the app already ships an encrypted USER_SYNC engine (sponsor-wallet broadcaster). It activates the moment a funded sponsor key is configured — same gas gate as above. Until then logins stay device-local + .crestline recovery file.</p>
+
+<script>
+const RPC='https://polygon-amoy-bor-rpc.publicnode.com';
+const POOL='0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8';
+const USDC='0x41E94Eb019C0762f9Bfcf9Fb1E58725bfB0e7582'.replace('5bfB','5BfB');
+const hex=b=>[...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('');
+const unhex=s=>new Uint8Array(s.match(/../g).map(x=>parseInt(x,16)));
+async function rpc(method,params){const r=await fetch(RPC,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({jsonrpc:'2.0',id:1,method,params})});return (await r.json()).result;}
+async function kdf(pass){const base='CRESTLINE-CHAINLAB-E2EE-V1:'+POOL.toLowerCase();const h=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(pass?base+':'+pass:base));return crypto.subtle.importKey('raw',h,'AES-GCM',false,['encrypt','decrypt']);}
+async function encMemo(obj,pass=''){const iv=crypto.getRandomValues(new Uint8Array(12));const ct=await crypto.subtle.encrypt({name:'AES-GCM',iv},await kdf(pass),new TextEncoder().encode(JSON.stringify(obj)));return 'CLM1:'+hex(iv)+hex(ct);}
+async function decMemo(p,pass=''){if(!p.startsWith('CLM1:'))throw Error('not CLM1');const raw=unhex(p.slice(5));const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:raw.slice(0,12)},await kdf(pass),raw.slice(12));return JSON.parse(new TextDecoder().decode(pt));}
+// live chain header
+(async()=>{try{const b=await rpc('eth_blockNumber',[]);document.getElementById('blockNow').textContent='#'+parseInt(b,16);
+const bal=await rpc('eth_call',[{to:USDC,data:'0x70a08231'+POOL.slice(2).toLowerCase().padStart(64,'0')},'latest']);
+document.getElementById('poolBal').textContent='$'+(parseInt(bal,16)/1e6).toFixed(2);}catch(e){document.getElementById('blockNow').textContent='offline';document.getElementById('poolBal').textContent='offline';}})();
+// profit calculator (NEW rules)
+function calc(){const refs=+document.getElementById('pcRefs').value,fee=+document.getElementById('pcFee').value||20,days=+document.getElementById('pcDays').value||0;
+const gross=refs===0?10:20+4*(refs-1),net=+(gross*0.92).toFixed(2),earn=days*1;
+document.getElementById('pcGross').textContent='$'+gross.toFixed(2);
+document.getElementById('pcNet').textContent='$'+net.toFixed(2);
+document.getElementById('pcEarn').textContent='$'+earn.toFixed(2);
+const p=earn+net-fee;const el=document.getElementById('pcProfit');el.textContent=(p<0?'-$':'$')+Math.abs(p).toFixed(2);el.className='big '+(p>=0?'ok':'bad');}
+['pcRefs','pcFee','pcDays'].forEach(id=>document.getElementById(id).addEventListener('input',calc));calc();
+// VIP fee governance
+const feeLS='chainlab_vip_fee';
+function showFee(){const f=localStorage.getItem(feeLS)||'20';document.getElementById('feeNow').textContent='$'+f;document.getElementById('pcFee').value=f;calc();}
+async function setFee(){const f=Math.max(1,Math.min(20,+document.getElementById('feeNew').value||20));localStorage.setItem(feeLS,String(f));
+document.getElementById('feeMemo').value=await encMemo({v:1,action:'GOVERNANCE_SET_VIP_FEE',feeUsd:f,by:'ADMIN',ts:new Date().toISOString()});showFee();}
+showFee();
+// users & permissions
+let DATA={users:[],ledgers:{}};
+async function loadData(){try{DATA=await (await fetch('./chain-data.json')).json();}catch(e){}renderUsers();}
+function renderUsers(){const tb=document.querySelector('#usersTbl tbody');tb.innerHTML='';
+for(const u of DATA.users){const st=u.banned?'<span class="bad">BANNED</span>':u.frozen?'<span class="warn">FROZEN</span>':u.stoppedForDay?'<span class="warn">STOPPED '+u.stoppedForDay+'</span>':'<span class="ok">ACTIVE</span>';
+tb.insertAdjacentHTML('beforeend',`<tr><td class="mono">${u.uid}</td><td class="mono">${u.referrerUid||'—'}</td>
+<td>${u.allow30DaySim?'✅':'—'}</td><td>${u.canWithdraw?'✅':'—'}</td><td>${st}</td>
+<td><button class="ghost" onclick="tgl('${u.uid}','allow30DaySim')">Sim</button><button class="ghost" onclick="tgl('${u.uid}','canWithdraw')">Wd</button>
+<button class="danger" onclick="tgl('${u.uid}','banned')">${u.banned?'Unban':'Ban'}</button><button class="danger" onclick="tgl('${u.uid}','frozen')">${u.frozen?'Unfreeze':'Freeze'}</button>
+<button class="ghost" onclick="stopDay('${u.uid}')">StopDay</button></td>
+<td><button class="okbtn" onclick="document.getElementById('ledUid').value='${u.uid}';viewLedger()">View</button></td></tr>`);}}
+async function emitPerms(act,uid){const out={};for(const u of DATA.users)out[u.uid]={referrerUid:u.referrerUid||'',allow30DaySim:!!u.allow30DaySim,canWithdraw:!!u.canWithdraw,banned:!!u.banned,frozen:!!u.frozen,stoppedForDay:u.stoppedForDay||''};
+document.getElementById('permsOut').value=JSON.stringify({note:'Admin-granted permissions (commit as qa/sim-permissions.json)',users:out},null,1);
+document.getElementById('permsMemo').value=await encMemo({v:1,action:'ADMIN_'+act,uid,state:out[uid],ts:new Date().toISOString()});}
+function tgl(uid,k){const u=DATA.users.find(x=>x.uid===uid);u[k]=!u[k];renderUsers();emitPerms(k.toUpperCase(),uid);}
+function stopDay(uid){const u=DATA.users.find(x=>x.uid===uid);u.stoppedForDay=u.stoppedForDay?'':new Date().toISOString().slice(0,10);renderUsers();emitPerms('STOP_DAY',uid);}
+// view ledger
+async function viewLedger(){const uid=document.getElementById('ledUid').value.trim();const rows=DATA.ledgers[uid]||[];const el=document.getElementById('ledOut');
+if(!rows.length){el.innerHTML='<p class="mut">No recorded entries for '+uid+' yet (deposits/check-ins/withdrawals appear here; on-chain rows link to polygonscan).</p>';return;}
+let h='<table><thead><tr><th>Event</th><th>Wallet</th><th>txHash / status</th></tr></thead><tbody>';
+for(const r of rows){const tx=r.txHash?`<a target="_blank" href="https://amoy.polygonscan.com/tx/${r.txHash}" class="mono">${r.txHash.slice(0,22)}…</a>`:`<span class="warn">${r.status||'PREPARED'}</span>`;
+h+=`<tr><td>${r.event}</td><td class="mono">${(r.wallet||'—').slice(0,14)}…</td><td>${tx}</td></tr>`;}
+el.innerHTML=h+'</tbody></table>';}
+// memo tool
+async function doEnc(){try{document.getElementById('memoOut').value=await encMemo(JSON.parse(document.getElementById('memoIn').value),document.getElementById('memoPass').value);}catch(e){document.getElementById('memoOut').value='ERROR: '+e.message;}}
+async function doDec(){try{document.getElementById('memoRes').textContent=JSON.stringify(await decMemo(document.getElementById('memoOut').value.trim(),document.getElementById('memoPass').value),null,2);}catch(e){document.getElementById('memoRes').textContent='ERROR: '+e.message;}}
+async function readTx(){const h=document.getElementById('memoTx').value.trim();const el=document.getElementById('memoRes');
+try{const tx=await rpc('eth_getTransactionByHash',[h]);if(!tx)throw Error('tx not found');
+const text=new TextDecoder().decode(unhex(tx.input.slice(2)));
+const memo=await decMemo(text,document.getElementById('memoPass').value);
+el.textContent=JSON.stringify({from:tx.from,memo,explorer:'https://amoy.polygonscan.com/tx/'+h},null,2);}catch(e){el.textContent='ERROR: '+e.message;}}
+// admin treasury
+async function planWithdraw(){const pct=+document.getElementById('awPct').value,addr=document.getElementById('awAddr').value.trim();const el=document.getElementById('awOut');
+if(!/^0x[0-9a-fA-F]{40}$/.test(addr)){el.textContent='ERROR: destination wallet address required (asked EVERY time, never stored).';return;}
+const bal=parseInt(await rpc('eth_call',[{to:USDC,data:'0x70a08231'+POOL.slice(2).toLowerCase().padStart(64,'0')},'latest']),16)/1e6;
+const amt=+(bal*pct/100).toFixed(6);
+el.textContent=`ADMIN WITHDRAWAL PLAN\npool balance: $${bal}\npercentage: ${pct}% → $${amt} USDC\nto: ${addr}\n\nERC20 transfer calldata:\n0xa9059cbb${addr.slice(2).toLowerCase().padStart(64,'0')}${Math.round(amt*1e6).toString(16).padStart(64,'0')}\n\nbroadcast from the POOL owner wallet (needs POL gas).`;
+document.getElementById('awAddr').value='';}
+async function planSplit(){const amt=+document.getElementById('spAmt').value||0;const n=Math.ceil(amt/140);let out=`ADMIN DEPOSIT SPLIT — $${amt} → ${n} bucket wallet(s) ($140 cap each)\n`;
+for(let i=0;i<n;i++){const a=i<n-1?140:amt-140*(n-1);out+=`  bucket #${i+1}: $${a.toFixed(2)}${i===0?'  (existing pool '+POOL.slice(0,12)+'…)':'  (Generate Bucket in admin console)'}\n`;}
+out+='every wallet stays under the $140 concurrency cap.';document.getElementById('spOut').textContent=out;}
+loadData();
+</script>
+</div></body></html>

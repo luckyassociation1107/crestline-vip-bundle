@@ -1,0 +1,485 @@
+{
+ "generatedAt": "2026-11-21",
+ "pool": "0x08EE5Cf33C30123A628aC8FF80Ca48Bec8E96Db8",
+ "usdc": "0x41E94Eb019C0762f9Bfcf9Fb1E58725BfB0e7582",
+ "users": [
+  {
+   "uid": "UID-57YRGYJ5K6",
+   "referrerUid": "",
+   "role": "main",
+   "allow30DaySim": true,
+   "canWithdraw": false,
+   "banned": false,
+   "frozen": false,
+   "stoppedForDay": ""
+  },
+  {
+   "uid": "UID-B8VX2VRZZN",
+   "referrerUid": "UID-57YRGYJ5K6",
+   "role": "referral",
+   "allow30DaySim": false,
+   "canWithdraw": false,
+   "banned": false,
+   "frozen": false,
+   "stoppedForDay": ""
+  },
+  {
+   "uid": "UID-DYB0RSZEMS",
+   "referrerUid": "UID-57YRGYJ5K6",
+   "role": "referral",
+   "allow30DaySim": false,
+   "canWithdraw": false,
+   "banned": false,
+   "frozen": false,
+   "stoppedForDay": ""
+  },
+  {
+   "uid": "UID-G2BBMVCRRX",
+   "referrerUid": "",
+   "role": "sim-user",
+   "allow30DaySim": true,
+   "canWithdraw": true,
+   "banned": false,
+   "frozen": false,
+   "stoppedForDay": ""
+  }
+ ],
+ "ledgers": {
+  "UID-57YRGYJ5K6": [
+   {
+    "event": "DEPOSIT $20 (REAL, Circle faucet)",
+    "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+    "status": "ON-CHAIN \u2705"
+   }
+  ],
+  "UID-G2BBMVCRRX": [
+   {
+    "event": "Day 1 DAILY_CHECKIN",
+    "wallet": "0x0DD309CA48BcD1586415d06948A7184Fe87f4f39",
+    "prevWallet": null,
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 1 DAILY_CHECKIN",
+    "wallet": "0x0DD309CA48BcD1586415d06948A7184Fe87f4f39",
+    "prevWallet": null,
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 2 DAILY_CHECKIN",
+    "wallet": "0xa14B92807cbFE83786C16dFA15B1c95d607F3F94",
+    "prevWallet": "0x0DD309CA48BcD1586415d06948A7184Fe87f4f39",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 2 DAILY_CHECKIN",
+    "wallet": "0xa14B92807cbFE83786C16dFA15B1c95d607F3F94",
+    "prevWallet": "0x0DD309CA48BcD1586415d06948A7184Fe87f4f39",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 3 DAILY_CHECKIN",
+    "wallet": "0x3B7530831790748aF6008D5369B08B9De19CFeB9",
+    "prevWallet": "0xa14B92807cbFE83786C16dFA15B1c95d607F3F94",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 3 DAILY_CHECKIN",
+    "wallet": "0x3B7530831790748aF6008D5369B08B9De19CFeB9",
+    "prevWallet": "0xa14B92807cbFE83786C16dFA15B1c95d607F3F94",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 4 DAILY_CHECKIN",
+    "wallet": "0x0921462B7bdf196Cc172320E701D987D86d5573b",
+    "prevWallet": "0x3B7530831790748aF6008D5369B08B9De19CFeB9",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 4 DAILY_CHECKIN",
+    "wallet": "0x0921462B7bdf196Cc172320E701D987D86d5573b",
+    "prevWallet": "0x3B7530831790748aF6008D5369B08B9De19CFeB9",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 5 DAILY_CHECKIN",
+    "wallet": "0xf083e7C2f7eaDe9D337cAf7203f4Eb20663B9D32",
+    "prevWallet": "0x0921462B7bdf196Cc172320E701D987D86d5573b",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 5 DAILY_CHECKIN",
+    "wallet": "0xf083e7C2f7eaDe9D337cAf7203f4Eb20663B9D32",
+    "prevWallet": "0x0921462B7bdf196Cc172320E701D987D86d5573b",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 6 DAILY_CHECKIN",
+    "wallet": "0x520e21c4CcD1B791AB94ac1e09e7AF9E70a1d95f",
+    "prevWallet": "0xf083e7C2f7eaDe9D337cAf7203f4Eb20663B9D32",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 6 DAILY_CHECKIN",
+    "wallet": "0x520e21c4CcD1B791AB94ac1e09e7AF9E70a1d95f",
+    "prevWallet": "0xf083e7C2f7eaDe9D337cAf7203f4Eb20663B9D32",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 7 DAILY_CHECKIN",
+    "wallet": "0xb4F7AE782db96E0Fe67C83fC2f99C596956d9c16",
+    "prevWallet": "0x520e21c4CcD1B791AB94ac1e09e7AF9E70a1d95f",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 7 DAILY_CHECKIN",
+    "wallet": "0xb4F7AE782db96E0Fe67C83fC2f99C596956d9c16",
+    "prevWallet": "0x520e21c4CcD1B791AB94ac1e09e7AF9E70a1d95f",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 8 DAILY_CHECKIN",
+    "wallet": "0x1630481AfB7E6816926c7b48316419B362022105",
+    "prevWallet": "0xb4F7AE782db96E0Fe67C83fC2f99C596956d9c16",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 8 DAILY_CHECKIN",
+    "wallet": "0x1630481AfB7E6816926c7b48316419B362022105",
+    "prevWallet": "0xb4F7AE782db96E0Fe67C83fC2f99C596956d9c16",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 9 DAILY_CHECKIN",
+    "wallet": "0x7Ee61ecA42954301D14c1F02D393A8e83C57147C",
+    "prevWallet": "0x1630481AfB7E6816926c7b48316419B362022105",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 9 DAILY_CHECKIN",
+    "wallet": "0x7Ee61ecA42954301D14c1F02D393A8e83C57147C",
+    "prevWallet": "0x1630481AfB7E6816926c7b48316419B362022105",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 10 DAILY_CHECKIN",
+    "wallet": "0xaf3298478bc0Da1cf06b3c52B32d9e6bfbf13596",
+    "prevWallet": "0x7Ee61ecA42954301D14c1F02D393A8e83C57147C",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 10 DAILY_CHECKIN",
+    "wallet": "0xaf3298478bc0Da1cf06b3c52B32d9e6bfbf13596",
+    "prevWallet": "0x7Ee61ecA42954301D14c1F02D393A8e83C57147C",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 11 DAILY_CHECKIN",
+    "wallet": "0x10c52f4400A6e863dDF8c062110834AE2D794Ac9",
+    "prevWallet": "0xaf3298478bc0Da1cf06b3c52B32d9e6bfbf13596",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 11 DAILY_CHECKIN",
+    "wallet": "0x10c52f4400A6e863dDF8c062110834AE2D794Ac9",
+    "prevWallet": "0xaf3298478bc0Da1cf06b3c52B32d9e6bfbf13596",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 12 DAILY_CHECKIN",
+    "wallet": "0xFDc0df97980be9F273877c3Ce1B00fD5Da777B6a",
+    "prevWallet": "0x10c52f4400A6e863dDF8c062110834AE2D794Ac9",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 12 DAILY_CHECKIN",
+    "wallet": "0xFDc0df97980be9F273877c3Ce1B00fD5Da777B6a",
+    "prevWallet": "0x10c52f4400A6e863dDF8c062110834AE2D794Ac9",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 13 DAILY_CHECKIN",
+    "wallet": "0x57A275D555Bde30Bc2f304b8729EfcE813D7F244",
+    "prevWallet": "0xFDc0df97980be9F273877c3Ce1B00fD5Da777B6a",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 13 DAILY_CHECKIN",
+    "wallet": "0x57A275D555Bde30Bc2f304b8729EfcE813D7F244",
+    "prevWallet": "0xFDc0df97980be9F273877c3Ce1B00fD5Da777B6a",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 14 DAILY_CHECKIN",
+    "wallet": "0x8A4A5Bead27cC0c7d1E9BfE87fD4a7BFbEcb06d6",
+    "prevWallet": "0x57A275D555Bde30Bc2f304b8729EfcE813D7F244",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 14 DAILY_CHECKIN",
+    "wallet": "0x8A4A5Bead27cC0c7d1E9BfE87fD4a7BFbEcb06d6",
+    "prevWallet": "0x57A275D555Bde30Bc2f304b8729EfcE813D7F244",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 15 DAILY_CHECKIN",
+    "wallet": "0x2aF9e7f8fCB39d362811Dc8f862a3263b21ad6FC",
+    "prevWallet": "0x8A4A5Bead27cC0c7d1E9BfE87fD4a7BFbEcb06d6",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 15 DAILY_CHECKIN",
+    "wallet": "0x2aF9e7f8fCB39d362811Dc8f862a3263b21ad6FC",
+    "prevWallet": "0x8A4A5Bead27cC0c7d1E9BfE87fD4a7BFbEcb06d6",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 16 DAILY_CHECKIN",
+    "wallet": "0xd310eE43ba3A63a4a4D3e4cC0b57a495d55E4b74",
+    "prevWallet": "0x2aF9e7f8fCB39d362811Dc8f862a3263b21ad6FC",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 16 DAILY_CHECKIN",
+    "wallet": "0xd310eE43ba3A63a4a4D3e4cC0b57a495d55E4b74",
+    "prevWallet": "0x2aF9e7f8fCB39d362811Dc8f862a3263b21ad6FC",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 17 DAILY_CHECKIN",
+    "wallet": "0x8b60D189aEB77F1A2385C166A8113a8B1D7Cf7de",
+    "prevWallet": "0xd310eE43ba3A63a4a4D3e4cC0b57a495d55E4b74",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 17 DAILY_CHECKIN",
+    "wallet": "0x8b60D189aEB77F1A2385C166A8113a8B1D7Cf7de",
+    "prevWallet": "0xd310eE43ba3A63a4a4D3e4cC0b57a495d55E4b74",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 18 DAILY_CHECKIN",
+    "wallet": "0x788246D4AfaA02528027B6eF8A636C7C062Ad059",
+    "prevWallet": "0x8b60D189aEB77F1A2385C166A8113a8B1D7Cf7de",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 18 DAILY_CHECKIN",
+    "wallet": "0x788246D4AfaA02528027B6eF8A636C7C062Ad059",
+    "prevWallet": "0x8b60D189aEB77F1A2385C166A8113a8B1D7Cf7de",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 19 DAILY_CHECKIN",
+    "wallet": "0x275EAFCe357a45C0E4B293dDD9034926d51EB179",
+    "prevWallet": "0x788246D4AfaA02528027B6eF8A636C7C062Ad059",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 19 DAILY_CHECKIN",
+    "wallet": "0x275EAFCe357a45C0E4B293dDD9034926d51EB179",
+    "prevWallet": "0x788246D4AfaA02528027B6eF8A636C7C062Ad059",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 20 DAILY_CHECKIN",
+    "wallet": "0xdb0c95B795B8C2f47bc93D20cC46663aa30a90A0",
+    "prevWallet": "0x275EAFCe357a45C0E4B293dDD9034926d51EB179",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 20 DAILY_CHECKIN",
+    "wallet": "0xdb0c95B795B8C2f47bc93D20cC46663aa30a90A0",
+    "prevWallet": "0x275EAFCe357a45C0E4B293dDD9034926d51EB179",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 21 DAILY_CHECKIN",
+    "wallet": "0x9133f9aDCafE4417EF9F1DEeF0BCf89d4830Ef29",
+    "prevWallet": "0xdb0c95B795B8C2f47bc93D20cC46663aa30a90A0",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 21 DAILY_CHECKIN",
+    "wallet": "0x9133f9aDCafE4417EF9F1DEeF0BCf89d4830Ef29",
+    "prevWallet": "0xdb0c95B795B8C2f47bc93D20cC46663aa30a90A0",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 22 DAILY_CHECKIN",
+    "wallet": "0xa708F7c0801a0CEfe773AD283838D9303E01dd92",
+    "prevWallet": "0x9133f9aDCafE4417EF9F1DEeF0BCf89d4830Ef29",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 22 DAILY_CHECKIN",
+    "wallet": "0xa708F7c0801a0CEfe773AD283838D9303E01dd92",
+    "prevWallet": "0x9133f9aDCafE4417EF9F1DEeF0BCf89d4830Ef29",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 23 DAILY_CHECKIN",
+    "wallet": "0x04d45392912d27DB9775E2A8Da2c0D704227a1B2",
+    "prevWallet": "0xa708F7c0801a0CEfe773AD283838D9303E01dd92",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 23 DAILY_CHECKIN",
+    "wallet": "0x04d45392912d27DB9775E2A8Da2c0D704227a1B2",
+    "prevWallet": "0xa708F7c0801a0CEfe773AD283838D9303E01dd92",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 24 DAILY_CHECKIN",
+    "wallet": "0x02DC7a10c1Ea2AbF42e055D909FbfF209AA428a6",
+    "prevWallet": "0x04d45392912d27DB9775E2A8Da2c0D704227a1B2",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 24 DAILY_CHECKIN",
+    "wallet": "0x02DC7a10c1Ea2AbF42e055D909FbfF209AA428a6",
+    "prevWallet": "0x04d45392912d27DB9775E2A8Da2c0D704227a1B2",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 25 DAILY_CHECKIN",
+    "wallet": "0xc82379AAf0f878703C284Dd76EeFdA8789ff8DdC",
+    "prevWallet": "0x02DC7a10c1Ea2AbF42e055D909FbfF209AA428a6",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 25 DAILY_CHECKIN",
+    "wallet": "0xc82379AAf0f878703C284Dd76EeFdA8789ff8DdC",
+    "prevWallet": "0x02DC7a10c1Ea2AbF42e055D909FbfF209AA428a6",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 26 DAILY_CHECKIN",
+    "wallet": "0x87074A5f935C240A582A73896FE148F20913b171",
+    "prevWallet": "0xc82379AAf0f878703C284Dd76EeFdA8789ff8DdC",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 26 DAILY_CHECKIN",
+    "wallet": "0x87074A5f935C240A582A73896FE148F20913b171",
+    "prevWallet": "0xc82379AAf0f878703C284Dd76EeFdA8789ff8DdC",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 27 DAILY_CHECKIN",
+    "wallet": "0x715C34952F6125CdFBD2558a29eF8629EcDb38C1",
+    "prevWallet": "0x87074A5f935C240A582A73896FE148F20913b171",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 27 DAILY_CHECKIN",
+    "wallet": "0x715C34952F6125CdFBD2558a29eF8629EcDb38C1",
+    "prevWallet": "0x87074A5f935C240A582A73896FE148F20913b171",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 28 DAILY_CHECKIN",
+    "wallet": "0x940f85b7ef4967c61874FD9b7045734427a972c5",
+    "prevWallet": "0x715C34952F6125CdFBD2558a29eF8629EcDb38C1",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 28 DAILY_CHECKIN",
+    "wallet": "0x940f85b7ef4967c61874FD9b7045734427a972c5",
+    "prevWallet": "0x715C34952F6125CdFBD2558a29eF8629EcDb38C1",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 29 DAILY_CHECKIN",
+    "wallet": "0x38c7c42b170c8465310D8113Af4af0Ecdd96E6ED",
+    "prevWallet": "0x940f85b7ef4967c61874FD9b7045734427a972c5",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 29 DAILY_CHECKIN",
+    "wallet": "0x38c7c42b170c8465310D8113Af4af0Ecdd96E6ED",
+    "prevWallet": "0x940f85b7ef4967c61874FD9b7045734427a972c5",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 30 DAILY_CHECKIN",
+    "wallet": "0x6Ce8C5Fe172EEAFb0df9c3D0D112114989600e43",
+    "prevWallet": "0x38c7c42b170c8465310D8113Af4af0Ecdd96E6ED",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   },
+   {
+    "event": "Day 30 DAILY_CHECKIN",
+    "wallet": "0x6Ce8C5Fe172EEAFb0df9c3D0D112114989600e43",
+    "prevWallet": "0x38c7c42b170c8465310D8113Af4af0Ecdd96E6ED",
+    "txHash": null,
+    "status": "PREPARED \u2014 NEEDS GAS"
+   }
+  ]
+ },
+ "proofTxs": [
+  {
+   "event": "MAIN_DEPOSIT",
+   "txHash": "0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7",
+   "explorer": "https://amoy.polygonscan.com/tx/0xb312954439a4f959cc708a9365ffce13c24376e9d821dd536fb6d1af3eb42af7"
+  }
+ ]
+}

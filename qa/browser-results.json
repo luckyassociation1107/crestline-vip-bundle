@@ -16,7 +16,7 @@
     {
       "name": "1-testnet-user: account creation produces UID",
       "passed": true,
-      "detail": "UID-YYC2Z1RW7G"
+      "detail": "UID-PF4DNXWQ72"
     },
     {
       "name": "1-testnet-user: encrypted recovery file offered",
@@ -61,7 +61,7 @@
     {
       "name": "2-testnet-admin: admin console AFTER login",
       "passed": true,
-      "detail": "Admin Command Console\n\nDEMO APP · Amoy Testnet Only (80002)\n● Live #3000000 (25ms)\n\nAuto-Sync · Unlock Seed for 30s Watc"
+      "detail": "Admin Command Console\n\nDEMO APP · Amoy Testnet Only (80002)\n● Live #3000000 (17ms)\n\nAuto-Sync · Unlock Seed for 30s Watc"
     },
     {
       "name": "2-testnet-admin: no uncaught JS errors",
@@ -81,7 +81,7 @@
     {
       "name": "3-mainnet-user: account creation produces UID",
       "passed": true,
-      "detail": "UID-ARXA7RMVWB"
+      "detail": "UID-17KEZXNT4H"
     },
     {
       "name": "3-mainnet-user: encrypted recovery file offered",
